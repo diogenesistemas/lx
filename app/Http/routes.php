@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);
