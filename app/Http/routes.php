@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);
+
+Route::get('/envio-email', function () {
+    return view('teste-envio-email');
+});

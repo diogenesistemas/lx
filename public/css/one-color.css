@@ -2,13 +2,15 @@
 /* CSS Document */
 
 .green {
-	background:#82b440;
+	/* background:#82b440; */
+	background:#053d4e;
 	}
 .green_light {
 	background: rgba(130, 180, 64, 0.65);
 	}
 .blue{
-	background:#07aaa5;
+	background:#f04e23;
+	/* background:#07aaa5; */
 	} 
 .dark_gray {
 	background:#969696;
@@ -18,7 +20,9 @@
 }
 
 .we-do .do-wrap a:hover{
-	color:#07aaa5;
+	/* color:#07aaa5; */
+	color:#f04e23;
+
 }
 .we-do .do-wrap:hover .top, we-do .do-wrap:focus .top, .we-do .do-wrap:hover span, .we-do .do-wrap:focus span{
 	background:#07aaa5;

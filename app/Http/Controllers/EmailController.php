@@ -23,12 +23,11 @@ class EmailController extends Controller
     	// $this->mail->send(null, [], function ($m) {
     	// 	$m->to("ads.diogenes@gmail.com", "Esse é um teste de envio de email");
     	// });
-        Mail::send('mail.teste-email', [], function ($message) {    	
-
-        // Mail::send('mail.teste-email', [], function ($message) {   
+        Mail::send('mail.mensagem-email', [], function ($message) {    	   
 
             $message->to("ads.diogenes@gmail.com", "Teste")->subject('Teste Email');
-            $message->attach('C:\Users\Diogenes\Desktop\testelx.docx', ['as' => 'testelx', 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document']);
+            $message->attach('C:\Users\Diogenes\Desktop\Felicidade.docx', ['as' => 'testelx', 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document']);
+            
         });
         return "enviado";
     }
