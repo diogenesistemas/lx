@@ -82,7 +82,7 @@
                   <a href="#about" class="page-scroll">Serviços</a>
                 </li> 
                 <li>
-                  <a href="#contact" class="page-scroll">Contate-nos</a>
+                  <a href="#contact" class="page-scroll">Encontre-nos</a>
                 </li>
                 <a href="#arquivo" class="btn-common btn-blue bounce-white page-scroll">Envie um arquivo</a>
               </ul>
@@ -171,7 +171,7 @@
            data-easing="Power3.easeInOut"
            data-elementdelay="0.1"
            data-endelementdelay="0.1"
-           style="z-index: 5;">Empenhados em realizar um ótimo serviço
+           style="z-index: 5;">Empenhados em realizar o melhor serviço
            </p>
         <!-- LAYER NR. 2 -->
            <h2 class="tp-caption fade tp-resizeme text-right"
@@ -214,7 +214,7 @@
       <!-- SLIDE  -->
         <li data-transition="fade" data-slotamount="6" data-delay="5000">
         <!-- MAIN IMAGE -->
-       	 <img  src="images/lx-main-banner3.jpg" alt="slidebg1" data-bgposition="center top" >
+       	 <img  src="images/lx-main-banner31.jpg" alt="slidebg1" data-bgposition="center top" >
         
            <!-- LAYER NR. 1 -->
            <p class="tp-caption sft tp-resizeme"
@@ -225,7 +225,7 @@
            data-easing="Power3.easeInOut"
            data-elementdelay="0.1"
            data-endelementdelay="0.1"
-           style="z-index: 5;">Quickly setup your website
+           style="z-index: 5;">Design sofisticado
            </p>
         <!-- LAYER NR. 2 -->
            <h2 class="tp-caption fade tp-resizeme text-left"
@@ -236,7 +236,7 @@
            data-easing="Power3.easeInOut"
            data-elementdelay="0.05"
            data-endelementdelay="0.1"
-           style="z-index: 9;">Style up Your<br>Business Strategy
+           style="z-index: 9;">Nosso forte<br>é a qualidade
            </h2>
             <!-- LAYER NR. 3 --> 
            <p class="tp-caption sft tp-resizeme"
@@ -247,22 +247,22 @@
            data-easing="Power3.easeInOut"
            data-elementdelay="0.1"
            data-endelementdelay="0.1"
-           style="z-index: 5;">It has all unique &amp; new digital experience layouts. 
+           style="z-index: 5;">Especialmente pensado em você
            </p>
         <!-- LAYER NR. 3 -->
-           <div class="tp-caption sft tp-resizeme"
-           data-x="left"
-           data-y="420" 
-           data-speed="500"
-           data-start="2800"
-           data-easing="Power3.easeInOut"
-           data-elementdelay="0.1"
-           data-endelementdelay="0.1"
-           data-linktoslide="next"
-           style="z-index: 12;">
-           <a href="#responsive" class="btn-common btn-green bounce-white page-scroll">Read More</a>
-           <a href="#." class="btn-common btn-blue bounce-white">Buy BizOne</a>
-           </div>
+          <!--  <div class="tp-caption sft tp-resizeme"
+          data-x="left"
+          data-y="420" 
+          data-speed="500"
+          data-start="2800"
+          data-easing="Power3.easeInOut"
+          data-elementdelay="0.1"
+          data-endelementdelay="0.1"
+          data-linktoslide="next"
+          style="z-index: 12;">
+          <a href="#responsive" class="btn-common btn-green bounce-white page-scroll">Read More</a>
+          <a href="#." class="btn-common btn-blue bounce-white">Buy BizOne</a>
+          </div> -->
         </li>
       </ul>
     </div>
@@ -324,7 +324,7 @@
       <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1100ms"> 
         <span class="text-center"><i class="icon2-line-maximize color6"></i></span>
         <h4 class="color6">Digitalização em Grandes Formatos</h4>
-        <p>Trabalhamos com os mais diversos formatos, desde o A ao A</p>
+        <p>Trabalhamos com os mais diversos formatos</p>
       </div>
       <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
         <span class="text-center"><i class="icon2-line-layers color1"></i></span>
@@ -576,8 +576,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center wow fadeIn"> 
-        <p class="title">Para Nossos Clientes</p>
-        <h2 class="heading">O que nós oferecemos</h2>
+        <!-- <p class="title">Para Nossos Clientes</p> -->
+        <h2 class="heading">Nosso diferencial</h2>
       </div>
 
       <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms"> 
@@ -625,7 +625,7 @@
     <div class="row text-center">
       <div class="col-md-12 wow fadeIn">
         <!-- <p class="title">Passionate about perfection</p> -->
-        <h2 class="heading">Nossas Lojas</h2>
+        <h2 class="heading">Nossas Filiais</h2>
       </div>
       <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms"> 
         <div class="thinker-wrap"> 
@@ -827,8 +827,8 @@
         <h2 class="heading">Nossos Clientes Felizes</h2>
         <div id="testinomial-slider" class="owl-carousel">
           <div class="item">
-            <p>Este é um Depoimento do cliente para a emmpresa Luciano Xerox, apenas como um modelo da funcionalidade </p>
-            <h5>Nome</h5>
+            <p>"Luciano Xerox é a maior loja de fotocópias da paraíba. Isso mesmo! Com melhores sistemas de impressões, encadernações, digitalizações e o seu forte é a qualidade. Busque a melhor qualidade, lá em Luciano Xerox"</p>
+            <h5>Raquel Rolim - Humorista - TV Diário</h5>
             <img src="images/stars.png" alt="star rating"> </div>
          <div class="item">
             <p>Depoimento do Cliente 2 </p>
@@ -958,12 +958,12 @@
     <div class="col-md-6 block light text-center wow fadeInRightBig" data-wow-duration="500ms" data-wow-delay="300ms">
       <div class="center">
         <!-- <p class="title">With propositions</p> -->
-        <h2>Contate-nos</h2>
+        <h2>Encontre-nos</h2>
         
       
         <!-- <div id="map" style="width:100%;height:500px"></div> -->
     
-        <form class="form-inline" id="contact-form" onSubmit="return false">
+        <!-- <form class="form-inline" id="contact-form" onSubmit="return false">
          <div class="row">
            <div class="col-md-12 center"><div id="result"></div> </div>
          </div>          
@@ -975,16 +975,13 @@
              <input type="email" class="form-control"  placeholder="E-mail" name="email" id="email" required>
            </div>
            <div class="col-xs-12 col-md-12">
-       
-           
-             
+                           
              <textarea placeholder="Mensagem..." class="form-control" name="message" id="message"></textarea>
              
-             <button type="submit" class="btn-black btn-blue bounce-green" id="btn_submit"> Enviar Mensage</button>
+             <button type="submit" class="btn-black btn-blue bounce-green" id="btn_submit"> Enviar Mensagem</button>
            </div>
          </div>
-       </form>
-
+               </form> -->
 
       </div>
     </div>
@@ -1000,7 +997,7 @@
         <ul class="breadcrumb">
           <!-- <li><a href="#." class="page-scroll">Home</a></li> -->
           <li><a href="#bg-paralax" class="page-scroll">Quem Somos</a></li>
-          <li><a href="#thinkers" class="page-scroll">Lojas</a></li>
+          <li><a href="#thinkers" class="page-scroll">Filiais</a></li>
           <li><a href="#about" class="page-scroll">Serviços</a></li>
           <li><a href="#contact" class="page-scroll">Contate-nos</a></li>
           <li><a href="#arquivo" class="page-scroll">Envie um arquivo</a></li>
