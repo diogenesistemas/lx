@@ -277,12 +277,14 @@
         <div class="col-md-12 text-center wow fadeIn">
           <h2 id="try-it-out" class="heading">Envie seu arquivo para Impressão</h1>
           <div id="dropzone">
-              <form action="/upload" class="dropzone needsclick" id="demo-upload">
+            {!! Form::open(['route'=> "upload-files", 'files' => true, "id"=>"demo-upload", "class"=>"dropzone needsclick"])!!}
+          <!--     <form action="/upload" class="dropzone needsclick" id="demo-upload"> -->
                 <div class="dz-message needsclick">
                    Arraste e solte arquivos nesta área ou clique para carregar.<br />
                     <span class="note needsclick">(Tamanho máximo <strong>3MB</strong>.)</span>
                 </div> 
-              </form>
+              <!-- </form>  -->
+              {!!Form::close()!!}
           </div>
         </div>
       </div>
