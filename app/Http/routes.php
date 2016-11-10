@@ -17,7 +17,7 @@
 
 Route::get('/', ['as' => 'index', 'uses' => 'MainController@goIndex']);
 
-Route::post('/upload-files', ['as' => "upload-files", 'uses' => 'UploadFileController@addFile']);
+Route::post('/upload-files', ['as' => "upload-files", 'uses' => 'UploadController@fileUpload']);
 
 /*Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);*/
 
