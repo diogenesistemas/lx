@@ -3,7 +3,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<!-- <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title> -->
 <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -106,18 +105,7 @@
         <!-- MAIN IMAGE -->
        	 <img  src="images/lx-main-banner1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center">
         
-           <!-- LAYER NR. 1 -->
-           <!-- <p class="tp-caption sft tp-resizeme"
-           data-x="center"
-           data-y="200" 
-           data-speed="500"
-           data-start="1000"
-           data-easing="Power3.easeInOut"
-           data-elementdelay="0.1"
-           data-endelementdelay="0.1"
-           style="z-index: 5;">Quickly setup your website
-           </p> -->
-        <!-- LAYER NR. 2 -->
+         
            <h2 class="tp-caption sft tp-resizeme text-center"
            data-x="center"
            data-y="230" 
@@ -129,33 +117,9 @@
            style="z-index: 9;">           
            A maior loja de fotocópias <br> da Paraíba
            </h2>
-            <!-- LAYER NR. 3 --> 
-          <!--  <p class="tp-caption sft tp-resizeme"
-          data-x="center"
-          data-y="370" 
-          data-speed="500"
-          data-start="2000"
-          data-easing="Power3.easeInOut"
-          data-elementdelay="0.1"
-          data-endelementdelay="0.1"
-          style="z-index: 5;">It has all unique &amp; new digital experience layouts. 
-          </p> -->
+       
            
-           
-        <!-- LAYER NR. 4 -->
-        <!--    <div class="tp-caption sft tp-resizeme"
-        data-x="center"
-        data-y="490" 
-        data-speed="500"
-        data-start="2500"
-        data-easing="Power3.easeInOut"
-        data-elementdelay="0.1"
-        data-endelementdelay="0.1"
-        data-linktoslide="next"
-        style="z-index: 12;">
-        <a href="#responsive" class="btn-common btn-green bounce-white page-scroll">Read More</a>
-        <a href="#." class="btn-common btn-blue bounce-white">Buy BizOne</a>
-        </div> -->
+        
         
         </li>
         <!-- SLIDE  -->
@@ -196,19 +160,7 @@
           data-endelementdelay="0.1"
           style="z-index: 5;">Venha nos fazer uma visita 
           </p>
-          <!--  <div class="tp-caption fade tp-resizeme"
-          data-x="right"
-          data-y="420" 
-          data-speed="500"
-          data-start="2800"
-          data-easing="Power3.easeInOut"
-          data-elementdelay="0.1"
-          data-endelementdelay="0.1"
-          data-linktoslide="next"
-          style="z-index: 12;">
-          <a href="#responsive" class="btn-common btn-blue bounce-white page-scroll">Read More</a>
-          <a href="#." class="btn-common btn-green bounce-white">Buy BizOne</a>
-          </div> -->
+        
         
         </li>
       <!-- SLIDE  -->
@@ -249,20 +201,7 @@
            data-endelementdelay="0.1"
            style="z-index: 5;">Especialmente pensado em você
            </p>
-        <!-- LAYER NR. 3 -->
-          <!--  <div class="tp-caption sft tp-resizeme"
-          data-x="left"
-          data-y="420" 
-          data-speed="500"
-          data-start="2800"
-          data-easing="Power3.easeInOut"
-          data-elementdelay="0.1"
-          data-endelementdelay="0.1"
-          data-linktoslide="next"
-          style="z-index: 12;">
-          <a href="#responsive" class="btn-common btn-green bounce-white page-scroll">Read More</a>
-          <a href="#." class="btn-common btn-blue bounce-white">Buy BizOne</a>
-          </div> -->
+      
         </li>
       </ul>
     </div>
@@ -285,6 +224,41 @@
                 </div> 
               <!-- </form>  -->
               {!!Form::close()!!}
+              
+              
+
+              {!! Form::open(['route'=> "index", "class"=>"form-inline"])!!}
+
+                            
+                 <div class="row">
+                  <div class="col-md-12 center">
+                    <div id="result"></div> 
+                  </div>
+                 </div>          
+
+                 <div class="row">
+
+                   <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                     <textarea placeholder="Mensagem..." class="form-control" name="message" id="message"></textarea>
+                     
+                   </div>
+
+                   <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                     
+                   </div>
+
+                   <div class="col-xs-12 col-md-12">                                   
+                     <input type="email" class="form-control"  placeholder="E-mail" name="email" id="email" required>   
+                     <button type="submit" class="btn-black btn-blue bounce-green" id="btn_submit"> Enviar Mensagem</button>
+
+                     <!-- <button type="submit" class="btn-common btn-blue bounce-white" id="btn_submit"> Enviar Mensagem</button> -->
+                   </div>
+                 </div>
+           
+
+
+
+                 {!!Form::close()!!}
           </div>
         </div>
       </div>
@@ -351,55 +325,7 @@
         Envio e recebimento de e-mail;
        Impressões via Internet</p>
       </div>
-
-      <!-- <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms"> 
-        <span class="text-center"><i class="icon-icons9 color6"></i></span>
-        <h4 class="color6">Xerox</h4>
-        <p>Xerografia Mono e Colorida</p>
-      </div>      
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="500ms"> 
-        <span class="text-center"><i class="icon-umbrella color1"></i></span>
-        <h4 class="color1">Impressão a Laser</h4>
-        <p>Impressões Mono e Colorida</p>
-      </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="700ms"> 
-        <span class="text-center"><i class="icon-icons20 color6"></i></span>
-        <h4 class="color6">Plotagem</h4>
-        <p>Descrição da Plotagem</p>
-      </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms"> 
-        <span class="text-center"><i class="icon-icons96  color1"></i></span>
-        <h4 class="color1">Cópias de Engenharia e Arquitetura</h4>
-        <p>Descrição do trabalho aqui...</p>
-      </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1100ms"> 
-        <span class="text-center"><i class="icon-globe color6"></i></span>
-        <h4 class="color6">Digitalização em Grandes Formatos</h4>
-        <p>Trabalhamos com os mais diversos formatos, desde o A ao A</p>
-      </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
-        <span class="text-center"><i class="icon-icons42 color1"></i></span>
-        <h4 class="color1">Plastificação</h4>
-        <p>Plastificação de documentos; Plastificação de cardápios</p>
-      </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
-        <span class="text-center"><i class="icon-icons42 color6"></i></span>
-        <h4 class="color6">Encadernação Espiral e Capa Dura</h4>
-        <p>Encadernação de Livros; Cadernões para Colégio</p>
-      </div>
-       <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
-        <span class="text-center"><i class="icon-icons42 color1"></i></span>
-        <h4 class="color1">Papelaria</h4>
-        <p>Materiais Escolares em geral</p>
-      </div>       
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
-        <span class="text-center"><i class="icon-icons42 color6"></i></span>
-        <h4 class="color6">Serviços em Informática</h4>
-        <p>Digitalização de Processos;
-        Envio e recebimento de e-mail;
-       Impressões via Internet</p>
-      </div> -->
-
+      
     </div>
   </div>
 </section>
@@ -463,11 +389,7 @@
               <li>Pontualidade</li>
               <li>Responsabilidade</li>
               <li>Agilidade</li>
-              <li>Eficiência</li>
-              <!-- <li>Qualidade Luciano Xérox 5</li>
-              <li>Qualidade Luciano Xérox 6</li>
-              <li>Qualidade Luciano Xérox 7</li>
-              <li>Qualidade Luciano Xérox 8</li> -->
+              <li>Eficiência</li>        
               
              
             </ul>
@@ -478,46 +400,6 @@
     </div>
   </div>
 </section>
-
-<!--Counter-->
-<!-- <section id="facts" class="top-padding">
-  <h3 class="hidden">hidden</h3>
-  <div class="container-fluid">
-    <div class="row number-counters"> 
-      first count item
-      <div class="col-md-3 col-sm-3 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
-        <div class="counters-item green row">
-        <i class="icon-smile"></i> 
-        <h2><strong data-to="125">0</strong></h2>
-          <p>Happy Customer</p>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
-        <div class="counters-item dark_gray row"> 
-        <i class="icon-icons42"></i>
-        <h2><strong data-to="865">0</strong></h2>
-          <p>Lines of Codes</p>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
-        
-        <div class="counters-item blue row"> 
-        <i class="icon-alarmclock"></i>
-        <h2><strong data-to="510">0</strong></h2>
-          <p>Project Completed</p>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
-        <div class="counters-item green row"> 
-        <i class="icon-icons9"></i>
-        <h2><strong data-to="1350">0</strong></h2>
-          <p>Cup of coffees</p>
-        </div>
-      </div>
-      end first count item 
-    </div>
-  </div>
-</section> -->
 
 
 
@@ -554,25 +436,7 @@
   </div>
 </section>
 
-<!-- 
-<span class="dark_gray"><i class="icon-icons9"></i></span>
-<span class="dark_gray"><i class="icon-icons20"></i></span>
-<span class="dark_gray"><i class="icon-icons37"></i></span>
-<span class="dark_gray"><i class="icon-icons39"></i></span>
-<span class="dark_gray"><i class="icon-icons42"></i></span>
-<span class="dark_gray"><i class="icon-icons96"></i></span>
-<span class="dark_gray"><i class="icon-icons112"></i></span>
-<span class="dark_gray"><i class="icon-icons158"></i></span>
-<span class="dark_gray"><i class="icon-icons163"></i></span>
-<span class="dark_gray"><i class="icon-icons171"></i></span>
-<span class="dark_gray"><i class="icon-icons180"></i></span>
-<span class="dark_gray"><i class="icon-icons185"></i></span>
-<span class="dark_gray"><i class="icon-icons202"></i></span>
-<span class="dark_gray"><i class="icon-icons206"></i></span>
-<span class="dark_gray"><i class="icon-icons208"></i></span>
-<span class="dark_gray"><i class="icon-icons236"></i></span>
 
- -->
 <!-- What We Do Section -->
 <section class="we-do bg-grey padding">
   <div class="container">
@@ -697,126 +561,6 @@
 
 
 
-<!-- Work Project GALLERY -->
-<!-- <section id="project" class="wow fadeInUp section-padding" data-wow-duration="500ms" data-wow-delay="900ms">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p class="title">what we do</p>
-        <h2 class="heading">latest projects</h2>
-        <div class="work-filter">
-          <ul class="text-center">
-             <li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-             <li><a href="javascript:;" data-filter=".brand" class="filter">Brand</a></li>
-             <li><a href="javascript:;" data-filter=".design" class="filter">Design</a></li>
-             <li><a href="javascript:;" data-filter=".graphic" class="filter">Graphic</a></li>
-             <li><a href="javascript:;" data-filter=".video" class="filter">Video</a></li>
-          </ul>
-     </div>
-      </div>
-    </div>
-  </div> -->
-  
-  
-  <!-- <div class="container-fluid project-wrapper">
-    <div class="zerogrid">
-      <div class="wrap-container clearfix">
-        <div class="row wrap-content">
-          <div class="col-1-2">
-              <div class="col-full mix work-item video">
-          <div class="wrap-col">
-              <div class="item-container"> 
-                <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="images/workimg1.jpg">
-              <div class="overlay-inner">
-              <h4 class="base">Creative Design</h4>
-                  <div class="line"></div>
-              <p>Print Media</p>
-                  </div>
-            </a>
-                <img src="images/workimg1.jpg" alt="work"/> 
-              </div>
-            </div>
-          </div>
-          <div class="col-2-4 mix work-item brand">
-                <div class="wrap-col">
-                  <div class="item-container"> 
-                    <a class="fancybox-media overlay text-center" href="https://player.vimeo.com/video/145241713">
-              <div class="overlay-inner">
-              <h4 class="base">Mobile Designs</h4>
-                  <div class="line"></div>
-              <p>Latest Apps</p>
-                  </div>
-            </a>
-                    <img src="images/workimg4.jpg" alt="work"/>  
-                  </div>
-                </div>
-              </div>
-              <div class="col-2-4 mix work-item">
-                <div class="wrap-col">
-                  <div class="item-container"> 
-                    <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="images/workimg5.jpg">
-              <div class="overlay-inner">
-              <h4 class="base">Print Designs</h4>
-                  <div class="line"></div>
-              <p>Elements</p>
-                  </div>
-            </a>
-                    <img src="images/workimg5.jpg" alt="work"/>  </div>
-                </div>
-              </div>
-          </div>
-         
-              <div class="col-1-4 mix work-item graphic">
-                <div class="wrap-col">
-                  <div class="item-container"> 
-                    <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="images/workimg2.jpg">
-              <div class="overlay-inner">
-              <h4 class="base">Modern Workspace</h4>
-                  <div class="line"></div>
-              <p>Workstations</p>
-                  </div>
-            </a>
-                    <img src="images/workimg2.jpg" alt="work"/>  
-                  </div>
-                </div>
-              </div>
-              <div class="col-1-4 mix work-item design">
-                <div class="wrap-col">
-                  <div class="item-container"> 
-                    <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="images/workimg3.jpg">
-              <div class="overlay-inner">
-              <h4 class="base">Elegant Images</h4>
-                  <div class="line"></div>
-              <p>Laptops</p>
-                  </div>
-            </a>
-                    <img src="images/workimg3.jpg" alt="work"/>  </div>
-                </div>
-              </div>
-              <div class="col-1-2 mix work-item graphic">
-          <div class="wrap-col">
-              <div class="item-container"> 
-                <a class="fancybox overlay text-center" data-fancybox-group="gallery" href="images/workimg6.jpg">
-              <div class="overlay-inner">
-              <h4 class="base">Photography</h4>
-                  <div class="line"></div>
-              <p>Stock Collection</p>
-                  </div>
-            </a>
-                <img src="images/workimg6.jpg" alt="work"/>  
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section> -->
-
-
-
-
-
 
 <!-- Testinomials -->
 <div style="position:relative;">
@@ -850,91 +594,6 @@
 </div>
 
 
-<!-- Latest Publications
-<section id="publication" class="section-padding padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p class="title">Stay always updated</p>
-        <h2 class="heading">Our Publications</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div id="publication-slider" class="owl-carousel">
-        <div class="item"> 
-          <div class="image">
-           <a href="blog_detail.html"><img src="images/publication1.jpg" alt="publication Image"></a>
-          </div>
-          <h5>18 November 2015</h5>
-          <h4>Familiar idea with brand</h4>
-          <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-          <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-          <a href="blog.html">read more</a> 
-        </div>
-        <div class="item"> 
-          <div class="image">
-          <a href="blog_detail.html"><img src="images/publication2.jpg" alt="publication Image"></a>
-          </div>
-          <h5>18 November 2015</h5>
-          <h4>Familiar idea with brand</h4>
-          <p>by <a href="blog_detail.html" class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-          <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-          <a href="blog.html">read more</a>  
-        </div>
-        <div class="item"> 
-          <div class="image">
-          <a href="blog_detail.html"><img src="images/publication3.jpg" alt="publication Image"></a>
-          </div>
-          <h5>18 November 2015</h5>
-          <h4>Familiar idea with brand</h4>
-          <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-          <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-          <a href="blog_detail.html">read more</a>  
-        </div>
-        <div class="item"> 
-          <div class="image"><a href="blog_detail.html"><img src="images/publication1.jpg" alt="publication Image"></a></div>
-          <h5>18 November 2015</h5>
-          <h4>Familiar idea with brand</h4>
-          <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-          <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-          <a href="blog.html">read more</a>  
-        </div>
-        <div class="item"> 
-          <div class="image">
-          <a href="blog_detail.html"><img src="images/publication2.jpg" alt="publication Image"></a>
-          </div>
-          <h5>18 November 2015</h5>
-          <h4>Familiar idea with brand</h4>
-          <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-          <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-          <a href="blog.html">read more</a>  
-        </div>
-        <div class="item"> 
-        <div class="image"><a href="blog_detail.html"><img src="images/publication3.jpg" alt="publication Image"></a></div>
-          <h5>18 November 2015</h5>
-          <h4>Familiar idea with brand</h4>
-          <p>by <a href="#." class="name">Smith </a> - <a href="#." class="comment">5 Comments</a></p>
-          <p>Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
-          <a href="blog.html">read more</a>  
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
-
-<!-- <section id="slogan" class="wow fadeIn" data-wow-duration="500ms" data-wow-delay="300ms"> 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h5 class="hidden">hiddens</h5>
-        <p class="pull-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
-        <a class="pull-right bounce-top" href="#.">get in touch</a> </div>
-    </div>
-  </div>
-</section> -->
-
 
 <!-- Contact Us -->
 <section class="info-section" id="contact">
@@ -963,32 +622,7 @@
         <h2>Encontre-nos</h2>
         
       
-        <!-- <div id="map" style="width:100%;height:500px"></div> -->
-    
-        <!-- <form class="form-inline" id="contact-form" onSubmit="return false">
-         <div class="row">
-           <div class="col-md-12 center"><div id="result"></div> </div>
-         </div>          
-         <div class="row">
-           <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-             <input type="text" class="form-control"  placeholder="Seu Nome" name="name" id="name" required>
-           </div>
-           <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-             <input type="email" class="form-control"  placeholder="E-mail" name="email" id="email" required>
-           </div>
-           <div class="col-xs-12 col-md-12">
-                           
-             <textarea placeholder="Mensagem..." class="form-control" name="message" id="message"></textarea>
-             
-             <button type="submit" class="btn-black btn-blue bounce-green" id="btn_submit"> Enviar Mensagem</button>
-           </div>
-         </div>
-               </form> -->
-
-      </div>
-    </div>
-  </div>
-</section>
+        
 
 <!-- Footer-->
 <footer class=" wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms"> 
@@ -1046,11 +680,5 @@ var map = new google.maps.Map(mapCanvas, mapOptions);
 <script src="js/jPushMenu.js"></script>
 <script src="js/functions.js"></script>
 <script src="js/dropzone.js"></script>
-
-
-
-
- 
-
 </body>
 </html>
