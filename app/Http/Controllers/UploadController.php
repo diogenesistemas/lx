@@ -29,9 +29,7 @@ class UploadController extends Controller
 
                 $file = $request->file('file');
                 $name = $this->setFileName($file->getClientOriginalName());
-                $path = $file->getRealPath();
-
-                Storage::disk('upload')->put($name, $path);
+                $request->file('file')->move(storage_path('app/upload'), $name);
 
                 if (!Storage::disk('upload')->exists($this->getFileName())) {
                     return json_encode([
@@ -43,7 +41,7 @@ class UploadController extends Controller
                     'fileName'=>$this->getFileName(),
                     'originalFileName'=>$this->getOriginalFileName()
                 ]);
-                
+
                 return json_encode([
                     'message' => 'Upload Completo!',
                     'success' => true
