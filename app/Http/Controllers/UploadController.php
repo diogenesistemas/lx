@@ -24,7 +24,6 @@ class UploadController extends Controller
     public function fileUpload(Request $request)
     {
         try {
-            return $request;
 
             if ($request->file('file')->isValid()) {
 
@@ -44,7 +43,7 @@ class UploadController extends Controller
                     'fileName'=>$this->getFileName(),
                     'originalFileName'=>$this->getOriginalFileName()
                 ]);
-                return $request->session()->all();
+                
                 return json_encode([
                     'message' => 'Upload Completo!',
                     'success' => true
