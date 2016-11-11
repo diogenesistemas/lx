@@ -622,6 +622,8 @@
                 <!-- <p class="title">With propositions</p> -->
                 <h2>Encontre-nos</h2>
 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.016249225757!2d-38.5599607!3d-6.8901156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9e963735f6bf88a!2sLuciano+Xerox!5e0!3m2!1spt-BR!2sbr!4v1436529508647" width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
+
             </div>
 
         </div>
@@ -684,6 +686,17 @@ var map = new google.maps.Map(mapCanvas, mapOptions);
 <script src="js/functions.js"></script>
 <script src="js/dropzone.js"></script>
 <script src="js/dropzone.service.js"></script>
+
+<!-- <script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.508742,-0.120850),
+    zoom: 5
+  };
+var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script> -->
 
 
 </body>
