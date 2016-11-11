@@ -14,7 +14,7 @@ class UploadFileController extends Controller
 	}
 
     public function addFile(Request $request){
-    	return $request->file('photo');
+    	return $request->file('file');
 
     	// Storage::put('upload/'.$user->id,
      //        file_get_contents($request->file('avatar')->getRealPath())

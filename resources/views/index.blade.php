@@ -1,43 +1,44 @@
-
-
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Luciano Xérox | A maior loja de fotocópias da paraíba</title>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/icomoon-fonts.css">
-<link rel="stylesheet" type="text/css" href="css/animate.min.css">
-<link rel="stylesheet" type="text/css" href="css/settings.css">
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
-<link rel="stylesheet" type="text/css" href="css/zerogrid.css">
-<link rel="stylesheet" type="text/css" href="css/jPushMenu.css">
-<link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="css/onepage.css">
-<link rel="stylesheet" type="text/css" href="css/one-color.css">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title> -->
+    <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/icomoon-fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/settings.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
+    <link rel="stylesheet" type="text/css" href="css/jPushMenu.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/onepage.css">
+    <link rel="stylesheet" type="text/css" href="css/one-color.css">
 
-<link rel="stylesheet" type="text/css" href="css/loader.css">
-<link rel="stylesheet" type="text/css" href="css/dropzone.css">
-<link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/dropzone-basic.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/dropzone-basic.css"> -->
 
-<link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png">
 
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target="#fixed-collapse-navbar" data-offset="120">
 
-  <div class="loader">
+<div class="loader">
     <div class="spinner">
-      <div class="dot1"></div>
-      <div class="dot2"></div>
+        <div class="dot1"></div>
+        <div class="dot2"></div>
 
     </div>
-  </div>
+</div>
 
 
 
@@ -56,10 +57,10 @@
 
             <nav class="navbar navbar-default">
               <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fixed-collapse-navbar" aria-expanded="true"> 
-                  <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> 
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fixed-collapse-navbar" aria-expanded="true">
+                  <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="#."><img src="images/logo-white.png" alt="logo" class="img-responsive"></a> 
+                <a class="navbar-brand logo" href="#."><img src="images/logo-white.png" alt="logo" class="img-responsive"></a>
               </div>
 
 
@@ -81,13 +82,13 @@
                 </li>
                 <li>
                   <a href="#about" class="page-scroll">Serviços</a>
-                </li> 
+                </li>
                 <li>
                   <a href="#contact" class="page-scroll">Encontre-nos</a>
                 </li>
                 <a href="#file-email" class="btn-common btn-blue bounce-white page-scroll">Envie um arquivo</a>
               </ul>
-              
+
 
             </div>
           </nav>
@@ -101,7 +102,7 @@
 <section id="main-slider">
 
   <div class="tp-banner-container">
-    <div class="fullscreenbanner tp-banner">      
+    <div class="fullscreenbanner tp-banner">
       <ul>  <!-- SLIDE  -->
         <li data-transition="fade" data-slotamount="6" data-delay="10000">
           <!-- MAIN IMAGE -->
@@ -110,19 +111,19 @@
 
           <h2 class="tp-caption sft tp-resizeme text-center"
           data-x="center"
-          data-y="230" 
+          data-y="230"
           data-speed="500"
           data-start="1500"
           data-easing="Power3.easeInOut"
           data-elementdelay="0.05"
           data-endelementdelay="0.1"
-          style="z-index: 9;">           
+          style="z-index: 9;">
           A maior loja de fotocópias <br> da Paraíba
         </h2>
 
 
-        
-        
+
+
       </li>
       <!-- SLIDE  -->
       <li data-transition="slideleft" data-slotamount="7" data-delay="7000">
@@ -131,7 +132,7 @@
 
         <p class="tp-caption sft tp-resizeme"
         data-x="right"
-        data-y="130" 
+        data-y="130"
         data-speed="500"
         data-start="1000"
         data-easing="Power3.easeInOut"
@@ -142,7 +143,7 @@
       <!-- LAYER NR. 2 -->
       <h2 class="tp-caption fade tp-resizeme text-right"
       data-x="right"
-      data-y="160" 
+      data-y="160"
       data-speed="500"
       data-start="1500"
       data-easing="Power3.easeInOut"
@@ -151,16 +152,16 @@
       style="z-index: 9;">
       A mais de 20 anos<br>servindo bem
     </h2>
-    <!-- LAYER NR. 3 --> 
+    <!-- LAYER NR. 3 -->
     <p class="tp-caption sft tp-resizeme"
     data-x="right"
-    data-y="310" 
+    data-y="310"
     data-speed="500"
     data-start="2000"
     data-easing="Power3.easeInOut"
     data-elementdelay="0.1"
     data-endelementdelay="0.1"
-    style="z-index: 5;">Venha nos fazer uma visita 
+    style="z-index: 5;">Venha nos fazer uma visita
   </p>
 
 
@@ -173,7 +174,7 @@
   <!-- LAYER NR. 1 -->
   <p class="tp-caption sft tp-resizeme"
   data-x="left"
-  data-y="130" 
+  data-y="130"
   data-speed="500"
   data-start="1000"
   data-easing="Power3.easeInOut"
@@ -184,7 +185,7 @@
 <!-- LAYER NR. 2 -->
 <h2 class="tp-caption fade tp-resizeme text-left"
   data-x="left"
-  data-y="160" 
+  data-y="160"
   data-speed="500"
   data-start="1500"
   data-easing="Power3.easeInOut"
@@ -192,10 +193,10 @@
   data-endelementdelay="0.1"
   style="z-index: 9;">Nosso forte<br>é a qualidade
 </h2>
-<!-- LAYER NR. 3 --> 
+<!-- LAYER NR. 3 -->
 <p class="tp-caption sft tp-resizeme"
   data-x="left"
-  data-y="310" 
+  data-y="310"
   data-speed="500"
   data-start="2000"
   data-easing="Power3.easeInOut"
@@ -213,7 +214,7 @@
 
 <!-- Área de envio de arquivo -->
 <section class="section-padding info-section light" id="file-email">
-  <div class="container"> 
+  <div class="container">
 
    <div class="row">
     <div class="col-md-12 text-center wow fadeIn">
@@ -221,30 +222,30 @@
 
       <div id="dropzone">
         {!! Form::open(['route'=> "upload-files", 'files' => true, "id"=>"demo-upload", "class"=>"dropzone needsclick"])!!}
-        
+
         <div class="dz-message needsclick">
          Arraste e solte arquivos nesta área ou clique para carregar.<br />
          <span class="note needsclick">(Tamanho máximo <strong>3MB</strong>.)</span>
-       </div> 
+       </div>
        {!!Form::close()!!}
      </div>
    </div>
  </div>
 
 
- <div class="row">          
+ <div class="row">
  <div class="col-md-12"><!-- <div class="col-md-12 block light "> -->
-    <div class="">{{-- <div class="center"> --}}              
+    <div class="">{{-- <div class="center"> --}}
       {!! Form::open(['route'=> "index", "class"=>"form-inline"])!!}
 
       <!--<div class="row">
        <div class="col-md-12 center"><div id="result"></div> </div>
-     </div>   -->    
+     </div>   -->
 
      <div class="row">
        <div class="col-xs-12 col-md-12">
          <textarea placeholder="Mensagem..." class="form-control-area" name="message" id="message" required></textarea>
-       </div>  
+       </div>
        <div class="col-md-6 col-sm-12 col-xs-12 form-group">
          <input type="text" class="form-control-area"  placeholder="Telefone / E-mail / Facebook" name="contato" id="contato" required>
        </div>
@@ -271,27 +272,27 @@
         <h2 class="heading">Nossos Serviços</h2>
       </div>
 
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms"> 
+      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">
         <span class="text-center"><i class="icon-copy color6"></i></span>
         <h4 class="color6">Xerox</h4>
         <p>Xerografia Mono e Colorida</p>
-      </div>      
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="500ms"> 
+      </div>
+      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="500ms">
         <span class="text-center"><i class="icon2-print color1"></i></span>
         <h4 class="color1">Impressão a Laser</h4>
         <p>Impressões Mono e Colorida</p>
       </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="700ms"> 
+      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="700ms">
         <span class="text-center"><i class="icon2-line-image color6"></i></span>
         <h4 class="color6">Plotagem</h4>
         <p>Impressão de desenhos em largas escalas</p>
       </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms"> 
+      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
         <span class="text-center"><i class="icon2-line-map  color1"></i></span>
         <h4 class="color1">Cópias de Engenharia e Arquitetura</h4>
         <p>Descrição do trabalho aqui...</p>
       </div>
-      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1100ms"> 
+      <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1100ms">
         <span class="text-center"><i class="icon2-line-maximize color6"></i></span>
         <h4 class="color6">Digitalização em Grandes Formatos</h4>
         <p>Trabalhamos com os mais diversos formatos</p>
@@ -311,7 +312,7 @@
         <span class="text-center"><i class="icon-book color1"></i></span>
         <h4 class="color1">Papelaria</h4>
         <p>Materiais Escolares em geral</p>
-      </div>       
+      </div>
       <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1200ms">
         <span class="text-center"><i class="icon2-email3 color6"></i></span>
         <h4 class="color6">Serviços em Informática</h4>
@@ -337,20 +338,20 @@
             <h2 class="magin30">Quem Somos</h2>
 
             <!-- <a class="btn-green btn-common bounce-top page-scroll" href="#letstalk">Let's Talk</a> -->
-            <p>          
+            <p>
               Em maio de 1995, há pouco mais de vinte anos, começando a viver uma grande revolução na educação superior e secundarista, com o aumento dos cursos universitários e abertura de novos colégios, Cajazeiras recebia um empreendimento no ramo de fotocópias pelas mãos de <strong>Luciano Oliveira</strong> e sua esposa, <strong>Ana Beatriz</strong>. Nascia naquele mês a empresa Luciano Xerox, com um número reduzido de máquinas, mas que pouco depois ganhou o slogan de <strong>“A Maior Loja de Fotocópias da Paraíba”</strong> por conta dos investimentos constantes em equipamentos e tecnologia, sempre oferecendo o melhor para a clientela cada vez mais crescente.
             </p>
-            <p>          
+            <p>
               Instalada desde o início nas proximidades do DETRAN, à Rua Sebastião Bandeira de Melo, no centro da cidade, para atender ao grande fluxo de usuários daquele órgão. Luciano Xerox tem pontos de atendimento no Campus da Universidade Federal de Campina Grande (UFCG), na Faculdade de Filosofia, Ciências e Letras de Cajazeiras (FAFIC) e na Faculdade São Francisco da Paraíba (FASP), mantendo a mesma filosofia de trabalho, sempre com a melhor qualidade em fotocópias e impressões em grande formato e no atendimento qualificado por parte das funcionárias.
             </p>
             <p>
-              Na celebração de 20 anos, Luciano Oliveira disse: “Celebramos esses vinte anos com cada cliente que nos acompanha desde o nascimento da empresa e aos que vamos conquistando no dia a dia, sem nunca esquecer que somos prestadores de serviço e, por isso, temos sempre que atender às necessidades a quem nos procura, seja para uma simples fotocópia de documento para trabalhos maiores e mais complexos”.          
+              Na celebração de 20 anos, Luciano Oliveira disse: “Celebramos esses vinte anos com cada cliente que nos acompanha desde o nascimento da empresa e aos que vamos conquistando no dia a dia, sem nunca esquecer que somos prestadores de serviço e, por isso, temos sempre que atender às necessidades a quem nos procura, seja para uma simples fotocópia de documento para trabalhos maiores e mais complexos”.
 
             </p>
-            <p>          
+            <p>
               Ana Beatriz, por sua vez, ressalta o fato de que o segredo do crescimento da empresa, hoje com três filiais, está em atender bem aos clientes, com responsabilidade e pontualidade, solucionando os serviços no tempo mais rápido possível.
             </p>
-            <p>          
+            <p>
 
             </p>
 
@@ -370,8 +371,8 @@
   <section id="responsive" class="top-padding">
     <div class="container-fluid">
       <div class="row responsive-pic">
-        <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="600ms"> 
-          <img src="images/equipe.jpg" alt="fully responsive" class="img-responsive"> 
+        <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="600ms">
+          <img src="images/equipe.jpg" alt="fully responsive" class="img-responsive">
         </div>
         <div class="container wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
           <div class="row">
@@ -383,7 +384,7 @@
                 <li>Pontualidade</li>
                 <li>Responsabilidade</li>
                 <li>Agilidade</li>
-                <li>Eficiência</li>        
+                <li>Eficiência</li>
 
 
               </ul>
@@ -402,42 +403,42 @@
   <section class="we-do bg-grey padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center wow fadeIn"> 
+        <div class="col-md-12 text-center wow fadeIn">
           <!-- <p class="title">Para Nossos Clientes</p> -->
           <h2 class="heading">Nosso diferencial</h2>
         </div>
 
-        <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms"> 
-          <div class="do-wrap text-center"> 
-            <div class="dark_gray top"></div> 
+        <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+          <div class="do-wrap text-center">
+            <div class="dark_gray top"></div>
             <span class="dark_gray"><i class="icon2-news"></i></span>
             <h4>Xerografia de grande porte</h4>
             <p>Descrição do serviço aqui</p>
-            <a href="#." class="readmore"></a> </div> 
+            <a href="#." class="readmore"></a> </div>
           </div>
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms"> 
-            <div class="do-wrap text-center"> 
-              <div class="green top"></div> 
+          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+            <div class="do-wrap text-center">
+              <div class="green top"></div>
               <span class="green"><i class="icon2-star2"></i></span>
               <h4>Qualidade Profissional</h4>
               <p>Descrição do serviço aqui</p>
-              <a href="#." class="readmore"></a> </div> 
+              <a href="#." class="readmore"></a> </div>
             </div>
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms"> 
-              <div class="do-wrap text-center"> 
-                <div class="dark_gray top"></div> 
+            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms">
+              <div class="do-wrap text-center">
+                <div class="dark_gray top"></div>
                 <span class="dark_gray"> <i class="icon2-line-cloud-upload"></i></span>
                 <h4>Impressão Via Internet</h4>
                 <p>Aomodidade que você precisa</p>
-                <a href="#." class="readmore"></a> </div> 
+                <a href="#." class="readmore"></a> </div>
               </div>
-              <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1200ms"> 
-                <div class="do-wrap text-center"> 
-                  <div class="green top"></div> 
+              <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1200ms">
+                <div class="do-wrap text-center">
+                  <div class="green top"></div>
                   <span class="green"><i class="icon2-wifi-full"></i></span>
                   <h4>Wi-fi grátis</h4>
                   <p>Basta fazer um Check In em Nosso Facebook</p>
-                  <a href="#." class="readmore"></a> </div> 
+                  <a href="#." class="readmore"></a> </div>
                 </div>
 
               </div>
@@ -454,8 +455,8 @@
                   <!-- <p class="title">Passionate about perfection</p> -->
                   <h2 class="heading">Nossas Filiais</h2>
                 </div>
-                <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms"> 
-                  <div class="thinker-wrap"> 
+                <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                  <div class="thinker-wrap">
                     <div class="thinker-image">
                       <img src="images/thinker-fafic.jpg" alt="Richard" class="img-responsive">
                       <div class="overlay">
@@ -474,8 +475,8 @@
      </div>
    </div>
 
-   <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="600ms"> 
-    <div class="thinker-wrap"> 
+   <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="600ms">
+    <div class="thinker-wrap">
       <div class="thinker-image">
         <img src="images/thinker-ufcg.jpg" alt="Richard" class="img-responsive">
         <div class="overlay green">
@@ -494,8 +495,8 @@
       </div>
     </div>
 
-    <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="900ms"> 
-      <div class="thinker-wrap"> 
+    <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="900ms">
+      <div class="thinker-wrap">
         <div class="thinker-image">
           <img src="images/thinker-fasp.jpg" alt="Richard" class="img-responsive">
           <div class="overlay">
@@ -572,7 +573,7 @@
                 <li><a href="http://twitter.com/lxerox" class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
                 <!-- <li><a href="#." class="text-center"><i class="fa fa-dribbble"></i><span></span></a></li> -->
                 <!-- <li><a href="#." class="text-center"><i class="fa fa-flickr"></i><span></span></a></li> -->
-                <li><a href="http://www.instagram.com/lucianoxerox" class="text-center"><i class="fa fa-instagram"></i><span></span></a></li>   
+                <li><a href="http://www.instagram.com/lucianoxerox" class="text-center"><i class="fa fa-instagram"></i><span></span></a></li>
 
               </ul>
             </div>
@@ -590,7 +591,7 @@
       </section>
 
       <!-- Footer-->
-      <footer class=" wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms"> 
+      <footer class=" wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
 
         <div class="container">
           <div class="row">
@@ -603,7 +604,7 @@
                 <li><a href="#contact" class="page-scroll">Contate-nos</a></li>
                 <li><a href="#file-email" class="page-scroll">Envie um arquivo</a></li>
               </ul>
-              <p>Copyright &copy; 2016 Luciano Xerox. Todos os direitos reservados.</p>       
+              <p>Copyright &copy; 2016 Luciano Xerox. Todos os direitos reservados.</p>
             </div>
           </div>
         </div>
@@ -616,7 +617,7 @@
 
 
 
-      
+
 
 
 
@@ -632,15 +633,15 @@ var map = new google.maps.Map(mapCanvas, mapOptions);
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script> -->
-<script src="js/jquery-2.1.4.js"></script> 
+<script src="js/jquery-2.1.4.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <script src="js/jquery.themepunch.tools.min.js"></script>
 <script src="js/jquery.themepunch.revolution.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
-<script src="js/owl.carousel.min.js"></script> 
-<script src="js/jquery-countTo.js"></script> 
-<script src="js/jquery.appear.js"></script> 
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery-countTo.js"></script>
+<script src="js/jquery.appear.js"></script>
 <script src="js/jquery.circliful.js"></script>
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/wow.min.js"></script>
@@ -651,5 +652,8 @@ var map = new google.maps.Map(mapCanvas, mapOptions);
 <script src="js/jPushMenu.js"></script>
 <script src="js/functions.js"></script>
 <script src="js/dropzone.js"></script>
+<script src="js/dropzone.service.js"></script>
+
+
 </body>
 </html>
