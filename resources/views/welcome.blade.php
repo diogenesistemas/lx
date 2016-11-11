@@ -1000,7 +1000,7 @@
       
         <!-- <div id="map" style="width:100%;height:500px"></div> -->
     
-        <!-- <form class="form-inline" id="contact-form" onSubmit="return false">
+         <form class="form-inline" id="contact-form" onSubmit="return false">
          <div class="row">
            <div class="col-md-12 center"><div id="result"></div> </div>
          </div>          
