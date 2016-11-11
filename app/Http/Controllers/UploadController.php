@@ -24,10 +24,11 @@ class UploadController extends Controller
     public function fileUpload(Request $request)
     {
         try {
+            return $request;
 
-            if ($request->file('photo')->isValid()) {
+            if ($request->file('file')->isValid()) {
 
-                $file = $request->file('photo');
+                $file = $request->file('file');
                 $name = $this->setFileName($file->getClientOriginalName());
                 $path = $file->getRealPath();
 
