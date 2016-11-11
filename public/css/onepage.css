@@ -838,8 +838,6 @@ ul.top-right li a:hover.instagram{
 }
 
 
-
-
 /* ------------ What We Offer ------------ */
 #about{}	
 #about .canvas-box{
@@ -2512,3 +2510,71 @@ margin-top: 30px;
 }
 
 
+
+
+/* ------------ File Email ------------ */
+#file-email .center h2,
+#file-email .center .margen{
+	margin-bottom:45px;
+}
+#file-email .center a{
+	color:#82b440;
+}
+
+#file-email .center ul.social-link{
+	margin-top:45px;
+}
+
+
+#file-email .form-inline{
+	margin-top:10px;
+}
+ .form-control-area:focus {
+  border-color: #82b440 !important;
+  box-shadow:none;
+  transition: all 0.2s ease-in 0s;
+} 
+textarea.form-control-area:focus  {
+	min-height:210px;
+}
+
+#file-email .form-inline .col-md-6,
+#file-email .form-inline .col-md-12{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+#file-email .form-inline .form-control-area, #file-email .form-inline textarea {
+  border: 1px solid #d0d0d0;
+  border-radius: 0;
+  color: #4c4c4c;
+  font-size: 14px;
+  padding: 15px;
+  width: 100%;
+}
+
+#file-email .form-inline .form-control-area{
+	height:45px;
+}
+
+#file-email .form-inline .form-control-area,
+#file-email .form-inline textarea{
+	margin-bottom:10px;
+}
+
+#file-email .form-inline textarea{
+	margin-top:0;
+	/* min-height:210px; */
+}
+#file-email .form-inline .btn-black{
+	width:100%;
+	color:#fff;
+	
+}	
+#file-email .form-inline input[type="submit"]{
+	width:100%;
+	height:100%;
+	background-color:transparent;
+}
+/* ------------ File Email ------------ */

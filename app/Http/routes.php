@@ -11,12 +11,19 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('index');
-});
+});*/
 
-Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);
+Route::get('/', ['as' => 'index', 'uses' => 'MainController@goIndex']);
 
-Route::get('/envio-email', function () {
+Route::post('/upload-files', ['as' => "upload-files", 'uses' => 'UploadFileController@addFile']);
+
+/*Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);*/
+
+/*Route::get('/envio-email', function () {
     return view('teste-envio-email');
-});
+});*/
+
+/*Route::get('/acao', ['as' => 'acao-email', 'uses' =>'TesteEmailController@sendMail']);*/
+
