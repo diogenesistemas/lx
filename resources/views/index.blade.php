@@ -21,7 +21,9 @@
     <link rel="stylesheet" type="text/css" href="css/one-color.css">
 
     <link rel="stylesheet" type="text/css" href="css/loader.css">
-    <link rel="stylesheet" type="text/css" href="css/dropzone.css">
+    {{--<link rel="stylesheet" type="text/css" href="css/dropzone.css">--}}
+    {{--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/css/dropzone.css">--}}
+    <link rel="stylesheet" type="text/css" href="css/dropzone.service.css">
     <link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/dropzone-basic.css"> -->
 
