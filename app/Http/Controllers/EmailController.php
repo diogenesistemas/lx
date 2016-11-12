@@ -26,7 +26,7 @@ class EmailController extends Controller
         Mail::send('mail.mensagem-email', [], function ($message) {    	   
 
             $message->to("ads.diogenes@gmail.com", "Teste")->subject('Teste Email');
-            $message->attach('C:\Users\Diogenes\Desktop\Felicidade.docx', ['as' => 'testelx', 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document']);
+           /* $message->attach('C:\Users\Diogenes\Desktop\Felicidade.docx', ['as' => 'testelx', 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document']);*/
             
         });
         return "enviado";

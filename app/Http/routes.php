@@ -6,5 +6,5 @@ Route::get('/resetar-sessao', ['as' => 'regenerate-session', 'uses' => 'UploadCo
 Route::post('/upload-files', ['as' => "upload-files", 'uses' => 'UploadController@fileUpload']);
 Route::delete('/upload-files/delete/{id}', ['as' => "delete-files", 'uses' => 'UploadController@delete']);
 
-/*Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);*/
+Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);
 
