@@ -57,7 +57,9 @@ class UploadController extends Controller
                 $this->mimeType = $file->getClientMimeType();
                 $this->extension = $file->getClientOriginalExtension();
 
-                $request->file('file')->move($this->path, $this->name);
+                Storage::disk('s3')->put('teste.pptx', file_get_contents( $request->file('file')->getPathname()));
+
+//                $request->file('file')->move($this->path, $this->name);
 
                 $this->user = $this->userRepository->find($this->sessionUserId);
                 if ($this->user) {
@@ -66,7 +68,7 @@ class UploadController extends Controller
                         'file_original_name' => $this->originalName,
                         'mime_type' => $this->mimeType,
                         'extension' => $this->extension,
-                        'path'=>$this->path,
+                        'path' => $this->path,
                     ]);
                 }
 

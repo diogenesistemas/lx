@@ -10,9 +10,10 @@ Route::delete('/upload-files/delete/{id}', ['as' => "delete-files", 'uses' => 'U
 
 Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);
 Route::get('/file', function(){
-    if(Storage::disk('upload')->exists('2016-11-14_01-11-42_4.pptx')){
-        return 'existe';
-    }
-    return 'não existe';
+   $exists = Storage::exists('file.pptx');
+      if($exists){
+         return "existe";
+      }
+   return "não existe";
 });
 
