@@ -52,7 +52,12 @@ class UploadServices
             }
 
         } catch (\ErrorException $e) {
-            return $e->getMessage();
+            return response()->json([
+                'message' => $e->getMessage(),
+                'file' => $e->getFile(),
+                'code' => $e->getCode(),
+                'line' => $e->getLine(),
+            ]);
         }
 
 
