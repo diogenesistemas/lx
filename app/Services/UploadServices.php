@@ -45,7 +45,7 @@ class UploadServices
                     $this->originalName, $this->file->getClientMimeType(),
                     $this->file->getClientOriginalExtension(), $this->path
                 );
-                
+                return $file_db;
                return $this->response('Upload Completo!', true, $file_db['id']);
 
 
