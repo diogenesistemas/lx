@@ -66,6 +66,7 @@ class UploadController extends Controller
                         'file_original_name' => $this->originalName,
                         'mime_type' => $this->mimeType,
                         'extension' => $this->extension,
+                        'path'=>$this->path,
                     ]);
                 }
 
