@@ -44,9 +44,9 @@ class UploadServices
                     $this->originalName, $this->file->getClientMimeType(),
                     $this->file->getClientOriginalExtension(), $this->path
                 );
-                $file_db = $this->getFileInfoToDatabase();
+                $file_db =  $this->getFileInfoToDatabase();
 
-                return $this->response('Upload Completo!', true, $file_db->id);
+                return $this->response('Upload Completo!', true, $file_db['id']);
 
             } else {
                 return $this->response('Falha no upload!');
@@ -94,6 +94,8 @@ class UploadServices
                 'extension' => $extension,
                 'path' => $path,
             ]);
+
+
         }
     }
 
