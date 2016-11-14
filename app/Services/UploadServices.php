@@ -40,13 +40,14 @@ class UploadServices
 
                 $this->sessionUserId = $this->sessionValidate(session()->getId());
                 $this->path = $this->putFileStorage($this->file->getClientOriginalName(), $this->file->getPathname());
-                $file_db =  $this->setFileInfoToDatabase(
+
+                return $file_id    =   $this->setFileInfoToDatabase(
                     $this->sessionUserId, $this->name,
                     $this->originalName, $this->file->getClientMimeType(),
                     $this->file->getClientOriginalExtension(), $this->path
                 );
-                return $file_db;
-               return $this->response('Upload Completo!', true, $file_db['id']);
+
+               return $this->response('Upload Completo!', true, $file_id['id']);
 
 
             } else {
