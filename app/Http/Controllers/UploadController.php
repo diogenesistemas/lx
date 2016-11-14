@@ -53,13 +53,11 @@ class UploadController extends Controller
                 $this->sessionUserId = session('user_id');
                 $file = $request->file('file');
                 $this->setFileName($file->getClientOriginalName());
-                $this->path = storage_path('app/upload/');
                 $this->mimeType = $file->getClientMimeType();
                 $this->extension = $file->getClientOriginalExtension();
 
-                Storage::disk('s3')->put('teste.pptx', file_get_contents( $request->file('file')->getPathname()));
-
-//                $request->file('file')->move($this->path, $this->name);
+                Storage::put($this->name, file_get_contents( $request->file('file')->getPathname()));
+                $this->path = Storage::url($this->name);
 
                 $this->user = $this->userRepository->find($this->sessionUserId);
                 if ($this->user) {
@@ -71,6 +69,7 @@ class UploadController extends Controller
                         'path' => $this->path,
                     ]);
                 }
+
 
                 return response()->json([
                     'message' => 'Upload Completo!',
@@ -120,9 +119,9 @@ class UploadController extends Controller
         if ($id != null) {
             $delete = $this->uploadRepository->find($id);
             if ($delete != null) {
-                if (Storage::disk('upload')->exists($delete->file_name)) {
+                if (Storage::exists($delete->file_name)) {
 
-                    Storage::disk('upload')->delete($delete->file_name);
+                    Storage::delete($delete->file_name);
 
                     if ($delete->delete()) {
                         return response()->json([
