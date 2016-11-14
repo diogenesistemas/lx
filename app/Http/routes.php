@@ -9,11 +9,4 @@ Route::post('/upload-files', ['as' => "upload-files", 'uses' => 'UploadControlle
 Route::delete('/upload-files/delete/{id}', ['as' => "delete-files", 'uses' => 'UploadController@delete']);
 
 Route::get('/email', ['as' => 'mail', 'uses' =>'EmailController@sendMail']);
-Route::get('/file', function(){
-   $exists = Storage::exists('file.pptx');
-      if($exists){
-         return "existe";
-      }
-   return "não existe";
-});
 

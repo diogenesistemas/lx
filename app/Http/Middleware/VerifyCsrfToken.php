@@ -13,6 +13,6 @@ class VerifyCsrfToken extends BaseVerifier
      */
     protected $except = [
         'upload-files',
-        'delete-files',
+        'upload-files/*',
     ];
 }
