@@ -47,8 +47,8 @@ class UploadServices
                 );
                 $file_db['id'];
 
-                $this->response('Upload Completo!', true, $file_db['id']);
-                return ini_get('upload_max_filesize')."_".ini_get('upload_max_filesize') ;
+               return $this->response('Upload Completo!', true, $file_db['id']);
+
 
             } else {
                 return $this->response('Falha no upload!');
