@@ -34,19 +34,21 @@ class UploadServices
     public function fileUploadServices($request)
     {
         try {
+
             $this->file = $request->file('file');
             if ($this->file->isValid()) {
 
                 $this->sessionUserId = $this->sessionValidate(session()->getId());
                 $this->path = $this->putFileStorage($this->file->getClientOriginalName(), $this->file->getPathname());
-                $this->setFileInfoToDatabase(
+                $file_db =  $this->setFileInfoToDatabase(
                     $this->sessionUserId, $this->name,
                     $this->originalName, $this->file->getClientMimeType(),
                     $this->file->getClientOriginalExtension(), $this->path
                 );
-                $file_db =  $this->getFileInfoToDatabase();
+                $file_db['id'];
 
-                return $this->response('Upload Completo!', true, $file_db['id']);
+                $this->response('Upload Completo!', true, $file_db['id']);
+                return ini_get('upload_max_filesize')."_".ini_get('upload_max_filesize') ;
 
             } else {
                 return $this->response('Falha no upload!');
@@ -87,22 +89,18 @@ class UploadServices
     {
         $this->user = $this->userRepository->find($sessionUserId);
         if ($this->user) {
-            $this->databaseFile = $this->user->file()->create([
+            $data_base = $this->user->file()->create([
                 'file_name' => $name,
                 'file_original_name' => $originalName,
                 'mime_type' => $mimeType,
                 'extension' => $extension,
                 'path' => $path,
             ]);
-
-
+            return $data_base;
         }
     }
 
-    private function getFileInfoToDatabase()
-    {
-        return $this->databaseFile;
-    }
+
 
     private function response($message, $success = false, $file_id = null)
     {
