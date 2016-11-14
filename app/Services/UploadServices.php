@@ -40,18 +40,17 @@ class UploadServices
 
                 $this->sessionUserId = $this->sessionValidate(session()->getId());
                 $this->path = $this->putFileStorage($this->file->getClientOriginalName(), $this->file->getPathname());
-
-                return $file_id    =   $this->setFileInfoToDatabase(
+                $file_db =  $this->setFileInfoToDatabase(
                     $this->sessionUserId, $this->name,
                     $this->originalName, $this->file->getClientMimeType(),
                     $this->file->getClientOriginalExtension(), $this->path
                 );
 
-               return $this->response('Upload Completo!', true, $file_id['id']);
+               return $this->response('Upload Completo!', true, $file_db['id']);
 
 
             } else {
-                return $this->response('Falha no upload!', false, null);
+                return $this->response('Falha no upload!');
             }
 
         } catch (\ErrorException $e) {
@@ -102,7 +101,7 @@ class UploadServices
 
 
 
-    private function response($message, $success, $file_id)
+    private function response($message, $success = false, $file_id = null)
     {
         return response()->json([
             'message' => $message,
@@ -110,7 +109,6 @@ class UploadServices
             'file_id' => $file_id
         ]);
     }
-
 
     private function setFileName($name)
     {
