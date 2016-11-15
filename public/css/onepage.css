@@ -240,6 +240,12 @@ p.title{
 	background:#07AAA5;
 	border:1px solid transparent;
 }
+
+.btn-navy-blue{
+	background:#03426B;
+	border:1px solid transparent;
+}
+
 .btn-pink{
 	background:#ec768c;
 	border:1px solid transparent;
@@ -516,15 +522,15 @@ ul.top-right li a:hover,
 }
 .navbar-default .navbar-nav > li > a:hover,
 #navigation.affix .navbar-default .navbar-nav > li > a:hover{
-	color:#07AAA5;
+	color:#03426B;
 	background-color:transparent;
 }
 .navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover,
 .navbar-default .navbar-nav > .active a:focus,
 #navigation.affix .navbar-default .navbar-nav > .active a, #navigation.affix .navbar-default .navbar-nav > .active a:hover,
 #navigation.affix .navbar-default .navbar-nav > .active a:focus{
-	color:#07AAA5;
-	border-bottom:3px solid #82b440;
+	color:#03426B;
+	border-bottom:3px solid #FF0009;
 	background-color:transparent;
 }	
 
@@ -857,7 +863,10 @@ ul.top-right li a:hover.instagram{
 .color3{ color:#EC768C;}	
 .color4{ color:#C183D6;}	
 .color5{ color:#31AAE1;}
-.color6{ color:#82B440;}			
+.color6{ color:#82B440;}
+.color7{ color:#F7D917;}
+.color8{ color:#03426B;}			
+
 #about .canvas-box:hover span i,
 .counters-item:hover i,
 .we-do .do-wrap:hover i{
@@ -884,6 +893,14 @@ ul.top-right li a:hover.instagram{
 }
 #about .canvas-box:hover h4.color6{
 	color:#82B440;
+}	
+
+#about .canvas-box:hover h4.color7{
+	color:#F7D917;
+}	
+
+#about .canvas-box:hover h4.color8{
+	color:#03426B;
 }	
 #about .canvas-box h4{
 	margin-bottom:15px;
@@ -976,7 +993,7 @@ ul.top-right li a:hover.instagram{
 	display: inline-block;
    margin-right:10px;
    vertical-align: middle;
-	color:#82B440;
+	color:#FF0009;
 }
 
 .r-test .screens{
@@ -1538,7 +1555,7 @@ ul.top-right li a:hover.instagram{
 	background:url(../images/bg-testinomial.jpg) no-repeat;
 	color:#fff;
 }
-#testinomial h2{ color:#82B440; }
+#testinomial h2{ color:#F7D917; }
 #testinomial p{ color:#fff; }
 #testinomial-slider .item{
   display: block;
@@ -1715,7 +1732,7 @@ ul.top-right li a:hover.instagram{
 	margin-bottom:45px;
 }
 #contact .center a{
-	color:#82b440;
+	color:#03426B;
 }
 
 #contact .center ul.social-link{
@@ -1799,7 +1816,7 @@ footer .breadcrumb li a {
 	position:relative;
 }
 footer .breadcrumb li a:hover, footer .breadcrumb li a:focus{
-  color: #82b440;
+  color: #FF0009 ;
 }
 
 .go-top {
@@ -1808,7 +1825,7 @@ footer .breadcrumb li a:hover, footer .breadcrumb li a:focus{
   font-size:20px;
   right:25px;
   z-index:800;
-  background:#82b440;
+  background:#03426B;
   color:#fff;
   border-radius:5px;
   height:40px;
@@ -1818,7 +1835,7 @@ footer .breadcrumb li a:hover, footer .breadcrumb li a:focus{
   opacity:0;
 }
 .go-top:hover, .go-top:focus{
-	background:#07AAA5;
+	background:#F7D917;
 	color:#fff;
 }
 .go-top.show {

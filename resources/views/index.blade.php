@@ -90,7 +90,7 @@
                                 <li>
                                     <a href="#contact" class="page-scroll">Encontre-nos</a>
                                 </li>
-                                <a href="#file-email" class="btn-common btn-blue bounce-white page-scroll">Envie um
+                                <a href="#file-email" class="btn-common btn-navy-blue bounce-white page-scroll">Envie um
                                     arquivo</a>
                             </ul>
 
@@ -126,91 +126,8 @@
                         style="z-index: 9;">
                         A maior loja de fotocópias <br> da Paraíba
                     </h2>
+                </li>                
 
-
-                </li>
-                <!-- SLIDE  -->
-                <li data-transition="slideleft" data-slotamount="7" data-delay="7000">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/lx-main-banner22.jpg" alt="laptopmockup_sliderdy" data-bgfit="cover"
-                         data-bgposition="center center">
-
-                    <p class="tp-caption sft tp-resizeme"
-                       data-x="right"
-                       data-y="130"
-                       data-speed="500"
-                       data-start="1000"
-                       data-easing="Power3.easeInOut"
-                       data-elementdelay="0.1"
-                       data-endelementdelay="0.1"
-                       style="z-index: 5;">Empenhados em realizar o melhor serviço
-                    </p>
-                    <!-- LAYER NR. 2 -->
-                    <h2 class="tp-caption fade tp-resizeme text-right"
-                        data-x="right"
-                        data-y="160"
-                        data-speed="500"
-                        data-start="1500"
-                        data-easing="Power3.easeInOut"
-                        data-elementdelay="0.05"
-                        data-endelementdelay="0.1"
-                        style="z-index: 9;">
-                        A mais de 20 anos<br>servindo bem
-                    </h2>
-                    <!-- LAYER NR. 3 -->
-                    <p class="tp-caption sft tp-resizeme"
-                       data-x="right"
-                       data-y="310"
-                       data-speed="500"
-                       data-start="2000"
-                       data-easing="Power3.easeInOut"
-                       data-elementdelay="0.1"
-                       data-endelementdelay="0.1"
-                       style="z-index: 5;">Venha nos fazer uma visita
-                    </p>
-
-
-                </li>
-                <!-- SLIDE  -->
-                <li data-transition="fade" data-slotamount="6" data-delay="5000">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/lx-main-banner31.jpg" alt="slidebg1" data-bgposition="center top">
-
-                    <!-- LAYER NR. 1 -->
-                    <p class="tp-caption sft tp-resizeme"
-                       data-x="left"
-                       data-y="130"
-                       data-speed="500"
-                       data-start="1000"
-                       data-easing="Power3.easeInOut"
-                       data-elementdelay="0.1"
-                       data-endelementdelay="0.1"
-                       style="z-index: 5;">Design sofisticado
-                    </p>
-                    <!-- LAYER NR. 2 -->
-                    <h2 class="tp-caption fade tp-resizeme text-left"
-                        data-x="left"
-                        data-y="160"
-                        data-speed="500"
-                        data-start="1500"
-                        data-easing="Power3.easeInOut"
-                        data-elementdelay="0.05"
-                        data-endelementdelay="0.1"
-                        style="z-index: 9;">Nosso forte<br>é a qualidade
-                    </h2>
-                    <!-- LAYER NR. 3 -->
-                    <p class="tp-caption sft tp-resizeme"
-                       data-x="left"
-                       data-y="310"
-                       data-speed="500"
-                       data-start="2000"
-                       data-easing="Power3.easeInOut"
-                       data-elementdelay="0.1"
-                       data-endelementdelay="0.1"
-                       style="z-index: 5;">Especialmente pensado em você
-                    </p>
-
-                </li>
             </ul>
         </div>
     </div>
@@ -286,57 +203,57 @@
 
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="300ms">
-                <span class="text-center"><i class="icon-copy color6"></i></span>
-                <h4 class="color6">Xerox</h4>
+                <span class="text-center"><i class="icon-copy color7"></i></span>
+                <h4 class="color7">Xerox</h4>
                 <p>Xerografia Mono e Colorida</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="500ms">
-                <span class="text-center"><i class="icon2-print color1"></i></span>
-                <h4 class="color1">Impressão a Laser</h4>
+                <span class="text-center"><i class="icon2-print color8"></i></span>
+                <h4 class="color8">Impressão a Laser</h4>
                 <p>Impressões Mono e Colorida</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="700ms">
-                <span class="text-center"><i class="icon2-line-image color6"></i></span>
-                <h4 class="color6">Plotagem</h4>
+                <span class="text-center"><i class="icon2-line-image color7"></i></span>
+                <h4 class="color7">Plotagem</h4>
                 <p>Impressão de desenhos em largas escalas</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="900ms">
-                <span class="text-center"><i class="icon2-line-map  color1"></i></span>
-                <h4 class="color1">Cópias de Engenharia e Arquitetura</h4>
+                <span class="text-center"><i class="icon2-line-map  color8"></i></span>
+                <h4 class="color8">Cópias de Engenharia e Arquitetura</h4>
                 <p>Descrição do trabalho aqui...</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1100ms">
-                <span class="text-center"><i class="icon2-line-maximize color6"></i></span>
-                <h4 class="color6">Digitalização em Grandes Formatos</h4>
+                <span class="text-center"><i class="icon2-line-maximize color7"></i></span>
+                <h4 class="color7">Digitalização em Grandes Formatos</h4>
                 <p>Trabalhamos com os mais diversos formatos</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon2-line-layers color1"></i></span>
-                <h4 class="color1">Plastificação</h4>
+                <span class="text-center"><i class="icon2-line-layers color8"></i></span>
+                <h4 class="color8">Plastificação</h4>
                 <p>Plastificação de documentos; Plastificação de cardápios</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon2-line2-notebook color6"></i></span>
+                <span class="text-center"><i class="icon2-line2-notebook color7"></i></span>
                 <!-- <span class="text-center"><i class="icon-book color6"></i></span> -->
-                <h4 class="color6">Encadernação Espiral e Capa Dura</h4>
+                <h4 class="color7">Encadernação Espiral e Capa Dura</h4>
                 <p>Encadernação de Livros; Cadernões para Colégio</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon-book color1"></i></span>
-                <h4 class="color1">Papelaria</h4>
+                <span class="text-center"><i class="icon-book color8"></i></span>
+                <h4 class="color8">Papelaria</h4>
                 <p>Materiais Escolares em geral</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon2-email3 color6"></i></span>
-                <h4 class="color6">Serviços em Informática</h4>
+                <span class="text-center"><i class="icon2-email3 color7"></i></span>
+                <h4 class="color7">Serviços em Informática</h4>
                 <p>Digitalização de Processos;
                     Envio e recebimento de e-mail;
                     Impressões via Internet</p>
@@ -451,8 +368,8 @@
             </div>
             <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
                 <div class="do-wrap text-center">
-                    <div class="green top"></div>
-                    <span class="green"><i class="icon2-star2"></i></span>
+                    <div class="blue top"></div>
+                    <span class="blue"><i class="icon2-star2"></i></span>
                     <h4>Qualidade Profissional</h4>
                     <p>Descrição do serviço aqui</p>
                     <a href="#." class="readmore"></a></div>
@@ -467,8 +384,8 @@
             </div>
             <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1200ms">
                 <div class="do-wrap text-center">
-                    <div class="green top"></div>
-                    <span class="green"><i class="icon2-wifi-full"></i></span>
+                    <div class="blue top"></div>
+                    <span class="blue"><i class="icon2-wifi-full"></i></span>
                     <h4>Wi-fi grátis</h4>
                     <p>Basta fazer um Check In em Nosso Facebook</p>
                     <a href="#." class="readmore"></a></div>
