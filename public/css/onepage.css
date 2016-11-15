@@ -1016,61 +1016,6 @@ ul.top-right li a:hover.instagram{
 
 
 
-
-/*  ------------ experties  ------------ */
-.circliful {
-  position: relative;
-  float:left;
-  margin-left:35px;
-  margin-bottom:35px;
-}
-
-.circliful:first-child{
-	margin-left:0;
-}
-
-.circle-text {
-  background-color:#eee;
-  bottom: 0;
-  color: #636363;
-  display: inline-block;
-  height: 45px;
-  left: 50%;
-  line-height: 45px !important;
-  margin: -22px auto 0 -22px;
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  width: 45px;
-  border-radius:100%;
-}
-
-.circliful p{
-  bottom: -25px;
-  left: 0;
-  margin-top: 25px;
-  position: absolute;
-  right: 0;
-}
-
-.myStat2{
-	width:20%;
-}
-
-.circle-info, .circle-info-half {
-	color: #999;
-}
-
-.circliful .fa {
-	margin: -10px 3px 0 3px;
-	position: relative;
-	bottom: 4px;
-}
-/*  ------------ experties  ------------ */
-
-
-
-
 /*  ------------ What We Do ------------ */
 .we-do .do-wrap{
 	background:#fff;
