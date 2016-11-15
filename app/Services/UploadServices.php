@@ -6,6 +6,7 @@ use App\Upload;
 use App\User;
 use Carbon\Carbon;
 use App\Http\Requests;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
 
@@ -19,7 +20,6 @@ class UploadServices
     private $user;
     private $path;
     private $uploadRepository;
-    private $databaseFile;
     private $sessionUserId;
     private $file;
 
@@ -40,13 +40,13 @@ class UploadServices
 
                 $this->sessionUserId = $this->sessionValidate(session()->getId());
                 $this->path = $this->putFileStorage($this->file->getClientOriginalName(), $this->file->getPathname());
-                $file_db =  $this->setFileInfoToDatabase(
+                $file_db = $this->setFileInfoToDatabase(
                     $this->sessionUserId, $this->name,
                     $this->originalName, $this->file->getClientMimeType(),
                     $this->file->getClientOriginalExtension(), $this->path
                 );
 
-               return $this->response('Upload Completo!', true, $file_db['id']);
+                return $this->response('Upload Completo!', true, $file_db['id']);
 
 
             } else {
@@ -79,7 +79,7 @@ class UploadServices
     private function putFileStorage($file_original_name, $temp_file_path)
     {
         $this->name = $this->setFileName($file_original_name);
-        Storage::put($this->name, file_get_contents($temp_file_path));
+        Storage::put($this->name, file_get_contents($temp_file_path), 'public');
         $path = Storage::url($this->name);
         return $path;
     }
@@ -98,7 +98,6 @@ class UploadServices
             return $data_base;
         }
     }
-
 
 
     private function response($message, $success = false, $file_id = null)
@@ -159,6 +158,32 @@ class UploadServices
             }
         }
 
+
+    }
+
+
+    public function sendMailService($request)
+    {
+
+        $id = session()->get('user_id');
+
+        $user = $this->userRepository->find($id);
+        $user->update($request->all());
+        $user = $this->userRepository->find($id);
+
+       $confirmation =Mail::send('mail.mensagem-email', ['user' => $user], function ($message) use($user) {
+
+            $message->to("geoginae.p2@gmail.com", $user->contact)->subject($user->message);
+            $message->from("email.er280652@gmail.com", "#LX-".$user->id);
+
+        });
+
+        if($confirmation == 1){
+            $this->regenerateSessionServices();
+            return $this->response('Enviado', true, "#LX-".$user->id);
+        }else{
+            return $this->response('Não enviado', false);
+        }
 
     }
 

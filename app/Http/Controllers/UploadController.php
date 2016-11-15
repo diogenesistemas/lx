@@ -34,5 +34,10 @@ class UploadController extends Controller
         return $this->uploadServices->regenerateSessionServices();
     }
 
+    public function sendMail(Request $request)
+    {
+        return $this->uploadServices->sendMailService($request);
+    }
+
 
 }

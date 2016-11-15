@@ -245,7 +245,7 @@
         <div class="row">
             <div class="col-md-12"><!-- <div class="col-md-12 block light "> -->
                 <div class="">{{-- <div class="center"> --}}
-                    {!! Form::open(['route'=> "index", "class"=>"form-inline"])!!}
+                    {!! Form::open(['route'=> "send-email", "class"=>"form-inline"])!!}
 
                             <!--<div class="row">
        <div class="col-md-12 center"><div id="result"></div> </div>
@@ -258,7 +258,7 @@
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 form-group">
                             <input type="text" class="form-control-area" placeholder="Telefone / E-mail / Facebook"
-                                   name="contato" id="contato" required>
+                                   name="contact" id="contato" required>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 form-group">
                             <button type="submit" class="btn-black btn-blue bounce-green" id="btn_submit">Enviar
