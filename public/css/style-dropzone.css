@@ -1,8 +1,7 @@
 /* #dropzone { margin-bottom: 3rem; } */
 
 .dropzone { 
-	border: 2px dashed #07AAA5; 
-	/* border: 2px dashed #0087F7;  */
+	border: 2px dashed #03426B; 
 	border-radius: 5px; 
 	background: white; 
 }
