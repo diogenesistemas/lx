@@ -124,18 +124,16 @@
                                     data-elementdelay="0.05"
                                     data-endelementdelay="0.1"
                                     style="z-index: 9;">
-                                    A maior loja de fotocópias <br> da Paraíba
-                                </h2>
-                            </li>                
-
-                        </ul>
+                                    A maior loja de fotocópias <br> da Paraíba</h2>
+                               </li> 
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </section>
+                 </section>
 
 
             <!-- Área de envio de arquivo -->
-            <section class="section-padding info-section light" id="file-email">
+            <section class="section-padding section-padding-bottom info-section light" id="file-email">
                 <div class="container">
 
                     <div class="row">
@@ -157,85 +155,54 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
 
 
+            <!--What We Offer-->
+            <section class="section-padding" id="about">t
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-12"><!-- <div class="col-md-12 block light "> -->
-                            <div class="">{{-- <div class="center"> --}}
-                                {!! Form::open(['route'=> "index", "class"=>"form-inline"])!!}
+                        <div class="col-md-12 text-center wow fadeIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <!-- <p class="title">Nossos serviços de valor</p> -->
+                            <h2 class="heading">Nossos Serviços</h2>
+                        </div>
 
-                            <!--<div class="row">
-       <div class="col-md-12 center"><div id="result"></div> </div>
-   </div>   -->
-
-   <div class="row">
-    <div class="col-xs-12 col-md-12">
-        <textarea placeholder="Mensagem..." class="form-control-area" name="message" id="message"
-        required></textarea>
-    </div>
-    <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-        <input type="text" class="form-control-area" placeholder="Telefone / E-mail / Facebook"
-        name="contato" id="contato" required>
-    </div>
-    <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-        <button type="submit" class="btn-black btn-blue bounce-green" id="btn_submit">Enviar
-            Mensagem
-        </button>
-    </div>
-</div>
-{!!Form::close()!!}
-</div>
-</div>
-</div>
-
-</div>
-</section>
-
-
-<!--What We Offer-->
-<section class="section-padding" id="about">t
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center wow fadeIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                <!-- <p class="title">Nossos serviços de valor</p> -->
-                <h2 class="heading">Nossos Serviços</h2>
+                        <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
+                        data-wow-delay="300ms">
+                        <span class="text-center"><i class="icon-copy color7"></i></span>
+                        <h4 class="color7">Xerox</h4>
+                        <p>Xerografia Mono e Colorida</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
+                    data-wow-delay="500ms">
+                    <span class="text-center"><i class="icon2-print color8"></i></span>
+                    <h4 class="color8">Impressão a Laser</h4>
+                    <p>Impressões Mono e Colorida</p>
+                </div>
+                <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
+                data-wow-delay="700ms">
+                <span class="text-center"><i class="icon2-line-image color7"></i></span>
+                <h4 class="color7">Plotagem</h4>
+                <p>Impressão de desenhos em largas escalas</p>
             </div>
-
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
-            data-wow-delay="300ms">
-            <span class="text-center"><i class="icon-copy color7"></i></span>
-            <h4 class="color7">Xerox</h4>
-            <p>Xerografia Mono e Colorida</p>
+            data-wow-delay="900ms">
+            <span class="text-center"><i class="icon2-line-map  color8"></i></span>
+            <h4 class="color8">Cópias de Engenharia e Arquitetura</h4>
+            <p>Descrição do trabalho aqui...</p>
         </div>
         <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
-        data-wow-delay="500ms">
-        <span class="text-center"><i class="icon2-print color8"></i></span>
-        <h4 class="color8">Impressão a Laser</h4>
-        <p>Impressões Mono e Colorida</p>
+        data-wow-delay="1100ms">
+        <span class="text-center"><i class="icon2-line-maximize color7"></i></span>
+        <h4 class="color7">Digitalização em Grandes Formatos</h4>
+        <p>Trabalhamos com os mais diversos formatos</p>
     </div>
     <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
-    data-wow-delay="700ms">
-    <span class="text-center"><i class="icon2-line-image color7"></i></span>
-    <h4 class="color7">Plotagem</h4>
-    <p>Impressão de desenhos em largas escalas</p>
-</div>
-<div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
-data-wow-delay="900ms">
-<span class="text-center"><i class="icon2-line-map  color8"></i></span>
-<h4 class="color8">Cópias de Engenharia e Arquitetura</h4>
-<p>Descrição do trabalho aqui...</p>
-</div>
-<div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
-data-wow-delay="1100ms">
-<span class="text-center"><i class="icon2-line-maximize color7"></i></span>
-<h4 class="color7">Digitalização em Grandes Formatos</h4>
-<p>Trabalhamos com os mais diversos formatos</p>
-</div>
-<div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
-data-wow-delay="1200ms">
-<span class="text-center"><i class="icon2-line-layers color8"></i></span>
-<h4 class="color8">Plastificação</h4>
-<p>Plastificação de documentos; Plastificação de cardápios</p>
+    data-wow-delay="1200ms">
+    <span class="text-center"><i class="icon2-line-layers color8"></i></span>
+    <h4 class="color8">Plastificação</h4>
+    <p>Plastificação de documentos; Plastificação de cardápios</p>
 </div>
 <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
 data-wow-delay="1200ms">
