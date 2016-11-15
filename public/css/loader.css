@@ -31,18 +31,18 @@
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #82B440;
+  background-color: #03426B;
   border-radius: 100%;
   
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out;
 }
 .dot1{
-	background-color: #82B440;
+	background-color: #03426B;
 }	
 .dot2 {
   top: auto;
-  background-color: #07AAA5;
+  background-color: #F7D917;
   bottom: 0;
   -webkit-animation-delay: -1.0s;
   animation-delay: -1.0s;
