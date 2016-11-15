@@ -721,35 +721,6 @@ ul.top-right li a:hover.instagram{
 
 
 
-/* Index5 Navigation */
-.index5 .affix-top{
-	top: 0;
-    z-index: 999;
-    width: 100%;
-	background-color: #fff;
-    position: fixed;
-    -webkit-box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
-    -moz-box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
-    box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
-	padding:0px;
-	}
-
-.index5 .affix-top a{
-	color:#000!important;
-	}
-
-.index5 .affix-top .active a{
-	color:#07AAA5!important;
-	}		
-.index5 .affix-top .navbar-toggle .icon-bar {
-    background-color: #222 !important;
-}
-
- 
-
-
-
-
 /* ------------ Main Banner ------------ */
 #main-slider { color:#fff;}
 .tp-banner h2{
