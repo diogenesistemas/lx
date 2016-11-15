@@ -934,34 +934,6 @@ ul.top-right li a:hover.instagram{
 
 
 
-/*  ------------ Counters Fact Info  ------------ */
-#facts{}
-#facts .counters-item{
-	padding:26% 10%;
-	font-weight:bold;
-	vertical-align:middle;
-	color:#fff;
-	cursor:pointer;
-}
-#facts .counters-item h2{
-	font-family: "Open Sans", sans-serif;
-}	
-
-.counters-item i {
-  font-size:50px;
-  display: block;
-  margin-bottom:15px;
-}
-.counters-item p{
-	color:#fff;
-	text-transform: capitalize;
-	font-weight:bold;
-}
-/*  ------------ Counters Fact Info  ------------ */
-
-
-
-
 /*  ------------ Responsive Secvtion With Side Image  ------------ */
 #responsive .responsive-pic{}
 #responsive .responsive-pic > .col-md-6 > img{ margin-top:-42px;}
