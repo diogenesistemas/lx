@@ -1167,8 +1167,8 @@ ul.top-right li a:hover.instagram{
 
 
 
-/* ------------  Our Creative Thinkers ------------  */
-#thinkers .thinker-wrap img, #publication-slider .item .image img{
+/* ------------  Nossas Filiais ------------  */
+/*#thinkers .thinker-wrap img, #publication-slider .item .image img{
 	width:100%;
 	-moz-transition:all .2s linear;
 	-ms-transition:all .2s linear;
@@ -1178,14 +1178,14 @@ ul.top-right li a:hover.instagram{
 }
 .thinker-wrap p{
 	margin:0 10px;
-}
+}*/
 .thinker-image{
 	width:100%;
 	overflow:hidden;
 	position:relative;
 }
 .thinker-image .overlay{
-	background:rgba(7,170,165,.75);
+	background:rgba(3, 66, 107,.75);
 	position:absolute;
 	width:100%;
 	bottom:0;
@@ -1207,6 +1207,9 @@ ul.top-right li a:hover.instagram{
 }
 .thinker-image .overlay.green{
 	background:rgba(130,180,64,.75);
+}
+.thinker-image .overlay.yellow{
+	background:rgba(247, 217, 23,.75);
 }	
 .thinker-image:hover .overlay{
 	opacity:1;
@@ -1291,7 +1294,7 @@ ul.top-right li a:hover.instagram{
 #thinkers .thinker-wrap ul.social-contact li a:hover.linkden::before{
 	background: #0077B5;
 }
-/* ------------  Our Creative Thinkers ------------  */
+/* ------------  Nossas Filiais ------------  */
 
 
 

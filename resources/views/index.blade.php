@@ -82,7 +82,7 @@
                                     <a class="page-scroll" href="#bg-paralax">Quem Somos</a>
                                 </li>
                                 <li>
-                                    <a class="page-scroll" href="#thinkers">Lojas</a>
+                                    <a class="page-scroll" href="#thinkers">Filiais</a>
                                 </li>
                                 <li>
                                     <a href="#about" class="page-scroll">Serviços</a>
@@ -407,7 +407,7 @@
             <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
                 <div class="thinker-wrap">
                     <div class="thinker-image">
-                        <img src="images/thinker-fafic.jpg" alt="Richard" class="img-responsive">
+                        <img src="images/thinker-fafic.jpg" alt="Filial FAFIC" class="img-responsive">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <ul class="social-link">
@@ -429,8 +429,8 @@
             <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="600ms">
                 <div class="thinker-wrap">
                     <div class="thinker-image">
-                        <img src="images/thinker-ufcg.jpg" alt="Richard" class="img-responsive">
-                        <div class="overlay green">
+                        <img src="images/thinker-ufcg.jpg" alt="Filial UFCG" class="img-responsive">
+                        <div class="overlay yellow">
                             <div class="overlay-inner">
                                 <ul class="social-link">
                                     <li>
@@ -451,7 +451,7 @@
             <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="900ms">
                 <div class="thinker-wrap">
                     <div class="thinker-image">
-                        <img src="images/thinker-fasp.jpg" alt="Richard" class="img-responsive">
+                        <img src="images/thinker-fasp.jpg" alt="FILIAL FASP" class="img-responsive">
                         <div class="overlay">
                             <div class="overlay-inner">
                                 <ul class="social-link">
