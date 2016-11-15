@@ -1369,32 +1369,6 @@ ul.top-right li a:hover.instagram{
 /* ------------ Testinomials ------------ */
 
 
-/* ------------ Slogan Text with Button ------------ */
-#slogan{
-	background:#82b440;
-	padding:25px 0;
-	color:#fff;
-	margin-top:-2px;
-	width:100%;
-}
-#slogan a{
-  padding: 15px 35px;
-  border:1px solid #fff;
-  color:#000;
-  background:#fff;
-  font-weight:bold;
-  text-transform: capitalize;
-}
-
-#slogan p {
-  color: #fff;
-  font-size: 20px;
-  margin: 10px 0;
-}
-/* ------------ Slogan Text with Button ------------ */
-
-
-
 /* ------------ Contact Us ------------ */
 #contact .center h2,
 #contact .center .margen{
