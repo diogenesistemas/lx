@@ -21,7 +21,6 @@ class UploadController extends Controller
 
     public function fileUpload(Request $request)
     {
-        return $request->all();
         return $this->uploadServices->fileUploadServices($request);
     }
 

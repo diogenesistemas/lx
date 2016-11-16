@@ -10,10 +10,7 @@
     <br>
     <h2>Mensagem: {{$user->message}}</h2>
     <h3>Contato: {{$user->contact}}</h3>
-    <h4>Arquivos:</h4>
-    @foreach($user->file as $file)
-        <p><a href="{{$file->path}}"><strong>{{$file->file_name}}</strong></a></p>
-    @endforeach
+
 </div>
 
 </body>

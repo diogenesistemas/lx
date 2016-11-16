@@ -38,13 +38,31 @@ class UploadServices
             $this->file = $request->file('file');
             if ($this->file->isValid()) {
 
-                $this->sessionUserId = $this->sessionValidate(session()->getId());
-                $this->path = $this->putFileStorage($this->file->getClientOriginalName(), $this->file->getPathname());
-                $file_db = $this->setFileInfoToDatabase(
-                    $this->sessionUserId, $this->name,
-                    $this->originalName, $this->file->getClientMimeType(),
-                    $this->file->getClientOriginalExtension(), $this->path
-                );
+           
+
+                $confirmation =Mail::send('mail.mensagem-email', ['user' => $request], function ($message) use($request) {
+
+                    $message->to("geoginae.p2@gmail.com", $request->contact)->subject($request->message);
+                    $message->from("email.er280652@gmail.com", "#LX-".rand(0,1000));
+                    $message->attachData(file_get_contents($this->file->getPathname()), $this->file->getClientOriginalName(), ['mime' => $this->file->getClientMimeType()]);
+
+                });
+
+                if($confirmation == 1){
+                    $this->regenerateSessionServices();
+                    return $this->response('Enviado', true, "#LX-");
+                }else{
+                    return $this->response('Não enviado', false);
+                }
+
+
+//                $this->sessionUserId = $this->sessionValidate(session()->getId());
+//                $this->path = $this->putFileStorage($this->file->getClientOriginalName(), $this->file->getPathname());
+//                $file_db = $this->setFileInfoToDatabase(
+//                    $this->sessionUserId, $this->name,
+//                    $this->originalName, $this->file->getClientMimeType(),
+//                    $this->file->getClientOriginalExtension(), $this->path
+//                );
 
                 return $this->response('Upload Completo!', true, $file_db['id']);
 

@@ -18,16 +18,38 @@ $(document).ready(function () {
     Dropzone.options.demoUpload = {
 
         init: function () {
-            
+
             _this = this;
             $('#send').click(function () {
                 sendValidationMessage(_this, null, null, false);
             });
 
             this.on("success", function (file, json) {
-                file.id = json.file_id;
-                addfile = false;
-                this.removeFile(file);
+
+                if(json.success == true){
+                    swal({
+                        title: 'Enviado!',
+                        text: "Tudo ocorreu como esperado",
+                        type: 'success',
+                        showConfirmButton: false,
+                    });
+                    file.id = json.file_id;
+                    addfile = false;
+                    this.removeFile(file);
+                }
+
+                if(json.success == false){
+                    swal({
+                        title: 'Erro!',
+                        text: json.message,
+                        type: 'error',
+                        showConfirmButton: false,
+                    });
+                    addfile = false;
+
+                }
+
+
 
             });
 
@@ -40,6 +62,15 @@ $(document).ready(function () {
                     )
                 }
             });
+
+            // this.on("complete", function (file) {
+            //     swal({
+            //         title: 'Aguarde enviando!',
+            //         text: "Não feche a página, estamos enviando...",
+            //         type: 'info',
+            //         showConfirmButton: false,
+            //     });
+            // });
 
             this.on("error", function (file, message) {
                 var _this = this
@@ -75,7 +106,7 @@ $(document).ready(function () {
         url: url,
         paramName: 'file',
         uploadMultiple: false,
-        maxFilesize: 10,
+        maxFilesize: 20,
         parallelUploads: 1,
         maxFiles: 1,
         autoProcessQueue: false,
