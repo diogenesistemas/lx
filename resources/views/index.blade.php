@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title> -->
     <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title>
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/icomoon-fonts.css">
@@ -26,6 +27,8 @@
           href="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.css">
     <link rel="stylesheet" type="text/css" href="css/dropzone.service.css">
     <link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
+    
+
     <!-- <link rel="stylesheet" type="text/css" href="css/dropzone-basic.css"> -->
 
     <link rel="shortcut icon" href="images/favicon.png">
@@ -485,26 +488,89 @@ data-wow-delay="1200ms">
                     <div id="testinomial-slider" class="owl-carousel">
                         <div class="item">
                             <p>"Luciano Xerox é a maior loja de fotocópias da paraíba. Isso mesmo! Com melhores sistemas
-                                de impressões, encadernações, digitalizações e o seu forte é a qualidade. Busque a
-                                melhor qualidade, lá em Luciano Xerox"</p>
-                                <h5>Raquel Rolim - Humorista - TV Diário</h5>
-                                <img src="images/stars.png" alt="star rating"></div>
-                                <div class="item">
-                                    <p>Depoimento do Cliente 2 </p>
-                                    <h5>Nome</h5>
-                                    <img src="images/stars.png" alt="star rating"></div>
-                                    <div class="item">
-                                        <p>Depoimento do Cliente 3 </p>
-                                        <h5>Nome</h5>
-                                        <img src="images/stars.png" alt="star rating"></div>
+                            de impressões, encadernações, digitalizações e o seu forte é a qualidade. Busque a
+                            melhor qualidade, lá em Luciano Xerox"</p>
+                            <h5>Raquel Rolim - Humorista - TV Diário</h5>
+                            <div class="rating-list">                                
+                                {{-- <div class="m-t-5">
+                                    Average Rating 5.0
+                                </div>       --}}                               
 
-
-                                    </div>
-                                </div>
+                                <div class="rl-star">
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                </div>                               
                             </div>
                         </div>
-                    </section>
+                        <div class="item">
+                            <p>Depoimento do Cliente 2 </p>
+                            <h5>Nome</h5>
+                           <div class="rating-list">                                
+                                {{-- <div class="m-t-5">
+                                    Average Rating 5.0
+                                </div>       --}}                               
+
+                                <div class="rl-star">
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star"></i>
+                                </div>                               
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p>Depoimento do Cliente 3 </p>
+                            <h5>Nome</h5>
+                            <div class="rating-list">                                
+                                {{-- <div class="m-t-5">
+                                    Average Rating 5.0
+                                </div>       --}}                               
+
+                                <div class="rl-star">
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star"></i>
+                                    <i class="zmdi zmdi-star"></i>
+                                </div>                               
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p>Depoimento do Cliente 4 </p>
+                            <h5>Nome</h5>
+                            <div class="rating-list">                                
+                                {{-- <div class="m-t-5">
+                                    Average Rating 5.0
+                                </div>       --}}                               
+
+                                <div class="rl-star">
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star active"></i>
+                                    <i class="zmdi zmdi-star"></i>
+                                    <i class="zmdi zmdi-star"></i>
+                                    <i class="zmdi zmdi-star"></i>
+                                </div>                               
+                            </div>
+                        </div>   
+
+
+
+
+
+
+
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+</div>
 
 
                 <!-- Contact Us -->

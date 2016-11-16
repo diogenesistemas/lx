@@ -1237,8 +1237,8 @@ Table Of Content
 	#testinomial-slider .owl-next:hover ,
 	#publication-slider .owl-prev:hover ,
 	#publication-slider .owl-next:hover{
-		border:1px solid #82b440;
-		background-color:#82b440;
+		border:1px solid #03426B;
+		background-color:#03426B;
 		color:#fff;
 		-webkit-transition: background 0.3s linear 0.1s;
 		-ms-transition: background 0.3s linear 0.1s;
@@ -1779,3 +1779,43 @@ Table Of Content
 		background-color:transparent;
 	}
 	/* ------------ File Email ------------ */
+
+
+
+/* ------------ Rating ------------ */
+ 
+
+.rating-list {
+  padding: 0 0 10px;
+}
+
+.rating-list .rl-star {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.rating-list .rl-star .zmdi {
+  font-size: 20px;
+}
+
+.rating-list .rl-star .zmdi:not(.active) {
+  color: #ccc;
+}
+
+.rating-list .rl-star .zmdi.active {
+  color: #F7D917;
+}
+
+.rating-list .lv-item .media .zmdi-star {
+  line-height: 100%;
+  font-size: 22px;
+  color: #FF9800;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  left: 6px;
+}
+
+.rating-list .lv-item .media .media-body {
+  padding: 7px 10px 0 5px;
+}
