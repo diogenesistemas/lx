@@ -22,7 +22,8 @@
 
     <link rel="stylesheet" type="text/css" href="css/loader.css">
     {{--<link rel="stylesheet" type="text/css" href="css/dropzone.css">--}}
-    {{--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/css/dropzone.css">--}}
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.css">
     <link rel="stylesheet" type="text/css" href="css/dropzone.service.css">
     <link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/dropzone-basic.css"> -->
@@ -226,50 +227,48 @@
                 <h2 id="try-it-out" class="heading">Envie seu arquivo para Impressão</h2>
 
                 <div id="dropzone">
+
                     <div id="demo-upload" class="dropzone needsclick">
                         {!! Form::hidden('route', route('upload-files'), ['id'=>'route_upload']) !!}
                         {{ csrf_field() }}
 
                         <div class="dz-message needsclick">
                             Arraste e solte arquivos nesta área ou clique para carregar.<br/>
-                            <span class="note needsclick">(Tamanho máximo <strong>3MB</strong>.)</span>
+                            <span class="note needsclick">(Tamanho máximo <strong>20MB</strong>.)</span>
                         </div>
-
                     </div>
 
                 </div>
             </div>
         </div>
-
 
         <div class="row">
-            <div class="col-md-12"><!-- <div class="col-md-12 block light "> -->
-                <div class="">{{-- <div class="center"> --}}
-                    {!! Form::open(['route'=> "send-email", "class"=>"form-inline"])!!}
+            <div class="col-md-12">
+                <div class="">
 
-                            <!--<div class="row">
-       <div class="col-md-12 center"><div id="result"></div> </div>
-     </div>   -->
-
-                    <div class="row">
-                        <div class="col-xs-12 col-md-12">
-                            <textarea placeholder="Mensagem..." class="form-control-area" name="message" id="message"
+                    <div class="form-inline">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12">
+                            <textarea placeholder="Mensagem..." class="form-control-area .info-file" name="message" id="message"
                                       required></textarea>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-                            <input type="text" class="form-control-area" placeholder="Telefone / E-mail / Facebook"
-                                   name="contact" id="contato" required>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-                            <button type="submit" class="btn-black btn-blue bounce-green" id="btn_submit">Enviar
-                                Mensagem
-                            </button>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                                <input type="text" class="form-control-area .info-file" placeholder="Telefone / E-mail / Facebook"
+                                       name="contact" id="contact" required >
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12 form-group">
+                                <button href="javascript:;" class="btn-black btn-blue bounce-green" id="send">Enviar
+                                    Mensagem
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    {!!Form::close()!!}
+
+
                 </div>
             </div>
         </div>
+
 
     </div>
 </section>
@@ -625,7 +624,8 @@
                 <h2>Encontre-nos</h2>
 
                 <!-- <div class="block"> -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.016249225757!2d-38.5599607!3d-6.8901156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9e963735f6bf88a!2sLuciano+Xerox!5e0!3m2!1spt-BR!2sbr!4v1436529508647" width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.016249225757!2d-38.5599607!3d-6.8901156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9e963735f6bf88a!2sLuciano+Xerox!5e0!3m2!1spt-BR!2sbr!4v1436529508647"
+                        width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
                 <!-- </div> -->
 
             </div>
@@ -689,8 +689,10 @@ var map = new google.maps.Map(mapCanvas, mapOptions);
 <script src="js/jquery.fancybox-media.js"></script>
 <script src="js/jPushMenu.js"></script>
 <script src="js/functions.js"></script>
+{{--<script src="js/dropzone.js"></script>--}}
 <script src="js/dropzone.js"></script>
 <script src="js/dropzone.service.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.js"></script>
 
 <!-- <script>
 function myMap() {
