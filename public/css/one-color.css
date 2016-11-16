@@ -2,33 +2,39 @@
 /* CSS Document */
 
 .green {
-	/* background:#82b440; */
-	background:#053d4e;
+	 background:#82b440; 
+	/*background:#053d4e;*/
 	}
 .green_light {
 	background: rgba(130, 180, 64, 0.65);
 	}
 .blue{
-	background:#f04e23;
+	background:#03426B;
 	/* background:#07aaa5; */
 	} 
 .dark_gray {
 	background:#969696;
 	}
-.we-do .do-wrap a{
-	color:#969696;
+.yellow{
+	background:#F7D917;
+}	
+.red{
+	background:#FF0009;
+}
+/*.we-do .do-wrap a{
+	color:#FF0009;
 }
 
 .we-do .do-wrap a:hover{
-	/* color:#07aaa5; */
-	color:#f04e23;
 
-}
+	color: #FF0009
+
+}*/
 .we-do .do-wrap:hover .top, we-do .do-wrap:focus .top, .we-do .do-wrap:hover span, .we-do .do-wrap:focus span{
-	background:#07aaa5;
+	background:#F7D917;
 }
 
-.pricing_item.dark_gray {
+/*.pricing_item.dark_gray {
     border-color: #969696;
 }
 
@@ -40,7 +46,7 @@
 .pricing_item.dark_gray:hover .pricing_action{
 	border:1px solid transparent;
 	background:#07AAA5 !important;
-}
+}*/
 
 
 	
