@@ -20,35 +20,53 @@ $(document).ready(function () {
         init: function () {
 
             _this = this;
+
             $('#send').click(function () {
                 sendValidationMessage(_this, null, null, false);
             });
 
             this.on("success", function (file, json) {
 
-                if(json.success == true){
+                if (json.success == true) {
+
+                    var contact = $("input[name=contact]").val("");
+                    var message = $("textarea[name=message]").val("");
+
                     swal({
-                        title: 'Enviado!',
-                        text: "Tudo ocorreu como esperado",
-                        type: 'success',
-                        showConfirmButton: false,
+                        title: 'Arquivo enviado!',
+                        text: "Anote seu ticket de impressão <p><strong>" + json.file_id + "<strong></p>",
+                        type: json.error_type,
+                        showConfirmButton: true,
+                        allowOutsideClick: false,
+                        allowEscapeKey: false,
                     });
-                    file.id = json.file_id;
                     addfile = false;
                     this.removeFile(file);
                 }
 
-                if(json.success == false){
+                if (json.success == false) {
+                    var title = ""
+                    switch (json.error_type) {
+                        case 'error':
+                            title = "Erro!";
+                            break;
+                        case  'warning':
+                            title = "Atenção!";
+                            break
+                    }
+
                     swal({
-                        title: 'Erro!',
+                        title: title,
                         text: json.message,
-                        type: 'error',
-                        showConfirmButton: false,
+                        type: json.error_type,
+                        showConfirmButton: true,
+                        allowOutsideClick: false,
+                        allowEscapeKey: false,
                     });
                     addfile = false;
+                    this.removeFile(file);
 
                 }
-
 
 
             });
@@ -63,15 +81,6 @@ $(document).ready(function () {
                 }
             });
 
-            // this.on("complete", function (file) {
-            //     swal({
-            //         title: 'Aguarde enviando!',
-            //         text: "Não feche a página, estamos enviando...",
-            //         type: 'info',
-            //         showConfirmButton: false,
-            //     });
-            // });
-
             this.on("error", function (file, message) {
                 var _this = this
 
@@ -82,7 +91,9 @@ $(document).ready(function () {
                     confirmButtonColor: '#3085d6',
                     confirmButtonText: 'Sim, delete este!',
                     confirmButtonClass: 'btn btn-success',
-                    buttonsStyling: false
+                    buttonsStyling: false,
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
                 }).then(function () {
                     addfile = true;
                     _this.removeFile(file);
@@ -122,9 +133,9 @@ $(document).ready(function () {
         $('#send').click(function () {
 
             var contact = $("input[name=contact]").val();
-            console.log(contact);
+
             var message = $("textarea[name=message]").val();
-            console.log(message);
+
 
             _this.options.url = url + "?_token=" + token + "&contact=" + contact + "&message=" + message;
             var valid = sendValidationMessage(_this, message, contact, true)
@@ -136,14 +147,14 @@ $(document).ready(function () {
     }
 
     function sendValidationMessage(_this, message, contact, active) {
-        console.log(_this.files.length);
+
         if (_this.files.length == 0) {
             swal(
                 'Você ja inseriu um arquivo?',
                 'Por favor clique em ok e para voltar e inserir',
                 'question'
             )
-            console.log('clicando sem arquivo');
+
             return false;
         } else {
             if (active) {
@@ -155,7 +166,7 @@ $(document).ready(function () {
                         'Por favor clique em ok e para voltar e preencher',
                         'question'
                     )
-                    console.log('nao preenchido');
+
                     return false;
                 }
             }
