@@ -162,9 +162,9 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-        /*'Cornford\Googlmapper\MapperServiceProvider',*/
+        App\Providers\RouteServiceProvider::class,        
         Cornford\Googlmapper\MapperServiceProvider::class,
+        SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
 
     ],
 
@@ -212,9 +212,9 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
-        'Html' => Collective\Html\HtmlFacade::class,
-        /*'Mapper' => 'Cornford\Googlmapper\Facades\MapperFacade',*/
+        'Html' => Collective\Html\HtmlFacade::class,        
         'Mapper' => Cornford\Googlmapper\Facades\MapperFacade::class,
+        'Facebook' => SammyK\LaravelFacebookSdk\FacebookFacade::class,
 
     ],
 
