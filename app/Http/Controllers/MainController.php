@@ -24,7 +24,7 @@ class MainController extends Controller
     {
         $fan_page_token = $this->getPageToken($this->getUserTokenDb());
         $data_ratings = $this->getDataRatings($fan_page_token);
-        return view("index", compact($data_ratings)); //lebrar de validar repostas
+        return view("index", compact("data_ratings")); //lebrar de validar repostas
 
 
     }
