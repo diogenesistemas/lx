@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <!-- <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title> -->
     <title>Luciano Xérox | A maior loja de fotocópias da paraíba</title>
     <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -21,16 +20,11 @@
     <link rel="stylesheet" type="text/css" href="css/onepage.css">
     <link rel="stylesheet" type="text/css" href="css/one-color.css">
 
-    <link rel="stylesheet" type="text/css" href="css/loader.css">
-    {{--<link rel="stylesheet" type="text/css" href="css/dropzone.css">--}}
+    <link rel="stylesheet" type="text/css" href="css/loader.css">    
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.css">
     <link rel="stylesheet" type="text/css" href="css/dropzone.service.css">
     <link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
-    
-
-    <!-- <link rel="stylesheet" type="text/css" href="css/dropzone-basic.css"> -->
-
     <link rel="shortcut icon" href="images/favicon.png">
 
 
