@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/onepage.css">
     <link rel="stylesheet" type="text/css" href="css/one-color.css">
 
-    <link rel="stylesheet" type="text/css" href="css/loader.css">    
+    <link rel="stylesheet" type="text/css" href="css/loader-colorful.css">    
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.css">
     <link rel="stylesheet" type="text/css" href="css/dropzone.service.css">
