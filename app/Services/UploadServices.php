@@ -2,26 +2,46 @@
 
 namespace App\Services;
 
-use App\Upload;
 use App\User;
+use Validator;
+use App\Upload;
 use Carbon\Carbon;
 use App\Http\Requests;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\Storage;
+
 
 class UploadServices
 {
     private $carbon;
-    private $name;
-    private $originalName;
     private $id;
     private $userRepository;
-    private $user;
-    private $path;
     private $uploadRepository;
-    private $sessionUserId;
     private $file;
+    private $rules = [
+        'contact' => 'required',
+        'message' => 'required',
+        'file' => 'mimetypes:application/vnd.ms-powerpoint,'
+            . 'image/png,'
+            . 'application/vnd.openxmlformats-officedocument.wordprocessingml.document,'
+            . 'application/msword,'
+            . 'image/jpeg,'
+            . 'application/vnd.ms-excel,'
+            . 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,'
+            . 'application/vnd.openxmlformats-officedocument.presentationml.presentation,'
+            . 'application/pdf,'
+            . '|required'
+            . '|max:20480',
+    ];
+
+    private $rulesMessage = [
+        'contact.required' => 'O preencimento do campo contato é necessário',
+        'message.required' => 'O preencimento do campo mensagem é necessário',
+        'file.required' => 'Insira ou arraste um arquivo para a área correspondente',
+        'file.mimetypes' => 'O arquivo que você inseriu não é aceito por nós',
+        'file.max' => 'O tamanho máximo parmitido por arquivo é 20MB',
+    ];
+
+    private $message;
 
 
     public function __construct(Carbon $carbon, User $userRepository, Upload $uploadRepository)
@@ -33,176 +53,51 @@ class UploadServices
 
     public function fileUploadServices($request)
     {
-        try {
 
-            $this->file = $request->file('file');
-            if ($this->file->isValid()) {
+        $this->message = Validator::make($request->all(), $this->rules, $this->rulesMessage)->errors()->all();
 
-           
+        if (count($this->message) > 0) {
+            return $this->response($this->message[0], false, "",'warning');
+        }
+        
+        $this->file = $request->file('file');
 
-                $confirmation =Mail::send('mail.mensagem-email', ['user' => $request], function ($message) use($request) {
+        if ($this->file->isValid()) {
 
-                    $message->to("geoginae.p2@gmail.com", $request->contact)->subject($request->message);
-                    $message->from("email.er280652@gmail.com", "#LX-".rand(0,1000));
-                    $message->attachData(file_get_contents($this->file->getPathname()), $this->file->getClientOriginalName(), ['mime' => $this->file->getClientMimeType()]);
-
-                });
-
-                if($confirmation == 1){
-                    $this->regenerateSessionServices();
-                    return $this->response('Enviado', true, "#LX-");
-                }else{
-                    return $this->response('Não enviado', false);
-                }
-
-
-//                $this->sessionUserId = $this->sessionValidate(session()->getId());
-//                $this->path = $this->putFileStorage($this->file->getClientOriginalName(), $this->file->getPathname());
-//                $file_db = $this->setFileInfoToDatabase(
-//                    $this->sessionUserId, $this->name,
-//                    $this->originalName, $this->file->getClientMimeType(),
-//                    $this->file->getClientOriginalExtension(), $this->path
-//                );
-
-                return $this->response('Upload Completo!', true, $file_db['id']);
-
-
+            $user = $this->userRepository->create(['session_id' => session()->getId()]);
+            $confirmation = $this->sendMailService($request, $this->file, $user);
+            if ($confirmation == 1) {
+                return $this->response(config('lx.send_message'), true, config('lx.tiket_prefixer') . $user->id, 'success');
             } else {
-                return $this->response('Falha no upload!');
+                return $this->response(config('lx.no_send_message'));
             }
 
-        } catch (\ErrorException $e) {
-            return response()->json([
-                'message' => $e->getMessage(),
-                'file' => $e->getFile(),
-                'code' => $e->getCode(),
-                'line' => $e->getLine(),
-            ]);
+        } else {
+            return $this->response(config('lx.fail_upload_file'));
         }
 
 
     }
 
-    private function sessionValidate($session_id)
+    public function sendMailService($request, $file, $user)
     {
-        $this->user = $this->userRepository->where('session_id', $session_id);
-        if ($this->user->count() == 0) {
-            $this->user = $this->userRepository->create(['session_id' => $session_id]);
-            session()->put('db_session_id', $this->user->session_id);
-            session()->put('user_id', $this->user->id);
-        }
-        return session('user_id');
+        $response = Mail::send('mail.mensagem-email', ['user' => $request], function ($message) use ($request, $file, $user) {
+            $message->from(config('lx.from'), $request->contact);
+            $message->to(config('lx.to'))->subject( config('lx.tiket_prefixer'). $user->id);
+            $message->attachData(file_get_contents($file->getPathname()), $file->getClientOriginalName(), ['mime' => $file->getClientMimeType()]);
+        });
+        return $response;
+
     }
 
-    private function putFileStorage($file_original_name, $temp_file_path)
-    {
-        $this->name = $this->setFileName($file_original_name);
-        Storage::put($this->name, file_get_contents($temp_file_path), 'public');
-        $path = Storage::url($this->name);
-        return $path;
-    }
-
-    private function setFileInfoToDatabase($sessionUserId, $name, $originalName, $mimeType, $extension, $path)
-    {
-        $this->user = $this->userRepository->find($sessionUserId);
-        if ($this->user) {
-            $data_base = $this->user->file()->create([
-                'file_name' => $name,
-                'file_original_name' => $originalName,
-                'mime_type' => $mimeType,
-                'extension' => $extension,
-                'path' => $path,
-            ]);
-            return $data_base;
-        }
-    }
-
-
-    private function response($message, $success = false, $file_id = null)
+    private function response($message, $success = false, $file_id = "", $error_type = "error")
     {
         return response()->json([
             'message' => $message,
             'success' => $success,
-            'file_id' => $file_id
+            'file_id' => $file_id,
+            'error_type' => $error_type,
         ]);
-    }
-
-    private function setFileName($name)
-    {
-        if ($name) {
-            $date = $this->carbon->now()->format('Y-m-d_H-n-s');
-            $this->originalName = $name;
-            $this->name = $date . "_" . str_replace(['', ' ', '  ', '   ', '    '], '_', $name);
-            return $this->name;
-        }
-        return null;
-    }
-
-
-    public function regenerateSessionServices()
-    {
-        Session::flush();
-        Session::regenerate();
-        session()->put('db_session_id', '0');
-        session()->put('user_id', '0');
-        return session()->all();
-    }
-
-    public function deleteServices($id)
-    {
-        if ($id != null) {
-            $delete = $this->uploadRepository->find($id);
-            if ($delete != null) {
-                if (Storage::exists($delete->file_name)) {
-
-                    Storage::delete($delete->file_name);
-
-                    if ($delete->delete()) {
-                        return response()->json([
-                            'message' => 'Deletado!',
-                            'success' => true,
-                            'file_name' => $delete->file_original_name,
-                        ]);
-
-                    } else {
-                        return response()->json([
-                            'message' => 'Falha ao deletar',
-                            'success' => false,
-                            'file_name' => null,
-
-                        ]);
-                    }
-                }
-            }
-        }
-
-
-    }
-
-
-    public function sendMailService($request)
-    {
-
-        $id = session()->get('user_id');
-
-        $user = $this->userRepository->find($id);
-        $user->update($request->all());
-        $user = $this->userRepository->find($id);
-
-       $confirmation =Mail::send('mail.mensagem-email', ['user' => $user], function ($message) use($user) {
-
-            $message->to("geoginae.p2@gmail.com", $user->contact)->subject($user->message);
-            $message->from("email.er280652@gmail.com", "#LX-".$user->id);
-
-        });
-
-        if($confirmation == 1){
-            $this->regenerateSessionServices();
-            return $this->response('Enviado', true, "#LX-".$user->id);
-        }else{
-            return $this->response('Não enviado', false);
-        }
-
     }
 
 }
