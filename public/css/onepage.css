@@ -1509,7 +1509,7 @@ Table Of Content
 		}
 	}
 
-	@media screen and (max-width: 1119px){
+	@media screen and (max-width: 1199px){
 		ul.top-right {
 		    margin: 0px 0px 0px 10px;
 		}
@@ -1575,9 +1575,9 @@ Table Of Content
 	
 	@media screen and (max-width: 991px){
 
-		ul.top-right {
+		/*ul.top-right {
 		    margin: 0px 0px 0px 10px;
-		}
+		}*/
 	
 	}
 
