@@ -75,8 +75,7 @@
                                             <li class="active">
                                                 <a href="#main-slider" class="page-scroll">Início</a>
                                             </li>
-                                            <li>
-                                                <!-- <a class="page-scroll" href="#about">Quem Somos</a> -->
+                                            <li>                                            
                                                 <a class="page-scroll" href="#bg-paralax">Quem Somos</a>
                                             </li>
                                             <li>
@@ -169,7 +168,7 @@
                                        name="contact" id="contact" required >
                             </div>
                             <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-                                <button href="javascript:;" class="btn-black btn-blue bounce-green" id="send">Enviar
+                                <button href="javascript:;" class="btn-black btn-navy-blue bounce-yellow" id="send">Enviar
                                     Mensagem
                                 </button>
                             </div>
