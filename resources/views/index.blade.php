@@ -87,7 +87,7 @@
                                             <li>
                                                 <a href="#contact" class="page-scroll">Encontre-nos</a>
                                             </li>
-                                            <a href="#file-email" class="btn-common btn-navy-blue bounce-white page-scroll">Envie um
+                                            <a href="#file-email" class="btn-common btn-navy-blue bounce-yellow page-scroll">Envie um
                                                 arquivo</a>
                                             </ul>
 
@@ -215,8 +215,8 @@
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
             data-wow-delay="900ms">
             <span class="text-center"><i class="icon2-line-map  color8"></i></span>
-            <h4 class="color8">Cópias de Engenharia e Arquitetura</h4>
-            <p>Descrição do trabalho aqui...</p>
+            <h4 class="color8">Cópias de Projetos</h4>
+            <p>Cópias de projetos de engenharia, arquitetura e mecânica</p>
         </div>
         <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
         data-wow-delay="1100ms">
@@ -355,8 +355,8 @@ data-wow-delay="1200ms">
                     <div class="do-wrap text-center">
                         <div class="dark_gray top"></div>
                         <span class="dark_gray"><i class="icon2-news"></i></span>
-                        <h4>Xerografia de grande porte</h4>
-                        <p>Descrição do serviço aqui</p>
+                        <h4>Xerografia de Grande Porte</h4>
+                        <p>Trabalhamos com os mais diversos tamanhos</p>
                         <a href="#." class="readmore"></a></div>
                     </div>
                     <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
@@ -364,7 +364,7 @@ data-wow-delay="1200ms">
                             <div class="blue top"></div>
                             <span class="blue"><i class="icon2-star2"></i></span>
                             <h4>Qualidade Profissional</h4>
-                            <p>Descrição do serviço aqui</p>
+                            <p>A sua xérox fica melhor que a original</p>
                             <a href="#." class="readmore"></a></div>
                         </div>
                         <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms">
@@ -372,7 +372,7 @@ data-wow-delay="1200ms">
                                 <div class="dark_gray top"></div>
                                 <span class="dark_gray"> <i class="icon2-line-cloud-upload"></i></span>
                                 <h4>Impressão Via Internet</h4>
-                                <p>Aomodidade que você precisa</p>
+                                <p>Solicitação de impressões para a sua comodidade</p>
                                 <a href="#." class="readmore"></a></div>
                             </div>
                             <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1200ms">
