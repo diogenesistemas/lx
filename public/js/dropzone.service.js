@@ -162,8 +162,8 @@ $(document).ready(function () {
                     return true;
                 } else {
                     swal(
-                        'Esqueceu de preencher algum campo?',
-                        'Por favor clique em ok e para voltar e preencher',
+                        'Esqueceu de preencher algo?',
+                        'Por favor verifique os campos de mensagem e contato',
                         'question'
                     )
 
