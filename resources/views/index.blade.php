@@ -85,7 +85,7 @@
                                     <a href="#about" class="page-scroll">Serviços</a>
                                 </li>
                                 <li>
-                                    <a href="#contact" class="page-scroll">Encontre-nos</a>
+                                    <a href="#findus" class="page-scroll">Encontre-nos</a>
                                 </li>
                                 <a href="#file-email" class="btn-common btn-navy-blue bounce-yellow page-scroll">Envie
                                     um
@@ -506,8 +506,8 @@
 </div>
 
 
-<!-- Contact Us -->
-<section class="info-section" id="contact">
+<!-- Find Us -->
+<section class="info-section" id="findus">
     <div class="row">
         <div class="col-md-6 block text-center wow fadeInLeftBig" data-wow-duration="500ms" data-wow-delay="300ms">
             <div class="center">
@@ -560,7 +560,7 @@
                     <li><a href="#bg-paralax" class="page-scroll">Quem Somos</a></li>
                     <li><a href="#thinkers" class="page-scroll">Filiais</a></li>
                     <li><a href="#about" class="page-scroll">Serviços</a></li>
-                    <li><a href="#contact" class="page-scroll">Contate-nos</a></li>
+                    <li><a href="#findus" class="page-scroll">Contate-nos</a></li>
                     <li><a href="#file-email" class="page-scroll">Envie um arquivo</a></li>
                 </ul>
                 <p>Copyright &copy; 2016 Luciano Xerox. Todos os direitos reservados.</p>
