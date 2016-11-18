@@ -31,6 +31,7 @@ class FacebookController extends Controller
         try {
             $token = $this->facebookSdk->getAccessTokenFromRedirect();
 
+
         } catch (FacebookSDKException $e) {
             dd($e->getMessage());
         }
@@ -61,8 +62,6 @@ class FacebookController extends Controller
             // Extend the access token.
             try {
                 $token = $oauth_client->getLongLivedAccessToken($token);
-                return dd($token);
-
             } catch (FacebookSDKException $e) {
                 dd($e->getMessage());
             }

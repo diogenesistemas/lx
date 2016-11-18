@@ -491,14 +491,9 @@
                                 <div class="rating-list">
                                     <div class="rl-star">
                                         @for($cont = 1; $cont <= 5; $cont++)
-                                            @if($cont<=$rating["rating"])
-                                                <i class="zmdi zmdi-star active"></i>
-                                            @else
-                                                <i class="zmdi zmdi-star"></i>
-                                            @endif
+                                            <i class="zmdi zmdi-star {{$cont<=$rating["rating"]?"active": ""}}"></i>
                                         @endfor
                                     </div>
-
                                 </div>
                             </div>
                         @endforeach

@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use ErrorException;
 use Exception;
+use Facebook\Exceptions\FacebookResponseException;
 use Illuminate\Session\TokenMismatchException;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
@@ -50,22 +51,26 @@ class Handler extends ExceptionHandler
     public function render($request, Exception $e)
     {
 
-        // if ($e instanceof MethodNotAllowedHttpException) {
-        //     return response()->json([
-        //         'message' => "Methodo nao aceito",
-        //         'success' => false,
-        //         'file_id' => "",
-        //         "error_type"=>"error"
-        //     ]);
-        // }
-        // if ($e instanceof ErrorException) {
-        //     return response()->json([
-        //         'message' => "Erro Interno",
-        //         'success' => false,
-        //         'file_id' => "",
-        //         "error_type"=>"error"
-        //     ], 500);
-        // }
+         if ($e instanceof MethodNotAllowedHttpException) {
+             return response()->json([
+                 'message' => "Methodo nao aceito",
+                 'success' => false,
+                 'file_id' => "",
+                 "error_type"=>"error"
+             ]);
+         }
+//         if ($e instanceof ErrorException) {
+//             return response()->json([
+//                 'message' => "Erro Interno",
+//                 'success' => false,
+//                 'file_id' => "",
+//                 "error_type"=>"error"
+//             ], 500);
+//         }
+        if ($e instanceof FacebookResponseException) {
+            $data_ratings = [];
+            return view('index' ,compact('data_ratings'));
+        }
 
         return parent::render($request, $e);
     }

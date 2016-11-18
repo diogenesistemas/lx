@@ -24,21 +24,6 @@ class UploadController extends Controller
     {
         return $this->uploadServices->fileUploadServices($request);
     }
-//
-//    public function delete($id)
-//    {
-//        return $this->uploadServices->deleteServices($id);
-//    }
-//
-//    public function regenerateSession()
-//    {
-//        return $this->uploadServices->regenerateSessionServices();
-//    }
-//
-//    public function sendMail(Request $request)
-//    {
-//        return $this->uploadServices->sendMailService($request);
-//    }
 
 
 }

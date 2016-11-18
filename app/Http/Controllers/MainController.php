@@ -2,10 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Facebook\Exceptions\FacebookResponseException;
 use Facebook\Facebook;
-use Illuminate\Http\Request;
-
 use App\Http\Requests;
 
 class MainController extends Controller
@@ -24,9 +21,7 @@ class MainController extends Controller
     {
         $fan_page_token = $this->getPageToken($this->getUserTokenDb());
         $data_ratings = $this->getDataRatings($fan_page_token);
-        return view("index", compact("data_ratings")); //lebrar de validar repostas
-
-
+        return view("index", compact("data_ratings"));
     }
 
     private function initFacebook()
@@ -40,13 +35,11 @@ class MainController extends Controller
 
     private function getFanPageIdDb()
     {
-        //substituir pelo banco de dados
         return env("FACEBOOK_APP_FANPAGE_ID");
     }
 
     private function getUserTokenDb()
     {
-        //substituir pelo banco de dados
         return env("FACEBOOK_APP_USER_ACCESS_TOKEN");
     }
 
@@ -70,7 +63,7 @@ class MainController extends Controller
 
     private function getDataRatings($fan_page_token)
     {
-        $ratings = $this->facebook->get('/me/ratings', $fan_page_token)->getDecodedBody();
+        $ratings = $this->facebook->get('/me/ratings?limit=' . env('FACEBOOK_APP_LIMIT_RATING'), $fan_page_token)->getDecodedBody();
         return $ratings['data'];
     }
 
