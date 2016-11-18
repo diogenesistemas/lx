@@ -480,7 +480,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <!-- <p class="title">Pessoas que Amam o Nosso Trabalho</p> -->
-                    <p class="title">Pessoas que Aprovam o Nosso Trabalho</p>
+                    <p class="title">Visite nossa página do facebook e deixe-nos uma avaliação</p>
                     <h2 class="heading">Nossos Clientes Felizes</h2>
                     <div id="testinomial-slider" class="owl-carousel">
 
@@ -572,19 +572,6 @@
 
 <a href="#." class="go-top text-center"><i class="fa fa-angle-double-up"></i></a>
 
-
-<!-- <script>
-function myMap() {
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {
-    center: new google.maps.LatLng(51.508742,-0.120850),
-    zoom: 5
-  };
-var map = new google.maps.Map(mapCanvas, mapOptions);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script> -->
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
