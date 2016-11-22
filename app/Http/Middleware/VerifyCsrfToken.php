@@ -14,5 +14,6 @@ class VerifyCsrfToken extends BaseVerifier
     protected $except = [
         'upload-files',
         'upload-files/*',
+        'mimetype',
     ];
 }

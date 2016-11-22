@@ -25,5 +25,9 @@ class UploadController extends Controller
         return $this->uploadServices->fileUploadServices($request);
     }
 
+    public function  getMimeType(Request $request){
+        return $this->uploadServices->getMimeType($request);
+    }
+
 
 }

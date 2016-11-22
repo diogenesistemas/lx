@@ -30,6 +30,7 @@ class FacebookController extends Controller
     public function callback(){
         try {
             $token = $this->facebookSdk->getAccessTokenFromRedirect();
+            return dd($token);
 
 
         } catch (FacebookSDKException $e) {

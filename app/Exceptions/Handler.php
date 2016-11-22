@@ -33,7 +33,7 @@ class Handler extends ExceptionHandler
      *
      * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
      *
-     * @param  \Exception  $e
+     * @param  \Exception $e
      * @return void
      */
     public function report(Exception $e)
@@ -44,21 +44,21 @@ class Handler extends ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Exception  $e
+     * @param  \Illuminate\Http\Request $request
+     * @param  \Exception $e
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $e)
     {
 
-         if ($e instanceof MethodNotAllowedHttpException) {
-             return response()->json([
-                 'message' => "Methodo nao aceito",
-                 'success' => false,
-                 'file_id' => "",
-                 "error_type"=>"error"
-             ]);
-         }
+        if ($e instanceof MethodNotAllowedHttpException) {
+            return response()->json([
+                'message' => "Methodo nao aceito",
+                'success' => false,
+                'file_id' => "",
+                "error_type" => "error"
+            ]);
+        }
 //         if ($e instanceof ErrorException) {
 //             return response()->json([
 //                 'message' => "Erro Interno",
@@ -69,7 +69,7 @@ class Handler extends ExceptionHandler
 //         }
         if ($e instanceof FacebookResponseException) {
             $data_ratings = [];
-            return view('index' ,compact('data_ratings'));
+            return view('index', compact('data_ratings'));
         }
 
         return parent::render($request, $e);

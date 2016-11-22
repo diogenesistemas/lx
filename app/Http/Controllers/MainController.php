@@ -19,9 +19,10 @@ class MainController extends Controller
 
     public function goIndex()
     {
+
+
         $fan_page_token = $this->getPageToken($this->getUserTokenDb());
         $data_ratings = $this->getDataRatings($fan_page_token);
-        var_dump($data_ratings);
         return view("index", compact("data_ratings"));
     }
 
@@ -47,6 +48,7 @@ class MainController extends Controller
     private function getPageToken($user_token)
     {
         $accounts = $this->facebook->get('/me/accounts', $user_token)->getDecodedBody();
+
         return $this->resultComparePages($accounts);
     }
 
@@ -55,11 +57,13 @@ class MainController extends Controller
         $fanpage_access_token = null;
         $fanpage_id = $this->getFanPageIdDb();
         foreach ($pages_Meneged_Client["data"] as $result) {
-            if ($result["id"] == $fanpage_id) {
-                $fanpage_access_token = $result["access_token"];
+            if ((string)$result["id"] == (string)$fanpage_id) {
+              $fanpage_access_token = (string)$result["access_token"];
             }
-            return $fanpage_access_token;
+
         }
+
+        return $fanpage_access_token;
     }
 
     private function getDataRatings($fan_page_token)

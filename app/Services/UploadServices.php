@@ -29,6 +29,9 @@ class UploadServices
             . 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,'
             . 'application/vnd.openxmlformats-officedocument.presentationml.presentation,'
             . 'application/pdf,'
+            . 'image/vnd.dwg,'
+            . 'image/vnd.adobe.photoshop,'
+            . 'application/zip,'
             . '|required'
             . '|max:20480',
     ];
@@ -57,9 +60,9 @@ class UploadServices
         $this->message = Validator::make($request->all(), $this->rules, $this->rulesMessage)->errors()->all();
 
         if (count($this->message) > 0) {
-            return $this->response($this->message[0], false, "",'warning');
+            return $this->response($this->message[0], false, "", 'warning');
         }
-        
+
         $this->file = $request->file('file');
 
         if ($this->file->isValid()) {
@@ -83,7 +86,7 @@ class UploadServices
     {
         $response = Mail::send('mail.mensagem-email', ['user' => $request], function ($message) use ($request, $file, $user) {
             $message->from(config('lx.from'), $request->contact);
-            $message->to(config('lx.to'))->subject( config('lx.tiket_prefixer'). $user->id);
+            $message->to(config('lx.to'))->subject(config('lx.tiket_prefixer') . $user->id);
             $message->attachData(file_get_contents($file->getPathname()), $file->getClientOriginalName(), ['mime' => $file->getClientMimeType()]);
         });
         return $response;
@@ -98,6 +101,14 @@ class UploadServices
             'file_id' => $file_id,
             'error_type' => $error_type,
         ]);
+    }
+
+    public function getMimeType($request)
+    {
+        $this->file = $request->file('file');
+        if ($this->file->isValid()) {
+                return $this->file->getMimeType();
+        }
     }
 
 }

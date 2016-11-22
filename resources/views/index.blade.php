@@ -485,7 +485,7 @@
                     <div id="testinomial-slider" class="owl-carousel">
 
                         @foreach($data_ratings as $rating)
-
+                            @if ($rating["has_review"] && $rating["has_rating"])
                             <div class="item">
                                 <p>{{$rating["review_text"]}}</p>
                                 <h5>{{$rating["reviewer"]["name"]}}</h5>
@@ -497,7 +497,7 @@
                                     </div>
                                 </div>
                             </div>
-
+                            @endif
                         @endforeach
 
                     </div>
