@@ -485,6 +485,7 @@
                     <div id="testinomial-slider" class="owl-carousel">
 
                         @foreach($data_ratings as $rating)
+
                             <div class="item">
                                 <p>{{$rating["review_text"]}}</p>
                                 <h5>{{$rating["reviewer"]["name"]}}</h5>
@@ -496,6 +497,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         @endforeach
 
                     </div>

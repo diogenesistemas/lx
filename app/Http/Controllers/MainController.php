@@ -21,6 +21,7 @@ class MainController extends Controller
     {
         $fan_page_token = $this->getPageToken($this->getUserTokenDb());
         $data_ratings = $this->getDataRatings($fan_page_token);
+        var_dump($data_ratings);
         return view("index", compact("data_ratings"));
     }
 
@@ -63,7 +64,8 @@ class MainController extends Controller
 
     private function getDataRatings($fan_page_token)
     {
-        $ratings = $this->facebook->get('/me/ratings?limit=' . env('FACEBOOK_APP_LIMIT_RATING'), $fan_page_token)->getDecodedBody();
+        $ratings = $this->facebook->get('/me/ratings?fields=reviewer,review_text,rating,has_rating,has_review', $fan_page_token)->getDecodedBody();
+        // $ratings = $this->facebook->get('/me/ratings?limit=' . env('FACEBOOK_APP_LIMIT_RATING'), $fan_page_token)->getDecodedBody();
         return $ratings['data'];
     }
 
