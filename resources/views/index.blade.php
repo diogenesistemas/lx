@@ -368,7 +368,7 @@
                     <div class="blue top"></div>
                     <span class="blue"><i class="icon2-star2"></i></span>
                     <h4>Qualidade Profissional</h4>
-                    <p>A sua xérox fica melhor que a original</p>
+                    <p>Faz sua cópia ficar melhor que a original</p>
                     <a href="#." class="readmore"></a></div>
             </div>
             <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms">
