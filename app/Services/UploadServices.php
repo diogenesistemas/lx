@@ -32,6 +32,7 @@ class UploadServices
             . 'image/vnd.dwg,'
             . 'image/vnd.adobe.photoshop,'
             . 'application/zip,'
+            . 'application/x-rar,'
             . '|required'
             . '|max:20480',
     ];
