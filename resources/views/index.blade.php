@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Luciano Xerox | A maior loja de fotocópias da paraíba</title>
-    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.css">
+
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/icomoon-fonts.css">
@@ -492,7 +492,7 @@
                                 <div class="rating-list">
                                     <div class="rl-star">
                                         @for($cont = 1; $cont <= 5; $cont++)
-                                            <i class="zmdi zmdi-star {{$cont<=$rating["rating"]?"active": ""}}"></i>
+                                            <i class="zmdi icon2-star3 {{$cont<=$rating["rating"]?"active": ""}}"></i>
                                         @endfor
                                     </div>
                                 </div>
