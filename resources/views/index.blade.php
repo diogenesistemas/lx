@@ -574,29 +574,7 @@
 
 <a href="#." class="go-top text-center"><i class="fa fa-angle-double-up"></i></a>
 
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/jquery.themepunch.tools.min.js"></script>
-<script src="js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-
-<script src="js/jquery.appear.js"></script>
-
-<script src="js/jquery.mixitup.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.parallax-1.1.3.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-
-<script src="js/jPushMenu.js"></script>
-<script src="js/functions.js"></script>
-
-<script src="js/dropzone.js"></script>
-<script src="js/dropzone.service.js"></script>
-<script src="js/sweetalert2-6.1.0.min.js"></script>
-
-
+<script src="js/lx.js"></script>
 
 
 </body>
