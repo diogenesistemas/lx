@@ -594,7 +594,7 @@
 
 <script src="js/dropzone.js"></script>
 <script src="js/dropzone.service.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.js"></script>
+<script src="js/sweetalert2-6.1.0.min.js"></script>
 
 
 
