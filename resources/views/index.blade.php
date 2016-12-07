@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/settings.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+
     <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
     <link rel="stylesheet" type="text/css" href="css/jPushMenu.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
@@ -588,8 +588,7 @@
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.parallax-1.1.3.js"></script>
 <script src="js/jquery.fancybox.js"></script>
-<script src="js/jquery.fancybox-thumbs.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
+
 <script src="js/jPushMenu.js"></script>
 <script src="js/functions.js"></script>
 {{--<script src="js/dropzone.js"></script>--}}
