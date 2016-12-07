@@ -581,9 +581,9 @@
 <script src="js/jquery.themepunch.revolution.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery-countTo.js"></script>
+
 <script src="js/jquery.appear.js"></script>
-<script src="js/jquery.circliful.js"></script>
+
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.parallax-1.1.3.js"></script>
@@ -591,21 +591,12 @@
 
 <script src="js/jPushMenu.js"></script>
 <script src="js/functions.js"></script>
-{{--<script src="js/dropzone.js"></script>--}}
+
 <script src="js/dropzone.js"></script>
 <script src="js/dropzone.service.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.js"></script>
 
-<!-- <script>
-function myMap() {
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {
-    center: new google.maps.LatLng(51.508742,-0.120850),
-    zoom: 5
-  };
-var map = new google.maps.Map(mapCanvas, mapOptions);
-}
-</script> -->
+
 
 
 </body>
