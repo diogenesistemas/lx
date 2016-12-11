@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
           type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/lx.css">
+    <link rel="stylesheet" type="text/css" href="css/lx.min.css">
 
 
 
@@ -558,7 +558,7 @@
 
 <a href="#." class="go-top text-center"><i class="fa fa-angle-double-up"></i></a>
 
-<script src="js/lx.js"></script>
+<script src="js/lx.min.js"></script>
 
 
 </body>
