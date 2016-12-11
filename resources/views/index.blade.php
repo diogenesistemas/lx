@@ -5,26 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Luciano Xerox | A maior Loja de Fotocópias da Paraíba</title>
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/icomoon-fonts.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/settings.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-
-    <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
-    <link rel="stylesheet" type="text/css" href="css/jPushMenu.css">
+    <link rel="shortcut icon" href="images/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
           type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/onepage.css">
-    <link rel="stylesheet" type="text/css" href="css/one-color.css">
+    <link rel="stylesheet" type="text/css" href="css/lx.css">
 
-    <link rel="stylesheet" type="text/css" href="css/loader-colorful.css">
-    <link rel="stylesheet" type="text/css" href="css/sweetalert2-6.1.0.min.css">
-    <link rel="stylesheet" type="text/css" href="css/dropzone.service.css">
-    <link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
-    <link rel="shortcut icon" href="images/favicon.png">
 
 
 </head>
