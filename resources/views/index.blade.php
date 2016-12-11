@@ -21,8 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/one-color.css">
 
     <link rel="stylesheet" type="text/css" href="css/loader-colorful.css">
-    <link rel="stylesheet" type="text/css"
-          href="//cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.1.0/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2-6.1.0.min.css">
     <link rel="stylesheet" type="text/css" href="css/dropzone.service.css">
     <link rel="stylesheet" type="text/css" href="css/style-dropzone.css">
     <link rel="shortcut icon" href="images/favicon.png">
