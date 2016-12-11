@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/lx.min.css">
 
 
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target="#fixed-collapse-navbar" data-offset="120">
@@ -251,10 +250,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <!-- <p>Unleash your creative potential with BizOne</p> -->
                     <h2 class="magin30">Quem Somos</h2>
-
-                    <!-- <a class="btn-green btn-common bounce-top page-scroll" href="#letstalk">Let's Talk</a> -->
                     <p>
                         Em maio de 1995, há pouco mais de vinte anos, começando a viver uma grande revolução na educação
                         superior e secundarista, com o aumento dos cursos universitários e abertura de novos colégios,
@@ -289,8 +285,6 @@
                     <p>
 
                     </p>
-
-
                 </div>
             </div>
         </div>
@@ -318,10 +312,7 @@
                             <li>Responsabilidade</li>
                             <li>Agilidade</li>
                             <li>Eficiência</li>
-
-
                         </ul>
-                        <!-- <div class="screens"> <i class="icon-laptop2"></i> <i class="icon-tablet2"></i> <i class="icon-icons202"></i> </div> -->
                     </div>
                 </div>
             </div>
@@ -335,7 +326,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center wow fadeIn">
-                <!-- <p class="title">Para Nossos Clientes</p> -->
                 <h2 class="heading">Nosso diferencial</h2>
             </div>
 
@@ -382,7 +372,6 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 wow fadeIn">
-                <!-- <p class="title">Passionate about perfection</p> -->
                 <h2 class="heading">Nossas Filiais</h2>
             </div>
             <div class="col-md-4 col-sm-4 wow fadeInUp zoomIn" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -395,8 +384,6 @@
                                     <li>
                                         <a href="http://www.facebook.com/pages/Luciano-Xerox-Filial-FAFIC/1596612280656167"
                                            class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <!--  <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -417,8 +404,6 @@
                                     <li>
                                         <a href="http://www.facebook.com/pages/Luciano-Xerox-Filial-UFCG/226501451047210"
                                            class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <!-- <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -439,8 +424,6 @@
                                     <li>
                                         <a href="http://www.facebook.com/pages/Luciano-Xerox-Filial-FASP/607822786042776"
                                            class="text-center"><i class="fa fa-facebook"></i><span></span></a></li>
-                                    <!-- <li><a href="#." class="text-center"><i class="fa fa-twitter"></i><span></span></a></li>
-                                    <li><a href="#." class="text-center"><i class="icon-instagram"></i><span></span></a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -463,27 +446,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <!-- <p class="title">Pessoas que Amam o Nosso Trabalho</p> -->
                     <p class="title">Visite nossa página do facebook e deixe-nos uma avaliação</p>
                     <h2 class="heading">Nossos Clientes Felizes</h2>
                     <div id="testinomial-slider" class="owl-carousel">
 
                         @foreach($data_ratings as $rating)
                             @if ($rating["has_review"] && $rating["has_rating"])
-                            <div class="item">
-                                <p>{{$rating["review_text"]}}</p>
-                                <h5>{{$rating["reviewer"]["name"]}}</h5>
-                                <div class="rating-list">
-                                    <div class="rl-star">
-                                        @for($cont = 1; $cont <= 5; $cont++)
-                                            <i class="zmdi icon2-star3 {{$cont<=$rating["rating"]?"active": ""}}"></i>
-                                        @endfor
+                                <div class="item">
+                                    <p>{{$rating["review_text"]}}</p>
+                                    <h5>{{$rating["reviewer"]["name"]}}</h5>
+                                    <div class="rating-list">
+                                        <div class="rl-star">
+                                            @for($cont = 1; $cont <= 5; $cont++)
+                                                <i class="zmdi icon2-star3 {{$cont<=$rating["rating"]?"active": ""}}"></i>
+                                            @endfor
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                             @endif
                         @endforeach
-
                     </div>
                 </div>
             </div>
@@ -497,9 +478,7 @@
     <div class="row">
         <div class="col-md-6 block text-center wow fadeInLeftBig" data-wow-duration="500ms" data-wow-delay="300ms">
             <div class="center">
-                <!-- <p class="title">Open for you</p> -->
                 <h2>Estamos Aqui</h2>
-                <!-- <p class="margen">Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p> -->
                 <p><strong>Endereço:</strong> Rua Sebastião Bandeira de Melo, 242 - Centro, Cajazeiras-PB 58900-000</p>
                 <p><strong>Telefone:</strong> (83) 3531-6496</p>
                 <p><strong>E-mail:</strong> <a href="#."> llxerox@yahoo.com.br </a></p>
@@ -508,8 +487,6 @@
                                     class="fa fa-facebook"></i><span></span></a></li>
                     <li><a href="http://twitter.com/lxerox" class="text-center"><i
                                     class="fa fa-twitter"></i><span></span></a></li>
-                    <!-- <li><a href="#." class="text-center"><i class="fa fa-dribbble"></i><span></span></a></li> -->
-                    <!-- <li><a href="#." class="text-center"><i class="fa fa-flickr"></i><span></span></a></li> -->
                     <li><a href="http://www.instagram.com/lucianoxerox" class="text-center"><i
                                     class="fa fa-instagram"></i><span></span></a></li>
 
@@ -520,14 +497,9 @@
              data-wow-delay="300ms">
 
             <div class="center">
-                <!-- <p class="title">With propositions</p> -->
                 <h2>Encontre-nos</h2>
-
-                <!-- <div class="block"> -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.016249225757!2d-38.5599607!3d-6.8901156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9e963735f6bf88a!2sLuciano+Xerox!5e0!3m2!1spt-BR!2sbr!4v1436529508647"
                         width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
-                <!-- </div> -->
-
             </div>
 
         </div>
@@ -542,7 +514,6 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="breadcrumb">
-                    <!-- <li><a href="#." class="page-scroll">Home</a></li> -->
                     <li><a href="#bg-paralax" class="page-scroll">Quem Somos</a></li>
                     <li><a href="#thinkers" class="page-scroll">Filiais</a></li>
                     <li><a href="#about" class="page-scroll">Serviços</a></li>
@@ -555,11 +526,9 @@
     </div>
 </footer>
 
-
 <a href="#." class="go-top text-center"><i class="fa fa-angle-double-up"></i></a>
 
 <script src="js/lx.min.js"></script>
-
 
 </body>
 </html>
