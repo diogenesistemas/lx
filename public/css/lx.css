@@ -11515,14 +11515,14 @@ ul.top-right li a:hover,
 }
 .navbar-default .navbar-nav > li > a:hover,
 #navigation.affix .navbar-default .navbar-nav > li > a:hover{
-    color:#03426B;
+    color:#960F0F;
     background-color:transparent;
 }
 .navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover,
 .navbar-default .navbar-nav > .active a:focus,
 #navigation.affix .navbar-default .navbar-nav > .active a, #navigation.affix .navbar-default .navbar-nav > .active a:hover,
 #navigation.affix .navbar-default .navbar-nav > .active a:focus{
-    color:#03426B;
+    color:#960F0F;
     border-bottom:3px solid #FF0009;
     background-color:transparent;
 }
@@ -11822,6 +11822,9 @@ ul.top-right li a:hover.instagram{
 .color6{ color:#82B440;}
 .color7{ color:#F7D917;}
 .color8{ color:#03426B;}
+.color9{ color:#960F0F;}
+.color10{ color:#F01923;}
+.color11{ color:#3F3F42;}
 
 #about .canvas-box:hover span i,
 .counters-item:hover i,
