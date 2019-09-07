@@ -278,34 +278,6 @@
         </div>
 
 
-        <!-- Responsive image with left -->
-        <section id="responsive" class="top-padding">
-            <div class="container-fluid">
-                <div class="row responsive-pic">
-                    <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="600ms">
-                        <img src="images/equipe.jpg" alt="fully responsive" class="img-responsive">
-                    </div>
-                    <div class="container wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 r-test">
-                                <h3 class="magin30">Nossa Equipe</h3>
-                                <p>Temos uma equipe diferenciada, formada integralmente por mulheres altamente qualificadas para
-                                    receber o seu serviço e executá-lo com excelência</p>
-                                <h4>Nossas qualidades</h4>
-                                <ul class="r-feature">
-                                    <li>Pontualidade</li>
-                                    <li>Responsabilidade</li>
-                                    <li>Agilidade</li>
-                                    <li>Eficiência</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
         <!-- What We Do Section -->
         <section class="we-do bg-grey padding">
             <div class="container">
