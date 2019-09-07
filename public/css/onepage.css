@@ -324,7 +324,8 @@ Table Of Content
 	.bounce-green,
 	.bounce-white, 
 	.bounce-pink,
-	.bounce-yellow{
+	.bounce-yellow,
+	.bounce-red{
 		display: inline-block;
 		vertical-align: middle;
 		-webkit-transform: translateZ(0);
@@ -355,12 +356,16 @@ Table Of Content
 	.bounce-yellow:before{
 		background: #F7D917;
 	}
+	.bounce-red:before{
+		background: #F01923;
+	}
 
 	.bounce-top:before,
 	.bounce-green:before,
 	.bounce-white:before,
 	.bounce-pink:before,
-	.bounce-yellow:before{
+	.bounce-yellow:before,
+        .bounce-red:before{
 		content: "";
 		position: absolute;
 		z-index: -1;
@@ -399,11 +404,16 @@ Table Of Content
 		color: #fff !important;
 		border:1px solid #F7D917 !important;
 	}	
+	.bounce-red:hover, .bounce-red:focus{
+		color: #fff !important;
+		border:1px solid #F01923 !important;
+	}	
 	.bounce-top:hover:before, .bounce-top:focus:before, 
 	.bounce-green:hover::before, .bounce-green:focus::before,
 	.bounce-white:hover::before, .bounce-white:focus::before,
 	.bounce-pink:hover::before, .bounce-pink:focus::before,
-	.bounce-yellow:hover::before, .bounce-yellow:focus::before{
+	.bounce-yellow:hover::before, .bounce-yellow:focus::before,
+	.bounce-red:hover::before, .bounce-red:focus::before{
 		-webkit-transform: scaleY(1);
 		transform: scaleY(1);
 		-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
