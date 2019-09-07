@@ -506,7 +506,7 @@
                     <li><a href="#findus" class="page-scroll">Contate-nos</a></li>
                     <li><a href="#file-email" class="page-scroll">Envie um arquivo</a></li>
                 </ul>
-                <p>Copyright &copy; 2016 Luciano Xerox. Todos os direitos reservados.</p>
+                <p>Copyright &copy; 2019 Luciano Cópias e Papelaria. Todos os direitos reservados.</p>
             </div>
         </div>
     </div>
