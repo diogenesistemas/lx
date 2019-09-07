@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
           type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/lx.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lx.css">
 
 
 </head>
@@ -92,20 +92,20 @@
             <ul>  <!-- SLIDE  -->
                 <li data-transition="fade" data-slotamount="6" data-delay="10000">
                     <!-- MAIN IMAGE -->
-                    <img src="images/lx-main-banner1.jpg" alt="slidebg1" data-bgfit="cover"
+                    <img src="images/lx-main-banner1.png" alt="slidebg1" data-bgfit="cover"
                          data-bgposition="center center">
 
 
                     <h2 class="tp-caption sft tp-resizeme text-center"
-                        data-x="center"
-                        data-y="230"
+                        data-x="right"
+                        data-y="160"
                         data-speed="500"
                         data-start="1500"
                         data-easing="Power3.easeInOut"
                         data-elementdelay="0.05"
                         data-endelementdelay="0.1"
                         style="z-index: 9;">
-                        A maior loja de fotocópias <br> da Paraíba</h2>
+                        <b>Excelência</b> <br> em Resultados</h2>
                 </li>
             </ul>
         </div>

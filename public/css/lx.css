@@ -8067,6 +8067,7 @@ website:   	http://www.themepunch.com
 .tp-banner{
     width:100%;
     position:relative;
+    background-color: #3F3F42;
 }
 
 .tp-banner-fullscreen-container {
