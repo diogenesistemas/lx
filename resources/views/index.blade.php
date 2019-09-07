@@ -59,11 +59,8 @@
                                             <a href="#main-slider" class="page-scroll">Início</a>
                                         </li>
                                         <li>
-                                            <a class="page-scroll" href="#bg-paralax">Quem Somos</a>
-                                        </li>
-                                        <li>
-                                            <a class="page-scroll" href="#thinkers">Filiais</a>
-                                        </li>
+                                            <a class="page-scroll" href="#bg-paralax">A Marca</a>
+                                        </li>                                       
                                         <li>
                                             <a href="#about" class="page-scroll">Serviços</a>
                                         </li>
@@ -250,40 +247,28 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <h2 class="magin30">Quem Somos</h2>
+                            <h2 class="magin30">Uma Nova Imagem, a Mesma Marca</h2>
                             <p>
-                                Em maio de 1995, há pouco mais de vinte anos, começando a viver uma grande revolução na educação
-                                superior e secundarista, com o aumento dos cursos universitários e abertura de novos colégios,
-                                Cajazeiras recebia um empreendimento no ramo de fotocópias pelas mãos de <strong>Luciano
-                                    Oliveira</strong> e sua esposa, <strong>Ana Beatriz</strong>. Nascia naquele mês a empresa
-                                Luciano Xerox, com um número reduzido de máquinas, mas que pouco depois ganhou o slogan de
-                                <strong>“A Maior Loja de Fotocópias da Paraíba”</strong> por conta dos investimentos constantes
-                                em equipamentos e tecnologia, sempre oferecendo o melhor para a clientela cada vez mais
-                                crescente.
+                                Nossa empresa vivencia mais um momento histórico. Dentro da proposta de reposicionamento da nossa comunicação, apresentamos um novo logo.
                             </p>
                             <p>
-                                Instalada desde o início nas proximidades do DETRAN, à Rua Sebastião Bandeira de Melo, no centro
-                                da cidade, para atender ao grande fluxo de usuários daquele órgão. Luciano Xerox tem pontos de
-                                atendimento no Campus da Universidade Federal de Campina Grande (UFCG), na Faculdade de
-                                Filosofia, Ciências e Letras de Cajazeiras (FAFIC) e na Faculdade São Francisco da Paraíba
-                                (FASP), mantendo a mesma filosofia de trabalho, sempre com a melhor qualidade em fotocópias e
-                                impressões em grande formato e no atendimento qualificado por parte das funcionárias.
+                                Esta nova proposta de comunicação visual chega em um momento especial, no qual Luciano Cópias e Papelaria passa por uma renovação completa.
                             </p>
                             <p>
-                                Na celebração de 20 anos, Luciano Oliveira disse: “Celebramos esses vinte anos com cada cliente
-                                que nos acompanha desde o nascimento da empresa e aos que vamos conquistando no dia a dia, sem
-                                nunca esquecer que somos prestadores de serviço e, por isso, temos sempre que atender às
-                                necessidades a quem nos procura, seja para uma simples fotocópia de documento para trabalhos
-                                maiores e mais complexos”.
+                                Trata-se de uma nova imagem, mas a marca de tradição, respeito, credibilidade, eficiência, tecnologia, qualidade, inovação, permanecem vivas e em constante evolução.
 
                             </p>
                             <p>
-                                Ana Beatriz, por sua vez, ressalta o fato de que o segredo do crescimento da empresa, hoje com
-                                três filiais, está em atender bem aos clientes, com responsabilidade e pontualidade,
-                                solucionando os serviços no tempo mais rápido possível.
+                                A nova marca poderá ser vista na empresa, nas viaturas, nas fachadas, nas comunicações, nas mídias eletrônicas e redes sociais e de comunicação da nossa empresa.
                             </p>
                             <p>
-
+                                A logo Luciano Cópias e Papelaria é reconhecida por um (L) grafado na cor branco em fundo vermelho fechado, em volta de um quadrado. O ícone da inicial branco ganha vida em fundo vermelho. Compondo um visual mais alinhado à imagem e tecnologia da empresa. Tipologia do título e subtítulo em caixa baixa, tornando mais leve, suave, delineada, na cor grafite símbolo de tecnologia e inovação.
+                            </p>
+                            <p>
+                                O símbolo tem característica ótica agradável, leve, atraente, memorável, inovador, personalizado, original, contemporâneo, porém consistente, sério, de fácil memorização (pregnância) e globalizado. 
+                            </p>
+                            <p>
+                                A cromoterapia – Cores: Cor de energia. O Vermelho escuro ou fechado representando todo o legado dos serviços.
                             </p>
                         </div>
                     </div>
@@ -408,8 +393,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <ul class="breadcrumb">
-                            <li><a href="#bg-paralax" class="page-scroll">Quem Somos</a></li>
-                            <li><a href="#thinkers" class="page-scroll">Filiais</a></li>
+                            <li><a href="#bg-paralax" class="page-scroll">A Marca</a></li>                            
                             <li><a href="#about" class="page-scroll">Serviços</a></li>
                             <li><a href="#findus" class="page-scroll">Contate-nos</a></li>
                             <li><a href="#file-email" class="page-scroll">Envie um arquivo</a></li>
