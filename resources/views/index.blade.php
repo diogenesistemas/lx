@@ -184,7 +184,7 @@
                     <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                          data-wow-delay="300ms">
                         <span class="text-center"><i class="icon-copy color10"></i></span>
-                        <h4 class="color10">Xerox</h4>
+                        <h4 class="color10">Fotocópia</h4>
                         <p>Fotocópia Mono e Colorida</p>
                     </div>
                     <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
