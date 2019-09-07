@@ -12911,17 +12911,17 @@ textarea.form-control-area:focus  {
 .spinner .bounce1 {
     -webkit-animation-delay: -0.32s;
     animation-delay: -0.32s;
-    background-color: #03426B;
+    background-color: #F01923;
 }
 
 .spinner .bounce2 {
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
-    background-color: #FF0009;
+    background-color: #B91419;
 }
 
 .spinner .bounce3 {
-    background-color: #F7D917;
+    background-color: #960F0F;
 }
 
 @-webkit-keyframes sk-bouncedelay {
