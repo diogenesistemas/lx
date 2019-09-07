@@ -163,8 +163,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,        
-        Cornford\Googlmapper\MapperServiceProvider::class,
-        SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
+        Cornford\Googlmapper\MapperServiceProvider::class,        
 
     ],
 
@@ -214,7 +213,6 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,        
         'Mapper' => Cornford\Googlmapper\Facades\MapperFacade::class,
-        'Facebook' => SammyK\LaravelFacebookSdk\FacebookFacade::class,
 
     ],
 
