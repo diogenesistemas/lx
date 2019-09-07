@@ -12382,13 +12382,13 @@ ul.social-link li{
 }
 
 ul.social-link li a {
-    border: 1px solid #000;
+    border: 1px solid #960F0F;
     border-radius: 44px;
     font-size: 20px;
     height: 44px;
     width: 44px;
     position:relative;
-    color: #000 !important;
+    color: #960F0F !important;
 }
 
 ul.social-link li a span{
@@ -12407,11 +12407,11 @@ ul.social-link li a span{
 }
 
 ul.social-link li a:hover span {
-    background: #03426B;
+    background: #960F0F;
     border-radius:44px;
     height:44px;
     width:44px;
-    border: 1px solid #03426B;
+    border: 1px solid #960F0F;
     height:44px;
     top: -1px;
     left: -1px;
