@@ -440,24 +440,6 @@
 </section>
 
 
-<!-- Testinomials -->
-<div style="position:relative;">
-    <section id="testinomial" class="padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="title">Visite nossa página do facebook e deixe-nos uma avaliação</p>
-                    <h2 class="heading">Nossos Clientes Felizes</h2>
-                    <div id="testinomial-slider" class="owl-carousel">
-
-                   
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-
 
 <!-- Find Us -->
 <section class="info-section" id="findus">
