@@ -11515,15 +11515,15 @@ ul.top-right li a:hover,
 }
 .navbar-default .navbar-nav > li > a:hover,
 #navigation.affix .navbar-default .navbar-nav > li > a:hover{
-    color:#960F0F;
+    color:#F01923;
     background-color:transparent;
 }
 .navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active a:hover,
 .navbar-default .navbar-nav > .active a:focus,
 #navigation.affix .navbar-default .navbar-nav > .active a, #navigation.affix .navbar-default .navbar-nav > .active a:hover,
 #navigation.affix .navbar-default .navbar-nav > .active a:focus{
-    color:#960F0F;
-    border-bottom:3px solid #F01923;
+    color:#F01923;
+    border-bottom:3px solid #960F0F;
     background-color:transparent;
 }
 
