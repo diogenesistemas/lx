@@ -183,57 +183,57 @@
 
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="300ms">
-                <span class="text-center"><i class="icon-copy color7"></i></span>
-                <h4 class="color7">Xerox</h4>
+                <span class="text-center"><i class="icon-copy color10"></i></span>
+                <h4 class="color10">Xerox</h4>
                 <p>Xerografia Mono e Colorida</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="500ms">
-                <span class="text-center"><i class="icon2-print color8"></i></span>
-                <h4 class="color8">Impressão a Laser</h4>
+                <span class="text-center"><i class="icon2-print color9"></i></span>
+                <h4 class="color9">Impressão a Laser</h4>
                 <p>Impressões Mono e Colorida</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="700ms">
-                <span class="text-center"><i class="icon2-line-image color7"></i></span>
-                <h4 class="color7">Plotagem</h4>
+                <span class="text-center"><i class="icon2-line-image color10"></i></span>
+                <h4 class="color10">Plotagem</h4>
                 <p>Impressão de desenhos em largas escalas</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="900ms">
-                <span class="text-center"><i class="icon2-line-map  color8"></i></span>
-                <h4 class="color8">Cópias de Projetos</h4>
+                <span class="text-center"><i class="icon2-line-map  color9"></i></span>
+                <h4 class="color9">Cópias de Projetos</h4>
                 <p>Cópias de projetos de engenharia, arquitetura e mecânica</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1100ms">
-                <span class="text-center"><i class="icon2-line-maximize color7"></i></span>
-                <h4 class="color7">Digitalização em Grandes Formatos</h4>
+                <span class="text-center"><i class="icon2-line-maximize color10"></i></span>
+                <h4 class="color10">Digitalização em Grandes Formatos</h4>
                 <p>Trabalhamos com os mais diversos formatos</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon2-line-layers color8"></i></span>
-                <h4 class="color8">Plastificação</h4>
+                <span class="text-center"><i class="icon2-line-layers color9"></i></span>
+                <h4 class="color9">Plastificação</h4>
                 <p>Plastificação de documentos; Plastificação de cardápios</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon2-line2-notebook color7"></i></span>
+                <span class="text-center"><i class="icon2-line2-notebook color10"></i></span>
                 <!-- <span class="text-center"><i class="icon-book color6"></i></span> -->
-                <h4 class="color7">Encadernação Espiral e Capa Dura</h4>
+                <h4 class="color10">Encadernação Espiral e Capa Dura</h4>
                 <p>Encadernação de Livros; Cadernões para Colégio</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon-book color8"></i></span>
-                <h4 class="color8">Papelaria</h4>
+                <span class="text-center"><i class="icon-book color9"></i></span>
+                <h4 class="color9">Papelaria</h4>
                 <p>Materiais Escolares em geral</p>
             </div>
             <div class="col-md-4 col-sm-4 canvas-box magin30 text-center wow fadeInDown" data-wow-duration="500ms"
                  data-wow-delay="1200ms">
-                <span class="text-center"><i class="icon2-email3 color7"></i></span>
-                <h4 class="color7">Serviços em Informática</h4>
+                <span class="text-center"><i class="icon2-email3 color10"></i></span>
+                <h4 class="color10">Serviços em Informática</h4>
                 <p>Digitalização de Processos;
                     Envio e recebimento de e-mail;
                     Impressões via Internet</p>

@@ -904,6 +904,12 @@ Table Of Content
 		#about .canvas-box:hover h4.color8{
 			color:#03426B;
 		}	
+		#about .canvas-box:hover h4.color9{
+			color:#960F0F;
+		}	
+		#about .canvas-box:hover h4.color10{
+			color:#F01923;
+		}	
 		#about .canvas-box h4{
 			margin-bottom:15px;
 			color:#000;
