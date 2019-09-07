@@ -339,8 +339,8 @@
             </div>
             <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
                 <div class="do-wrap text-center">
-                    <div class="blue top"></div>
-                    <span class="blue"><i class="icon2-star2"></i></span>
+                    <div class="dark_red top"></div>
+                    <span class="dark_red"><i class="icon2-star2"></i></span>
                     <h4>Qualidade Profissional</h4>
                     <p>Faz sua cópia ficar melhor que a original</p>
                     <a href="#." class="readmore"></a></div>
@@ -355,8 +355,8 @@
             </div>
             <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1200ms">
                 <div class="do-wrap text-center">
-                    <div class="blue top"></div>
-                    <span class="blue"><i class="icon2-wifi-full"></i></span>
+                    <div class="dark_red top"></div>
+                    <span class="dark_red"><i class="icon2-wifi-full"></i></span>
                     <h4>Wi-fi grátis</h4>
                     <p>Basta fazer um Check In em Nosso Facebook</p>
                     <a href="#." class="readmore"></a></div>

@@ -12852,9 +12852,16 @@ textarea.form-control-area:focus  {
 .red{
     background:#FF0009;
 }
+.dark_red{
+    background:#960F0F;
+}
+.light_red{
+    background:#F01923;
+}
+
 
 .we-do .do-wrap:hover .top, we-do .do-wrap:focus .top, .we-do .do-wrap:hover span, .we-do .do-wrap:focus span{
-    background:#F7D917;
+    background:#F01923;
 }
 
 
