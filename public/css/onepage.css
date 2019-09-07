@@ -920,7 +920,8 @@ Table Of Content
 
 		/* ------------ Paralax background ------------ */
 		#bg-paralax {
-			background:url("../images/quem-somos.jpg") no-repeat;
+			background:url("../images/a-marca.png") no-repeat;
+                        background-color: #B2071A;
 			color: #fff;
 			padding:10% 0;
 		}
