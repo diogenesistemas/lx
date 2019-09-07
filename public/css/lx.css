@@ -11523,7 +11523,7 @@ ul.top-right li a:hover,
 #navigation.affix .navbar-default .navbar-nav > .active a, #navigation.affix .navbar-default .navbar-nav > .active a:hover,
 #navigation.affix .navbar-default .navbar-nav > .active a:focus{
     color:#960F0F;
-    border-bottom:3px solid #FF0009;
+    border-bottom:3px solid #F01923;
     background-color:transparent;
 }
 
