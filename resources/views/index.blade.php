@@ -450,23 +450,7 @@
                     <h2 class="heading">Nossos Clientes Felizes</h2>
                     <div id="testinomial-slider" class="owl-carousel">
 
-                   {{--  {{var_dump($data_ratings)}} --}}
-
-                        @foreach($data_ratings as $rating)
-                            @if ($rating["has_review"] && $rating["has_rating"])
-                                <div class="item">
-                                    <p>{{$rating["review_text"]}}</p>
-                               {{--      <h5>{{$rating["reviewer"]["name"]}}</h5> --}}
-                                    <div class="rating-list">
-                                        <div class="rl-star">
-                                            @for($cont = 1; $cont <= 5; $cont++)
-                                                <i class="zmdi icon2-star3 {{$cont<=$rating["rating"]?"active": ""}}"></i>
-                                            @endfor
-                                        </div>
-                                    </div>
-                                </div>
-                            @endif
-                        @endforeach
+                   
                     </div>
                 </div>
             </div>
