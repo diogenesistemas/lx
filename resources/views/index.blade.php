@@ -70,7 +70,7 @@
                                 <li>
                                     <a href="#findus" class="page-scroll">Encontre-nos</a>
                                 </li>
-                                <a href="#file-email" class="btn-common btn-navy-blue bounce-yellow page-scroll">Envie
+                                <a href="#file-email" class="btn-common btn-navy-dark-red bounce-yellow page-scroll">Envie
                                     um
                                     arquivo</a>
                             </ul>
@@ -154,7 +154,7 @@
                                        name="contact" id="contact" required>
                             </div>
                             <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-                                <button href="javascript:;" class="btn-black btn-navy-blue bounce-yellow" id="send">
+                                <button href="javascript:;" class="btn-black btn-navy-dark-red bounce-yellow" id="send">
                                     Enviar
                                     Mensagem
                                 </button>
