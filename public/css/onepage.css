@@ -1387,7 +1387,7 @@ Table Of Content
 		font-size:20px;
 		right:25px;
 		z-index:800;
-		background:#03426B;
+		background:#960F0F;
 		color:#fff;
 		border-radius:5px;
 		height:40px;
@@ -1397,7 +1397,7 @@ Table Of Content
 		opacity:0;
 	}
 	.go-top:hover, .go-top:focus{
-		background:#F7D917;
+		background:#F01923;
 		color:#fff;
 	}
 	.go-top.show {
