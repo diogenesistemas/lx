@@ -31,10 +31,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="top-right text-right">
-                        <li><a href="http://www.facebook.com/lojalucianoxerox" class="facebook"><i
+                        <li><a href="http://www.facebook.com/lucianocopiasepapelaria" class="facebook"><i
                                         class="fa fa-facebook"></i></a></li>
-                        <li><a href="http://twitter.com/lxerox" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="http://www.instagram.com/lucianoxerox" class="instagram"><i
+                        <li><a href="http://twitter.com/lucianocopiasepapelaria" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://www.instagram.com/lucianocopiasepapelaria" class="instagram"><i
                                         class="icon-instagram"></i></a></li>
                     </ul>
 
@@ -377,11 +377,11 @@
                 <p><strong>Telefone:</strong> (83) 3531-6496</p>
                 <p><strong>E-mail:</strong> <a href="#."> llxerox@yahoo.com.br </a></p>
                 <ul class="social-link">
-                    <li><a href="http://www.facebook.com/lojalucianoxerox" class="text-center"><i
+                    <li><a href="http://www.facebook.com/lucianocopiasepapelaria" class="text-center"><i
                                     class="fa fa-facebook"></i><span></span></a></li>
-                    <li><a href="http://twitter.com/lxerox" class="text-center"><i
+                    <li><a href="http://twitter.com/lucianocopiasepapelaria" class="text-center"><i
                                     class="fa fa-twitter"></i><span></span></a></li>
-                    <li><a href="http://www.instagram.com/lucianoxerox" class="text-center"><i
+                    <li><a href="http://www.instagram.com/lucianocopiasepapelaria" class="text-center"><i
                                     class="fa fa-instagram"></i><span></span></a></li>
 
                 </ul>
