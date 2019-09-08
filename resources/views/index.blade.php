@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <title>Luciano Xerox | A maior Loja de Fotocópias da Paraíba</title>
+        <title>Luciano Cópias | Excelência em Resultados</title>
         <link rel="shortcut icon" href="images/favicon.png">
         <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
               type='text/css'>
