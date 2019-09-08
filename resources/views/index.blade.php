@@ -33,8 +33,8 @@
                             <ul class="top-right text-right">
                                 <li><a href="http://www.facebook.com/lucianocopiasepapelaria" class="facebook"><i
                                             class="fa fa-facebook"></i></a></li>
-                                <li><a href="http://twitter.com/lucianocopiasepapelaria" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="http://www.instagram.com/lucianocopiasepapelaria" class="instagram"><i
+                                <li><a href="http://twitter.com/lucianocopias" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="http://www.instagram.com/lucianocopias" class="instagram"><i
                                             class="icon-instagram"></i></a></li>
                             </ul>
 
@@ -332,13 +332,13 @@
                         <h2>Estamos Aqui</h2>
                         <p><strong>Endereço:</strong> Rua Sebastião Bandeira de Melo, 242 - Centro, Cajazeiras-PB 58900-000</p>
                         <p><strong>Telefone:</strong> (83) 3531-6496</p>
-                        <p><strong>E-mail:</strong> <a href="#."> llxerox@yahoo.com.br </a></p>
+                        <p><strong>E-mail:</strong> <a href="#."> lucianocopias@yahoo.com </a></p>
                         <ul class="social-link">
                             <li><a href="http://www.facebook.com/lucianocopiasepapelaria" class="text-center"><i
                                         class="fa fa-facebook"></i><span></span></a></li>
-                            <li><a href="http://twitter.com/lucianocopiasepapelaria" class="text-center"><i
+                            <li><a href="http://twitter.com/lucianocopias" class="text-center"><i
                                         class="fa fa-twitter"></i><span></span></a></li>
-                            <li><a href="http://www.instagram.com/lucianocopiasepapelaria" class="text-center"><i
+                            <li><a href="http://www.instagram.com/lucianocopias" class="text-center"><i
                                         class="fa fa-instagram"></i><span></span></a></li>
 
                         </ul>
