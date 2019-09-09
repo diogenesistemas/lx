@@ -6,7 +6,7 @@
 </head>
 <body>
 <div>
-    <h1>Email enviado através do site www.lucianoxerox.com.br</h1>
+    <h1>Email enviado através do site {{env('APP_URL')}}</h1>
     <br>
     <h2>Mensagem: {{$user->message}}</h2>
     <h3>Contato: {{$user->contact}}</h3>
