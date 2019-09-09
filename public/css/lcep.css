@@ -29,9 +29,9 @@
     font-family: 'icomoon';
     src:    url('../fonts/icomoon.eot?atrcei');
     src:    url('../fonts/icomoon.eot?atrcei#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?atrcei') format('truetype'),
-    url('../fonts/icomoon.woff?atrcei') format('woff'),
-    url('../fonts/icomoon.svg?atrcei#icomoon') format('svg');
+        url('../fonts/icomoon.ttf?atrcei') format('truetype'),
+        url('../fonts/icomoon.woff?atrcei') format('woff'),
+        url('../fonts/icomoon.svg?atrcei#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -5135,9 +5135,9 @@
     font-family: 'font-icons';
     src:url('../fonts/font-icons.eot');
     src:url('../fonts/font-icons.eot') format('embedded-opentype'),
-    url('../fonts/font-icons.woff') format('woff'),
-    url('../fonts/font-icons.ttf') format('truetype'),
-    url('../fonts/font-icons.svg') format('svg');
+        url('../fonts/font-icons.woff') format('woff'),
+        url('../fonts/font-icons.ttf') format('truetype'),
+        url('../fonts/font-icons.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -5146,9 +5146,9 @@
     font-family: 'lined-icons';
     src:url('../fonts/lined-icons.eot');
     src:url('../fonts/lined-icons.eot') format('embedded-opentype'),
-    url('../fonts/lined-icons.woff') format('woff'),
-    url('../fonts/lined-icons.ttf') format('truetype'),
-    url('../fonts/lined-icons.svg') format('svg');
+        url('../fonts/lined-icons.woff') format('woff'),
+        url('../fonts/lined-icons.ttf') format('truetype'),
+        url('../fonts/lined-icons.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -5157,9 +5157,9 @@
     font-family: 'Simple-Line-Icons';
     src:url('../fonts/Simple-Line-Icons.eot');
     src:url('../fonts/Simple-Line-Icons.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Simple-Line-Icons.woff') format('woff'),
-    url('../fonts/Simple-Line-Icons.ttf') format('truetype'),
-    url('../fonts/Simple-Line-Icons.svg#Simple-Line-Icons') format('svg');
+        url('../fonts/Simple-Line-Icons.woff') format('woff'),
+        url('../fonts/Simple-Line-Icons.ttf') format('truetype'),
+        url('../fonts/Simple-Line-Icons.svg#Simple-Line-Icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -8042,9 +8042,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /*-----------------------------------------------------------------------------
 
-	-	Revolution Slider 4.1 Captions -
+        -	Revolution Slider 4.1 Captions -
 
-		Screen Stylesheet
+                Screen Stylesheet
 
 version:   	1.4.5
 date:      	27/11/13
@@ -8054,7 +8054,7 @@ website:   	http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 
 /*********************************************
-	-	SETTINGS FOR BANNER CONTAINERS	-
+        -	SETTINGS FOR BANNER CONTAINERS	-
 **********************************************/
 
 .tp-banner-container{
@@ -8079,7 +8079,7 @@ website:   	http://www.themepunch.com
 
 
 /*************************
-	-	CAPTIONS	-
+        -	CAPTIONS	-
 **************************/
 
 .tp-static-layers	{
@@ -8597,10 +8597,10 @@ website:   	http://www.themepunch.com
     text-shadow:none;
 }
 /*.tp-caption a {
-	-webkit-transition:all 0.2s ease-out;
-	-moz-transition:all 0.2s ease-out;
-	-o-transition:all 0.2s ease-out;
-	-ms-transition:all 0.2s ease-out;
+        -webkit-transition:all 0.2s ease-out;
+        -moz-transition:all 0.2s ease-out;
+        -o-transition:all 0.2s ease-out;
+        -ms-transition:all 0.2s ease-out;
 }
 
 .tp-caption a:hover{
@@ -9098,16 +9098,16 @@ website:   	http://www.themepunch.com
 
 
 .tp_inner_padding	{	box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    max-height:none !important;	}
+                    -webkit-box-sizing:border-box;
+                    -moz-box-sizing:border-box;
+                    max-height:none !important;	}
 
 
 /*.tp-caption			{	transform:none !important}*/
 
 
 /*********************************
-	-	SPECIAL TP CAPTIONS -
+        -	SPECIAL TP CAPTIONS -
 **********************************/
 .tp-caption .frontcorner		{
     width: 0;
@@ -9146,13 +9146,13 @@ website:   	http://www.themepunch.com
 }
 
 /******************************
-	-	BUTTONS	-
+        -	BUTTONS	-
 *******************************/
 
 .tp-simpleresponsive .button				{	padding:6px 13px 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; height:30px;
-    cursor:pointer;
-    color:#fff !important; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6) !important; font-size:15px; line-height:45px !important;
-    background:url(../images/gradient/g30.png) repeat-x top; font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
+                                  cursor:pointer;
+                                  color:#fff !important; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6) !important; font-size:15px; line-height:45px !important;
+                                  background:url(../images/gradient/g30.png) repeat-x top; font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
 }
 
 .tp-simpleresponsive  .button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; background:url(../images/gradient/g40.png) repeat-x top}
@@ -9215,22 +9215,22 @@ website:   	http://www.themepunch.com
 
 /****************************************************************
 
-	-	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
+        -	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
 
 ******************************************************************/
 
 /*.tp-simpleresponsive				{	-webkit-perspective: 1500px;
-										-moz-perspective: 1500px;
-										-o-perspective: 1500px;
-										-ms-perspective: 1500px;
-										perspective: 1500px;
-									}*/
+                                                                                -moz-perspective: 1500px;
+                                                                                -o-perspective: 1500px;
+                                                                                -ms-perspective: 1500px;
+                                                                                perspective: 1500px;
+                                                                        }*/
 
 
 
 
 /**********************************************
-	-	FULLSCREEN AND FULLWIDHT CONTAINERS	-
+        -	FULLSCREEN AND FULLWIDHT CONTAINERS	-
 **********************************************/
 
 .fullscreen-container {
@@ -9256,7 +9256,7 @@ website:   	http://www.themepunch.com
 
 
 /************************************************
-	  - SOME CAPTION MODIFICATION AT START  -
+          - SOME CAPTION MODIFICATION AT START  -
 *************************************************/
 .tp-simpleresponsive .caption,
 .tp-simpleresponsive .tp-caption {
@@ -9271,7 +9271,7 @@ website:   	http://www.themepunch.com
 
 
 /******************************
-	-	IE8 HACKS	-
+        -	IE8 HACKS	-
 *******************************/
 .noFilterClass {
     filter:none !important;
@@ -9279,7 +9279,7 @@ website:   	http://www.themepunch.com
 
 
 /******************************
-	-	SHADOWS		-
+        -	SHADOWS		-
 ******************************/
 .tp-bannershadow  {
     position:absolute;
@@ -9298,7 +9298,7 @@ website:   	http://www.themepunch.com
 
 
 /********************************
-	-	FULLSCREEN VIDEO	-
+        -	FULLSCREEN VIDEO	-
 *********************************/
 .caption.fullscreenvideo {	left:0px; top:0px; position:absolute;width:100%;height:100%}
 .caption.fullscreenvideo iframe,
@@ -9319,19 +9319,19 @@ website:   	http://www.themepunch.com
 .html5vid.videoisplaying .tp-poster	{	display: none}
 
 .tp-video-play-button		{	background:#000;
-    background:rgba(0,0,0,0.3);
-    padding:5px;
-    border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 40px;
-    color: #FFF;
-    z-index: 3;
-    margin-top: -27px;
-    margin-left: -28px;
-    text-align: center;
-    cursor: pointer;
+                         background:rgba(0,0,0,0.3);
+                         padding:5px;
+                         border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;
+                         position: absolute;
+                         top: 50%;
+                         left: 50%;
+                         font-size: 40px;
+                         color: #FFF;
+                         z-index: 3;
+                         margin-top: -27px;
+                         margin-left: -28px;
+                         text-align: center;
+                         cursor: pointer;
 }
 
 .html5vid .tp-revstop		{	width:15px;height:20px; border-left:5px solid #fff; border-right:5px solid #fff; position:relative;margin:10px 20px; box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
@@ -9346,12 +9346,12 @@ website:   	http://www.themepunch.com
 
 
 /********************************
-	-	FULLSCREEN VIDEO ENDS	-
+        -	FULLSCREEN VIDEO ENDS	-
 *********************************/
 
 
 /********************************
-	-	DOTTED OVERLAYS	-
+        -	DOTTED OVERLAYS	-
 *********************************/
 .tp-dottedoverlay						{	background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:4}
 .tp-dottedoverlay.twoxtwo				{	background:url(../assets/gridtile.png)}
@@ -9359,12 +9359,12 @@ website:   	http://www.themepunch.com
 .tp-dottedoverlay.threexthree			{	background:url(../assets/gridtile_3x3.png)}
 .tp-dottedoverlay.threexthreewhite		{	background:url(../assets/gridtile_3x3_white.png)}
 /********************************
-	-	DOTTED OVERLAYS ENDS	-
+        -	DOTTED OVERLAYS ENDS	-
 *********************************/
 
 
 /************************
-	-	NAVIGATION	-
+        -	NAVIGATION	-
 *************************/
 
 /** BULLETS **/
@@ -9373,11 +9373,11 @@ website:   	http://www.themepunch.com
 
 
 .tp-bullets									{	z-index:1000; position:absolute;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
-    -webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;-webkit-transform: translateZ(5px);
+                      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                      -moz-opacity: 1;
+                      -khtml-opacity: 1;
+                      opacity: 1;
+                      -webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;-webkit-transform: translateZ(5px);
 }
 .tp-bullets.hidebullets					{
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -9434,18 +9434,18 @@ website:   	http://www.themepunch.com
 
 
 /*************************************
-	-	TP ARROWS 	-
+        -	TP ARROWS 	-
 **************************************/
 .tparrows												{	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
-    -webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
-    -webkit-transform: translateZ(5000px);
-    -webkit-transform-style: flat;
-    -webkit-backface-visibility: hidden;
-    z-index:600;
-    position: relative;
+                       -moz-opacity: 1;
+                       -khtml-opacity: 1;
+                       opacity: 1;
+                       -webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
+                       -webkit-transform: translateZ(5000px);
+                       -webkit-transform-style: flat;
+                       -webkit-backface-visibility: hidden;
+                       z-index:600;
+                       position: relative;
 
 }
 .tparrows.hidearrows									{
@@ -9535,7 +9535,7 @@ website:   	http://www.themepunch.com
 
 
 /****************************************************************************************************
-	-	TP THUMBS 	-
+        -	TP THUMBS 	-
 *****************************************************************************************************
 
  - tp-thumbs & tp-mask Width is the width of the basic Thumb Container (500px basic settings)
@@ -9546,43 +9546,43 @@ website:   	http://www.themepunch.com
 
 
 .tp-bullets.tp-thumbs						{	z-index:1000; position:absolute; padding:3px;background-color:#fff;
-    width:500px;height:50px; 			/* THE DIMENSIONS OF THE THUMB CONTAINER */
-    margin-top:-50px;
+                             width:500px;height:50px; 			/* THE DIMENSIONS OF THE THUMB CONTAINER */
+                             margin-top:-50px;
 }
 
 
 .fullwidthbanner-container .tp-thumbs		{  padding:3px}
 
 .tp-bullets.tp-thumbs .tp-mask				{	width:500px; height:50px;  			/* THE DIMENSIONS OF THE THUMB CONTAINER */
-    overflow:hidden; position:relative}
+                                    overflow:hidden; position:relative}
 
 
 .tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer	{	width:5000px; position:absolute}
 
 .tp-bullets.tp-thumbs .bullet				{   width:100px; height:50px; 			/* THE DIMENSION OF A SINGLE THUMB */
-    cursor:pointer; overflow:hidden;background:none;margin:0;float:left;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    /*filter: alpha(opacity=50);	*/
-    -moz-opacity: 0.5;
-    -khtml-opacity: 0.5;
-    opacity: 0.5;
+                                     cursor:pointer; overflow:hidden;background:none;margin:0;float:left;
+                                     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+                                     /*filter: alpha(opacity=50);	*/
+                                     -moz-opacity: 0.5;
+                                     -khtml-opacity: 0.5;
+                                     opacity: 0.5;
 
-    -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;
+                                     -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;
 }
 
 
 .tp-bullets.tp-thumbs .bullet:hover,
 .tp-bullets.tp-thumbs .bullet.selected		{ 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 
-    -moz-opacity: 1;
-    -khtml-opacity: 1;
-    opacity: 1;
+                                           -moz-opacity: 1;
+                                           -khtml-opacity: 1;
+                                           opacity: 1;
 }
 .tp-thumbs img								{	width:100%}
 
 
 /************************************
-		-	TP BANNER TIMER		-
+                -	TP BANNER TIMER		-
 *************************************/
 .tp-bannertimer								{	width:100%; height:10px; /*background:url(../images/timer.png);*/position:absolute; z-index:200;top:0px}
 .tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto}
@@ -9591,7 +9591,7 @@ website:   	http://www.themepunch.com
 
 
 /***************************************
-	-	RESPONSIVE SETTINGS 	-
+        -	RESPONSIVE SETTINGS 	-
 ****************************************/
 
 
@@ -9608,7 +9608,7 @@ website:   	http://www.themepunch.com
 
 /*********************************************
 
-	-	BASIC SETTINGS FOR THE BANNER	-
+        -	BASIC SETTINGS FOR THE BANNER	-
 
 ***********************************************/
 
@@ -9643,7 +9643,7 @@ website:   	http://www.themepunch.com
 
 
 /*****************************************
-	-	NAVIGATION FANCY EXAMPLES	-
+        -	NAVIGATION FANCY EXAMPLES	-
 *****************************************/
 
 .tparrows .tp-arr-imgholder								{ display: none}
@@ -9652,7 +9652,7 @@ website:   	http://www.themepunch.com
 
 
 /*****************************************
-	-	NAVIGATION FANCY EXAMPLES	-
+        -	NAVIGATION FANCY EXAMPLES	-
 *****************************************/
 
 /* NAVIGATION PREVIEW 1 */
@@ -9664,32 +9664,32 @@ website:   	http://www.themepunch.com
 .tparrows.preview1:hover:after 				{	background:rgba(255,255,255,1); color:#aaa}
 
 .tparrows.preview1 .tp-arr-imgholder 		{	background-size:cover; background-position:center center; display:block;width:100%;height:100%;position:absolute;top:0px;
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+                                         -webkit-transition: -webkit-transform 0.3s;
+                                         transition: transform 0.3s;
+                                         -webkit-backface-visibility: hidden;
+                                         backface-visibility: hidden;
 }
 /*.tparrows.preview1 .tp-arr-iwrapper			{	  -webkit-transition: all 0.3s;transition: all 0.3s;
-												-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0}
+                                                                                                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0}
 .tparrows.preview1:hover .tp-arr-iwrapper	{	  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1}*/
 
 
 .tp-rightarrow.preview1 .tp-arr-imgholder	{	right:100%;
-    -webkit-transform: rotateY(-90deg);
-    transform: rotateY(-90deg);
-    -webkit-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0;
+                                            -webkit-transform: rotateY(-90deg);
+                                            transform: rotateY(-90deg);
+                                            -webkit-transform-origin: 100% 50%;
+                                            transform-origin: 100% 50%;
+                                            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0;
 
 
 
 }
 .tp-leftarrow.preview1 .tp-arr-imgholder	{	left:100%;
-    -webkit-transform: rotateY(90deg);
-    transform: rotateY(90deg);
-    -webkit-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0;
+                                           -webkit-transform: rotateY(90deg);
+                                           transform: rotateY(90deg);
+                                           -webkit-transform-origin: 0% 50%;
+                                           transform-origin: 0% 50%;
+                                           -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0;
 
 
 
@@ -9697,8 +9697,8 @@ website:   	http://www.themepunch.com
 
 
 .tparrows.preview1:hover .tp-arr-imgholder	{	-webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1;
+                                             transform: rotateY(0deg);
+                                             -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1;
 
 }
 
@@ -9726,38 +9726,38 @@ website:   	http://www.themepunch.com
 
 .tp-bullets.preview1 						{ 	height: 21px}
 .tp-bullets.preview1 .bullet 				{	cursor: pointer;
-    position: relative !important;
-    background: rgba(0, 0, 0, 0.15) !important;
-    /*-webkit-border-radius: 10px;
-    border-radius: 10px;*/
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    width: 5px !important;
-    height: 5px !important;
-    border: 8px solid rgba(0, 0, 0, 0) !important;
-    display: inline-block;
-    margin-right: 5px !important;
-    margin-bottom: 0px !important;
-    -webkit-transition: background-color 0.2s, border-color 0.2s;
-    -moz-transition: background-color 0.2s, border-color 0.2s;
-    -o-transition: background-color 0.2s, border-color 0.2s;
-    -ms-transition: background-color 0.2s, border-color 0.2s;
-    transition: background-color 0.2s, border-color 0.2s;
-    float:none !important;
-    box-sizing:content-box;
-    -moz-box-sizing:content-box;
-    -webkit-box-sizing:content-box;
+                                   position: relative !important;
+                                   background: rgba(0, 0, 0, 0.15) !important;
+                                   /*-webkit-border-radius: 10px;
+                                   border-radius: 10px;*/
+                                   -webkit-box-shadow: none;
+                                   -moz-box-shadow: none;
+                                   box-shadow: none;
+                                   width: 5px !important;
+                                   height: 5px !important;
+                                   border: 8px solid rgba(0, 0, 0, 0) !important;
+                                   display: inline-block;
+                                   margin-right: 5px !important;
+                                   margin-bottom: 0px !important;
+                                   -webkit-transition: background-color 0.2s, border-color 0.2s;
+                                   -moz-transition: background-color 0.2s, border-color 0.2s;
+                                   -o-transition: background-color 0.2s, border-color 0.2s;
+                                   -ms-transition: background-color 0.2s, border-color 0.2s;
+                                   transition: background-color 0.2s, border-color 0.2s;
+                                   float:none !important;
+                                   box-sizing:content-box;
+                                   -moz-box-sizing:content-box;
+                                   -webkit-box-sizing:content-box;
 }
 .tp-bullets.preview1 .bullet.last 			{	margin-right: 0px}
 .tp-bullets.preview1 .bullet:hover,
 .tp-bullets.preview1 .bullet.selected 		{	-webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    background: #aaa !important;
-    width: 5px !important;
-    height: 5px !important;
-    border: 8px solid rgba(255, 255, 255, 1) !important;
+                                          -moz-box-shadow: none;
+                                          box-shadow: none;
+                                          background: #aaa !important;
+                                          width: 5px !important;
+                                          height: 5px !important;
+                                          border: 8px solid rgba(255, 255, 255, 1) !important;
 }
 
 
@@ -9787,28 +9787,28 @@ website:   	http://www.themepunch.com
 
 
 /*.tparrows.preview2 .tp-arr-titleholder{
-	background-size:cover; background-position:center center; display:block; visibility:hidden;position:relative;top:0px;
-												-webkit-transition: -webkit-transform 0.3s;
-												transition: transform 0.3s;
-												-webkit-backface-visibility: hidden;
-												backface-visibility: hidden;
-												white-space: nowrap;
-												color: #000;
-												text-transform: uppercase;
-												font-weight: 400;
-												font-size: 14px;
-												line-height: 60px;
-												padding:0px 10px;
-											}
+        background-size:cover; background-position:center center; display:block; visibility:hidden;position:relative;top:0px;
+                                                                                                -webkit-transition: -webkit-transform 0.3s;
+                                                                                                transition: transform 0.3s;
+                                                                                                -webkit-backface-visibility: hidden;
+                                                                                                backface-visibility: hidden;
+                                                                                                white-space: nowrap;
+                                                                                                color: #000;
+                                                                                                text-transform: uppercase;
+                                                                                                font-weight: 400;
+                                                                                                font-size: 14px;
+                                                                                                line-height: 60px;
+                                                                                                padding:0px 10px;
+                                                                                        }
 
 .tp-rightarrow.preview2 .tp-arr-titleholder	{	 right:50px;
-												-webkit-transform: translateX(-100%);
-												transform: translateX(-100%);
-											}
+                                                                                                -webkit-transform: translateX(-100%);
+                                                                                                transform: translateX(-100%);
+                                                                                        }
 .tp-leftarrow.preview2 .tp-arr-titleholder	{	left:50px;
-												-webkit-transform: translateX(100%);
-												transform: translateX(100%);
-											}*/
+                                                                                                -webkit-transform: translateX(100%);
+                                                                                                transform: translateX(100%);
+                                                                                        }*/
 
 .tparrows.preview2.hovered{}
 .tparrows.preview2:hover{
@@ -9819,10 +9819,10 @@ website:   	http://www.themepunch.com
     color:#fff;
 }
 /*.tparrows.preview2:hover .tp-arr-titleholder{	-webkit-transform: translateX(0px);
-													transform: translateX(0px);
-													visibility: visible;
-													position: absolute;
-											}*/
+                                                                                                        transform: translateX(0px);
+                                                                                                        visibility: visible;
+                                                                                                        position: absolute;
+                                                                                        }*/
 
 
 
@@ -9831,38 +9831,38 @@ website:   	http://www.themepunch.com
 
 .tp-bullets.preview2 						{ 	height: 17px; display:none;}
 .tp-bullets.preview2 .bullet 				{	cursor: pointer;
-    position: relative !important;
-    background: rgba(0, 0, 0, 0.5) !important;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    width: 6px !important;
-    height: 6px !important;
-    border: 5px solid rgba(0, 0, 0, 0) !important;
-    display: inline-block;
-    margin-right: 2px !important;
-    margin-bottom: 0px !important;
-    -webkit-transition: background-color 0.2s, border-color 0.2s;
-    -moz-transition: background-color 0.2s, border-color 0.2s;
-    -o-transition: background-color 0.2s, border-color 0.2s;
-    -ms-transition: background-color 0.2s, border-color 0.2s;
-    transition: background-color 0.2s, border-color 0.2s;
-    float:none !important;
-    box-sizing:content-box;
-    -moz-box-sizing:content-box;
-    -webkit-box-sizing:content-box;
+                                   position: relative !important;
+                                   background: rgba(0, 0, 0, 0.5) !important;
+                                   -webkit-border-radius: 10px;
+                                   border-radius: 10px;
+                                   -webkit-box-shadow: none;
+                                   -moz-box-shadow: none;
+                                   box-shadow: none;
+                                   width: 6px !important;
+                                   height: 6px !important;
+                                   border: 5px solid rgba(0, 0, 0, 0) !important;
+                                   display: inline-block;
+                                   margin-right: 2px !important;
+                                   margin-bottom: 0px !important;
+                                   -webkit-transition: background-color 0.2s, border-color 0.2s;
+                                   -moz-transition: background-color 0.2s, border-color 0.2s;
+                                   -o-transition: background-color 0.2s, border-color 0.2s;
+                                   -ms-transition: background-color 0.2s, border-color 0.2s;
+                                   transition: background-color 0.2s, border-color 0.2s;
+                                   float:none !important;
+                                   box-sizing:content-box;
+                                   -moz-box-sizing:content-box;
+                                   -webkit-box-sizing:content-box;
 }
 .tp-bullets.preview2 .bullet.last 			{	margin-right: 0px}
 .tp-bullets.preview2 .bullet:hover,
 .tp-bullets.preview2 .bullet.selected 		{	-webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    background: rgba(255, 255, 255, 1) !important;
-    width: 6px !important;
-    height: 6px !important;
-    border: 5px solid rgba(0, 0, 0, 1) !important;
+                                          -moz-box-shadow: none;
+                                          box-shadow: none;
+                                          background: rgba(255, 255, 255, 1) !important;
+                                          width: 6px !important;
+                                          height: 6px !important;
+                                          border: 5px solid rgba(0, 0, 0, 1) !important;
 }
 
 .tp-arr-titleholder.alwayshidden			{	display:none !important}
@@ -9870,7 +9870,7 @@ website:   	http://www.themepunch.com
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
     .tparrows.preview2 {	min-width:40px; min-height:40px; width:40px;height:40px;
-        border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px;
+                         border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px;
     }
     .tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; font-size:20px; margin-top: -12px}
     .tp-rightarrow.preview2:after				{	content: '\e81e';  right:11px}
@@ -9883,7 +9883,7 @@ website:   	http://www.themepunch.com
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .tparrows.preview2 						{	min-width:30px; min-height:30px; width:30px;height:30px;
-        border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;
+                               border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;
     }
     .tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; font-size:14px; margin-top: -12px}
     .tp-rightarrow.preview2:after				{	content: '\e81e';  right:8px}
@@ -9898,7 +9898,7 @@ website:   	http://www.themepunch.com
 
 @media only screen and (min-width: 0px) and (max-width: 479px) {
     .tparrows.preview2 							{	min-width:30px; min-height:30px; width:30px;height:30px;
-        border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;
+                                border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px;
     }
     .tparrows.preview2:after					{	position:absolute; top:50%; font-family: "revicons"; font-size:14px; margin-top: -12px}
     .tp-rightarrow.preview2:after				{	content: '\e81e';  right:8px}
@@ -9928,13 +9928,13 @@ website:   	http://www.themepunch.com
     display: table;min-height:90px;top:-10px}
 
 .tp-leftarrow.preview3 .tp-arr-iwrapper		{	 -webkit-transform: scale(0,1);
-    transform: scale(0,1);
-    -webkit-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
+                                            transform: scale(0,1);
+                                            -webkit-transform-origin: 0% 50%;
+                                            transform-origin: 0% 50%;
 }
 
 .tparrows.preview3 .tp-arr-imgholder 		{	display:block;background-size:cover; background-position:center center; display:table-cell;min-width:90px;height:90px;
-    position:relative;top:0px}
+                                         position:relative;top:0px}
 
 .tp-rightarrow.preview3 .tp-arr-iwrapper	{	right:0px;padding-right:70px}
 .tp-leftarrow.preview3 .tp-arr-iwrapper		{	left:0px; direction: rtl;padding-left:70px}
@@ -9949,38 +9949,38 @@ website:   	http://www.themepunch.com
 /* PREVIEW 3 BULLETS */
 .tp-bullets.preview3 						{ 	height: 17px}
 .tp-bullets.preview3 .bullet 				{	cursor: pointer;
-    position: relative !important;
-    background: rgba(0, 0, 0, 0.5) !important;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    width: 6px !important;
-    height: 6px !important;
-    border: 5px solid rgba(0, 0, 0, 0) !important;
-    display: inline-block;
-    margin-right: 2px !important;
-    margin-bottom: 0px !important;
-    -webkit-transition: background-color 0.2s, border-color 0.2s;
-    -moz-transition: background-color 0.2s, border-color 0.2s;
-    -o-transition: background-color 0.2s, border-color 0.2s;
-    -ms-transition: background-color 0.2s, border-color 0.2s;
-    transition: background-color 0.2s, border-color 0.2s;
-    float:none !important;
-    box-sizing:content-box;
-    -moz-box-sizing:content-box;
-    -webkit-box-sizing:content-box;
+                                   position: relative !important;
+                                   background: rgba(0, 0, 0, 0.5) !important;
+                                   -webkit-border-radius: 10px;
+                                   border-radius: 10px;
+                                   -webkit-box-shadow: none;
+                                   -moz-box-shadow: none;
+                                   box-shadow: none;
+                                   width: 6px !important;
+                                   height: 6px !important;
+                                   border: 5px solid rgba(0, 0, 0, 0) !important;
+                                   display: inline-block;
+                                   margin-right: 2px !important;
+                                   margin-bottom: 0px !important;
+                                   -webkit-transition: background-color 0.2s, border-color 0.2s;
+                                   -moz-transition: background-color 0.2s, border-color 0.2s;
+                                   -o-transition: background-color 0.2s, border-color 0.2s;
+                                   -ms-transition: background-color 0.2s, border-color 0.2s;
+                                   transition: background-color 0.2s, border-color 0.2s;
+                                   float:none !important;
+                                   box-sizing:content-box;
+                                   -moz-box-sizing:content-box;
+                                   -webkit-box-sizing:content-box;
 }
 .tp-bullets.preview3 .bullet.last 			{	margin-right: 0px}
 .tp-bullets.preview3 .bullet:hover,
 .tp-bullets.preview3 .bullet.selected 		{	-webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    background: rgba(255, 255, 255, 1) !important;
-    width: 6px !important;
-    height: 6px !important;
-    border: 5px solid rgba(0, 0, 0, 1) !important;
+                                          -moz-box-shadow: none;
+                                          box-shadow: none;
+                                          background: rgba(255, 255, 255, 1) !important;
+                                          width: 6px !important;
+                                          height: 6px !important;
+                                          border: 5px solid rgba(0, 0, 0, 1) !important;
 }
 
 
@@ -10011,11 +10011,11 @@ website:   	http://www.themepunch.com
 /* NAVIGATION PREVIEW 4 */
 .tparrows.preview4 							{	width:30px; height:110px;  background:transparent;-webkit-transform-style: preserve-3d; -webkit-perspective: 1000; -moz-perspective: 1000}
 .tparrows.preview4:after					{	position:absolute;  line-height: 110px;text-align: center; font-family: "revicons"; color:#fff; font-size:20px; top:0px;left:0px;z-index:0; width:30px;height:110px; background: #000; background: rgba(0,0,0,0.25);
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1;
+                               -webkit-transition: all 0.2s ease-in-out;
+                               -moz-transition: all 0.2s ease-in-out;
+                               -o-transition: all 0.2s ease-in-out;
+                               transition: all 0.2s ease-in-out;
+                               -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1;
 
 }
 
@@ -10029,10 +10029,10 @@ website:   	http://www.themepunch.com
 .tparrows.preview4 .tp-arr-iwrapper			{	position: relative}
 
 .tparrows.preview4 .tp-arr-imgholder 		{	display:block;background-size:cover; background-position:center center;width:180px;height:110px;
-    position:relative;top:0px;
+                                         position:relative;top:0px;
 
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+                                         -webkit-backface-visibility: hidden;
+                                         backface-visibility: hidden;
 
 
 
@@ -10040,9 +10040,9 @@ website:   	http://www.themepunch.com
 
 
 .tparrows.preview4 .tp-arr-imgholder2 		{	display:block;background-size:cover; background-position:center center; width:180px;height:110px;
-    position:absolute;top:0px; left:180px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+                                          position:absolute;top:0px; left:180px;
+                                          -webkit-backface-visibility: hidden;
+                                          backface-visibility: hidden;
 
 }
 
@@ -10052,23 +10052,23 @@ website:   	http://www.themepunch.com
 
 
 .tparrows.preview4 .tp-arr-titleholder		{	display:block; font-size:12px; line-height:25px; padding:0px 10px;text-align:left;color:#fff; position: relative;
-    background: #000;
-    color: #FFF;
-    text-transform: uppercase;
-    white-space: nowrap;
-    letter-spacing: 1px;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 2.75;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-    -webkit-transform-origin: 50% 0;
-    transform-origin: 50% 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0;
+                                          background: #000;
+                                          color: #FFF;
+                                          text-transform: uppercase;
+                                          white-space: nowrap;
+                                          letter-spacing: 1px;
+                                          font-weight: 700;
+                                          font-size: 11px;
+                                          line-height: 2.75;
+                                          -webkit-transition: all 0.3s;
+                                          transition: all 0.3s;
+                                          -webkit-transform: rotateX(-90deg);
+                                          transform: rotateX(-90deg);
+                                          -webkit-transform-origin: 50% 0;
+                                          transform-origin: 50% 0;
+                                          -webkit-backface-visibility: hidden;
+                                          backface-visibility: hidden;
+                                          -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0);-moz-opacity: 0.0;-khtml-opacity: 0.0;opacity: 0.0;
 
 
 }
@@ -10087,10 +10087,10 @@ website:   	http://www.themepunch.com
 
 
     .tparrows.preview4:hover .tp-arr-titleholder	{	-webkit-transition-delay: 0.4s;
-        transition-delay: 0.4s;
-        -webkit-transform: rotateX(0deg);
-        transform: rotateX(0deg);
-        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1;
+                                                   transition-delay: 0.4s;
+                                                   -webkit-transform: rotateX(0deg);
+                                                   transform: rotateX(0deg);
+                                                   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";filter: alpha(opacity=100);-moz-opacity: 1;-khtml-opacity: 1;opacity: 1;
 
     }
 }
@@ -10099,38 +10099,38 @@ website:   	http://www.themepunch.com
 
 .tp-bullets.preview4 						{ 	height: 17px}
 .tp-bullets.preview4 .bullet 				{	cursor: pointer;
-    position: relative !important;
-    background: rgba(0, 0, 0, 0.5) !important;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    width: 6px !important;
-    height: 6px !important;
-    border: 5px solid rgba(0, 0, 0, 0) !important;
-    display: inline-block;
-    margin-right: 2px !important;
-    margin-bottom: 0px !important;
-    -webkit-transition: background-color 0.2s, border-color 0.2s;
-    -moz-transition: background-color 0.2s, border-color 0.2s;
-    -o-transition: background-color 0.2s, border-color 0.2s;
-    -ms-transition: background-color 0.2s, border-color 0.2s;
-    transition: background-color 0.2s, border-color 0.2s;
-    float:none !important;
-    box-sizing:content-box;
-    -moz-box-sizing:content-box;
-    -webkit-box-sizing:content-box;
+                                   position: relative !important;
+                                   background: rgba(0, 0, 0, 0.5) !important;
+                                   -webkit-border-radius: 10px;
+                                   border-radius: 10px;
+                                   -webkit-box-shadow: none;
+                                   -moz-box-shadow: none;
+                                   box-shadow: none;
+                                   width: 6px !important;
+                                   height: 6px !important;
+                                   border: 5px solid rgba(0, 0, 0, 0) !important;
+                                   display: inline-block;
+                                   margin-right: 2px !important;
+                                   margin-bottom: 0px !important;
+                                   -webkit-transition: background-color 0.2s, border-color 0.2s;
+                                   -moz-transition: background-color 0.2s, border-color 0.2s;
+                                   -o-transition: background-color 0.2s, border-color 0.2s;
+                                   -ms-transition: background-color 0.2s, border-color 0.2s;
+                                   transition: background-color 0.2s, border-color 0.2s;
+                                   float:none !important;
+                                   box-sizing:content-box;
+                                   -moz-box-sizing:content-box;
+                                   -webkit-box-sizing:content-box;
 }
 .tp-bullets.preview4 .bullet.last 			{	margin-right: 0px}
 .tp-bullets.preview4 .bullet:hover,
 .tp-bullets.preview4 .bullet.selected 		{	-webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    background: rgba(255, 255, 255, 1) !important;
-    width: 6px !important;
-    height: 6px !important;
-    border: 5px solid rgba(0, 0, 0, 1) !important;
+                                          -moz-box-shadow: none;
+                                          box-shadow: none;
+                                          background: rgba(255, 255, 255, 1) !important;
+                                          width: 6px !important;
+                                          height: 6px !important;
+                                          border: 5px solid rgba(0, 0, 0, 1) !important;
 }
 
 
@@ -10147,7 +10147,7 @@ website:   	http://www.themepunch.com
 
 
 /******************************
-	-	LOADER FORMS	-
+        -	LOADER FORMS	-
 ********************************/
 
 .tp-loader 	{
@@ -10193,12 +10193,12 @@ website:   	http://www.themepunch.com
 
 
 .tp-loader.spinner5 	{	background:url(../assets/loader.gif) no-repeat 10px 10px;
-    background-color:#fff;
-    margin:-22px -22px;
-    width:44px;height:44px;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+                       background-color:#fff;
+                       margin:-22px -22px;
+                       width:44px;height:44px;
+                       border-radius: 3px;
+                       -moz-border-radius: 3px;
+                       -webkit-border-radius: 3px;
 }
 
 
@@ -10213,12 +10213,12 @@ website:   	http://www.themepunch.com
         transform: perspective(120px) rotateX(0deg) rotateY(0deg);
         -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
     } 50% {
-          transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-          -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
-      } 100% {
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-        }
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    } 100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
 }
 
 
@@ -10247,10 +10247,10 @@ website:   	http://www.themepunch.com
         transform: scale(0.0);
         -webkit-transform: scale(0.0);
     } 100% {
-          transform: scale(1.0);
-          -webkit-transform: scale(1.0);
-          opacity: 0;
-      }
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+    }
 }
 
 
@@ -10300,9 +10300,9 @@ website:   	http://www.themepunch.com
         transform: scale(0.0);
         -webkit-transform: scale(0.0);
     } 40% {
-          transform: scale(1.0);
-          -webkit-transform: scale(1.0);
-      }
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
 }
 
 
@@ -10352,16 +10352,16 @@ website:   	http://www.themepunch.com
         transform: scale(0.0);
         -webkit-transform: scale(0.0);
     } 50% {
-          transform: scale(1.0);
-          -webkit-transform: scale(1.0);
-      }
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
 }
 
 
 
 .tp-transparentimg {	content:"url(../assets/transparent.png)"}
 .tp-3d				{	-webkit-transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50%;
+            -webkit-transform-origin: 50% 50%;
 }
 
 
@@ -10378,9 +10378,9 @@ website:   	http://www.themepunch.com
     font-family: 'revicons';
     src: url('../font/revicons.eot?5510888');
     src: url('../font/revicons.eot?5510888#iefix') format('embedded-opentype'),
-    url('../font/revicons.woff?5510888') format('woff'),
-    url('../font/revicons.ttf?5510888') format('truetype'),
-    url('../font/revicons.svg?5510888#revicons') format('svg');
+        url('../font/revicons.woff?5510888') format('woff'),
+        url('../font/revicons.ttf?5510888') format('truetype'),
+        url('../font/revicons.svg?5510888#revicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -10970,80 +10970,80 @@ Table Of Content
 
 + #main-navigation
 -.navigation
-	- .navbar-nav
-		- .page-scroll
+        - .navbar-nav
+                - .page-scroll
 
 +- #main-slider
 
 + #about
-	-.canvas-box
+        -.canvas-box
 
 + #bg-paralax
 
 + #facts
-	-.number-counters
-		-.counters-item
+        -.number-counters
+                -.counters-item
 
 + #responsive
-	-.responsive-pic
-	-.r-test
-		-.r-feature
-			-.screens
+        -.responsive-pic
+        -.r-test
+                -.r-feature
+                        -.screens
 
 + #experties
-	-.myStat2
-	-.circliful
-		-.circle-text
-			-canvas
+        -.myStat2
+        -.circliful
+                -.circle-text
+                        -canvas
 
 + .we-do
-	-.do-wrap
+        -.do-wrap
 
 + #thinkers
-	-.thinker-wrap
-		-.social-findus
+        -.thinker-wrap
+                -.social-findus
 
 + #project
    - .work-filter
-	- .work-item
-		- .overlay
-			- .overlay-inner
+        - .work-item
+                - .overlay
+                        - .overlay-inner
 
 
 + #pricing
-	-.pricing
-	-.pricing_tenzin
-		-.pricing_item
-			-.pricing_title
-			-.pricing_price
-			-.pricing_sentence
-			-.pricing_list
-			-.pricing_action
+        -.pricing
+        -.pricing_tenzin
+                -.pricing_item
+                        -.pricing_title
+                        -.pricing_price
+                        -.pricing_sentence
+                        -.pricing_list
+                        -.pricing_action
 
 
 + #testinomial
-	-#testinomial-slider
-	-.owl-carousel
-		.item
+        -#testinomial-slider
+        -.owl-carousel
+                .item
 
 + #publication
-	-#publication-slider
-	-.owl-carousel
-		.item
+        -#publication-slider
+        -.owl-carousel
+                .item
 
 + #findus
-	-#letstalk
+        -#letstalk
 
 + ##area-main
-	-.blog-wrap
-		-.blog-content
-			-.blog-item
+        -.blog-wrap
+                -.blog-content
+                        -.blog-item
 
 
 + footer
-	-.breadcrumb
+        -.breadcrumb
 
-	*/
+*/
 
 
 
@@ -11675,8 +11675,8 @@ ul.top-right li a:hover.instagram{
     transform-style: flat !important;
     width:20px;
 }.main-button > button span:nth-child(2){
-     margin: 3px 0;
- }
+    margin: 3px 0;
+}
 .navbar-brand {
     display: inline-block;
 }
@@ -12051,16 +12051,16 @@ ul.top-right li a:hover.instagram{
 
 /* ------------  Nossas Filiais ------------  */
 /*#thinkers .thinker-wrap img, #publication-slider .item .image img{
-	width:100%;
-	-moz-transition:all .2s linear;
-	-ms-transition:all .2s linear;
-	-o-transition:all .2s linear;
-	-webkit-transition:all .2s linear;
-	transition:all .2s linear;
+        width:100%;
+        -moz-transition:all .2s linear;
+        -ms-transition:all .2s linear;
+        -o-transition:all .2s linear;
+        -webkit-transition:all .2s linear;
+        transition:all .2s linear;
 }
 .thinker-wrap p{
-	margin:0 10px;
-	}*/
+        margin:0 10px;
+        }*/
 .thinker-image{
     width:100%;
     overflow:hidden;
@@ -12434,6 +12434,74 @@ ul.social-link li a :hover,  ul.social-link li a:focus{
     border: none;
 }
 
+/*WhatsApp*/
+
+ul.whatsapp-button li a{
+    display: inline-block;
+    position:fixed;bottom:70px;right:25px;z-index:1000;
+}
+
+ul.whatsapp-button li{
+    margin-top:10px;
+    display:inline-block;
+}
+
+ul.whatsapp-button li a {
+    background: #fff;
+    border: 1px solid green;
+    color: green !important;
+    border-radius: 44px;
+    font-size: 20px;
+    height: 44px;
+    width: 44px;
+    position:relative;
+    
+}
+
+ul.whatsapp-button li a span{    
+        
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+
+ul.whatsapp-button li a:hover span {
+    background: green;
+    border-radius:44px;
+    height:44px;
+    width:44px;
+    border: 1px solid #fff;
+    height:44px;
+    top: -1px;
+    left: -1px;
+    right: 0;
+    bottom: 0;
+}
+ul.whatsapp-button li a i {
+
+    height: 100%;
+    left: 0;
+    line-height: 42px;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 10;
+}
+
+ul.whatsapp-button li a :hover,  ul.whatsapp-button li a:focus{
+    color:#fff;
+    border: none;
+}
 
 
 /* ========================= Alert Classes ==================== */
@@ -12934,9 +13002,9 @@ textarea.form-control-area:focus  {
         -webkit-transform: scale(0);
         transform: scale(0);
     } 40% {
-          -webkit-transform: scale(1.0);
-          transform: scale(1.0);
-      }
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
 }
 
 /**

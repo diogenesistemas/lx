@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="images/favicon.png">
         <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
               type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/lcep.min.css">
+        <link rel="stylesheet" type="text/css" href="css/lcep.css">
 
 
     </head>
@@ -376,6 +376,15 @@
             </div>
         </footer>
 
+
+        <ul class="social-link whatsapp-button">
+            <li><a href="https://wa.me/5583991233370?text=Olá,%20tudo%20bem?%20Em%20que%20posso%20ajudar?" Style="position:fixed;bottom:70px;right:25px;z-index:1000;" class="text-center" target="_blank"><i
+                        class="fa fa-whatsapp"></i><span></span></a></li>
+        </ul>
+
+
+
+     
         <a href="#." class="go-top text-center"><i class="fa fa-angle-double-up"></i></a>
 
         <script src="js/lx.min.js"></script>
