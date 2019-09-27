@@ -8056,6 +8056,25 @@ website:   	http://www.themepunch.com
 /*********************************************
         -	SETTINGS FOR BANNER CONTAINERS	-
 **********************************************/
+@media (orientation: landscape) {
+
+    .potrate{
+        display: none;
+    }
+}
+
+/*@media (orientation: portrait) {
+
+    .landscape{
+        display: none;
+    }
+}*/
+@media (orientation: portrait) {
+
+    .oculta{
+        display: none;
+    }
+}
 
 .tp-banner-container{
     width:100%;
@@ -9598,7 +9617,7 @@ website:   	http://www.themepunch.com
 
 
 @media only screen and (min-width: 0px) and (max-width: 479px) {
-    .responsive .tp-bullets	{	display:none}
+    .responsive .tp-bullets 	{	display:none}
     .responsive .tparrows	{	display:none}
 }
 
@@ -9706,13 +9725,11 @@ website:   	http://www.themepunch.com
 @media only screen and (min-width: 768px) and (max-width: 979px) {
     .tparrows.preview1,
     .tparrows.preview1:after	{	width:80px; height:80px;line-height:80px; font-size:24px}
-
-}
+ }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .tparrows.preview1,
     .tparrows.preview1:after	{	width:60px; height:60px;line-height:60px;font-size:20px}
-
 }
 
 
@@ -10077,7 +10094,6 @@ website:   	http://www.themepunch.com
 
 .tparrows.preview4:after				{	transform-origin: 100% 100%; -webkit-transform-origin: 100% 100%}
 .tp-leftarrow.preview4:after			{	transform-origin: 0% 0%; -webkit-transform-origin: 0% 0%}
-
 
 
 
@@ -12455,11 +12471,11 @@ ul.whatsapp-button li a {
     height: 44px;
     width: 44px;
     position:relative;
-    
+
 }
 
 ul.whatsapp-button li a span{    
-        
+
     border-radius: 0;
     display: block;
     height: 0;

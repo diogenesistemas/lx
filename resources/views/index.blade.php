@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="images/favicon.png">
         <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
               type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/lcep.min.css">
+        <link rel="stylesheet" type="text/css" href="css/lcep.css">
 
 
     </head>
@@ -87,22 +87,13 @@
             <div class="tp-banner-container">
                 <div class="fullscreenbanner tp-banner">
                     <ul>  <!-- SLIDE  -->
-                        <li data-transition="fade" data-slotamount="6" data-delay="10000">
+                        <li  data-transition="fade" data-slotamount="6" data-delay="10000">
                             <!-- MAIN IMAGE -->
-                            <img src="images/lx-main-banner1.png" alt="slidebg1" data-bgfit="cover"
+
+
+                            <img src="images/lc-main-banner-portrait.png" alt="Logo Luciano Cópias" data-bgfit="cover"
                                  data-bgposition="center center">
 
-
-                            <h2 class="tp-caption sft tp-resizeme text-center"
-                                data-x="right"
-                                data-y="160"
-                                data-speed="500"
-                                data-start="1500"
-                                data-easing="Power3.easeInOut"
-                                data-elementdelay="0.05"
-                                data-endelementdelay="0.1"
-                                style="z-index: 9;">
-                                <b>Excelência</b> <br> em Resultados</h2>
                         </li>
                     </ul>
                 </div>
@@ -384,7 +375,7 @@
 
 
 
-     
+
         <a href="#." class="go-top text-center"><i class="fa fa-angle-double-up"></i></a>
 
         <script src="js/lx.min.js"></script>
